@@ -1,0 +1,12 @@
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+# Check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+# Colorize sudo
+PS1='$(if [[ $EUID -eq 0 ]]; then echo "\[\033[01;31m\]#\[\033[00m\] "; else echo "\[\033[01;32m\]\u@\h \[\033[00m\]"; fi)'  # Root is red, normal user is green
+PS1='$(if [[ $EUID -eq 0 ]]; then echo "\[\033[01;31m\]#\[\033[00m\] "; else echo "\[\033[01;32m\]\u@\h \[\033[00m\]"; fi)'
+alias hc="history -c ; unset HISTFILE"
+alias upd="sudo slackpkg update"
+alias up="sudo slackpkg upgrade-all"
+alias sboup="sudo sbopkg -c"
