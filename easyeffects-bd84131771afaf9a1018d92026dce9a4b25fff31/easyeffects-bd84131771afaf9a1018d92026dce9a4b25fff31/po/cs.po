@@ -1,0 +1,3253 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Pavel Fric <pavelfric@seznam.cz>, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-10 15:49+0000\n"
+"PO-Revision-Date: 2022-08-17 04:16+0000\n"
+"Last-Translator: Giusy Digital <kurmikon@libero.it>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/easyeffects/main/"
+"cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14-dev\n"
+
+#. Translators: This is a variable for the application name, don't translate!
+#: data/com.github.wwmm.easyeffects.desktop.in:4
+msgid "@APP_NAME@"
+msgstr "@APP_NAME@"
+
+#: data/com.github.wwmm.easyeffects.desktop.in:5
+msgid "Equalizer, Compressor and Other Audio Effects"
+msgstr "Ekvalizér, kompresor a jiné zvukové efekty"
+
+#: data/com.github.wwmm.easyeffects.desktop.in:6
+msgid "Audio Effects for PipeWire Applications"
+msgstr "Zvukové efekty pro programy využívající PipeWire"
+
+#: data/com.github.wwmm.easyeffects.desktop.in:7
+msgid "limiter;compressor;reverberation;equalizer;autovolume;"
+msgstr "omezovač (limiter);kompresor;dozvuk;ekvalizér;automatická hlasitost;"
+
+#: data/schemas/com.github.wwmm.easyeffects.gschema.xml:14
+#: data/schemas/com.github.wwmm.easyeffects.gschema.xml:17
+msgid "\"Presets\""
+msgstr "\"Přednastavení\""
+
+#: data/ui/app_info.ui:212
+msgid "Enable/disable this application"
+msgstr "Povolit/zakázat tuto aplikaci"
+
+#: data/ui/app_info.ui:213
+msgid "Enable"
+msgstr "Povolit"
+
+#: data/ui/app_info.ui:225
+msgid "Excluded App List: Add/remove this application"
+msgstr "Seznam vyloučených aplikací: Přidat/odstranit tuto aplikaci"
+
+#: data/ui/app_info.ui:226
+msgid "Exclude"
+msgstr "Vyloučit"
+
+#: data/ui/app_info.ui:247 data/ui/app_info.ui:249
+msgid "Mute Application"
+msgstr "Ztlumit aplikaci"
+
+#: data/ui/app_info.ui:270
+msgid "Change the volume of this application"
+msgstr "Změnit hlasitost této aplikace"
+
+#: data/ui/app_info.ui:272
+msgid "Application Volume"
+msgstr "Hlasitost aplikace"
+
+#: data/ui/application_window.ui:6
+msgid "_Preferences"
+msgstr "_Nastavení"
+
+#: data/ui/application_window.ui:10
+msgid "_Manual"
+msgstr "_Manuál"
+
+#: data/ui/application_window.ui:14
+msgid "_Shortcuts"
+msgstr "_Klávesové zkratky"
+
+#: data/ui/application_window.ui:20
+msgid "_Reset Settings"
+msgstr "_Resetovat nastavení"
+
+#: data/ui/application_window.ui:26
+#, fuzzy
+msgid "_About Easy Effects"
+msgstr "_O EasyEffects"
+
+#: data/ui/application_window.ui:52 data/ui/reverb.ui:25
+#: src/presets_menu.cpp:108 src/presets_menu.cpp:258 src/presets_menu.cpp:259
+#: src/presets_menu.cpp:276 src/presets_menu.cpp:277
+msgid "Presets"
+msgstr "Přednastavení"
+
+#: data/ui/application_window.ui:54
+msgid "Presets Menu"
+msgstr "Nabídka profilů"
+
+#: data/ui/application_window.ui:61
+msgid "Enable/disable the global bypass"
+msgstr "Povolí/zakáže globální bypass"
+
+#: data/ui/application_window.ui:66
+msgid "Global Bypass"
+msgstr "Přepustení"
+
+#: data/ui/application_window.ui:76
+msgid "Primary Menu"
+msgstr "Hlavní nabídka"
+
+#: data/ui/application_window.ui:91
+#, fuzzy
+msgid "Easy Effects Window"
+msgstr "Okno EasyEffects"
+
+#: data/ui/apps_box.ui:17
+msgid "Applications List"
+msgstr "Seznam aplikací"
+
+#: data/ui/apps_box.ui:27
+msgid "Empty List"
+msgstr "Prázdný seznam"
+
+#: data/ui/apps_box.ui:28
+msgid "No Audio Application Available"
+msgstr "Není dostupná žádná zvuková aplikace"
+
+#: data/ui/autogain.ui:29
+msgid "Target"
+msgstr "Cíl"
+
+#: data/ui/autogain.ui:63
+msgid "Silence"
+msgstr "Ticho"
+
+#: data/ui/autogain.ui:98
+#, fuzzy
+msgid "Maximum History"
+msgstr "Největší zesílení"
+
+#: data/ui/autogain.ui:132
+msgid "Reference"
+msgstr "Reference"
+
+#: data/ui/autogain.ui:144 data/ui/autogain.ui:185
+msgid "Momentary"
+msgstr "Chvilkové"
+
+#: data/ui/autogain.ui:145 data/ui/autogain.ui:215
+msgid "Short-Term"
+msgstr "Kratokodobě"
+
+#: data/ui/autogain.ui:146 data/ui/autogain.ui:245
+msgid "Integrated"
+msgstr "Sjednocené"
+
+#: data/ui/autogain.ui:147
+msgid "Geometric Mean (MSI)"
+msgstr "Geometrický průměr (MSI)"
+
+#: data/ui/autogain.ui:148
+msgid "Geometric Mean (MS)"
+msgstr "Geometrický průměr (MS)"
+
+#: data/ui/autogain.ui:149
+msgid "Geometric Mean (MI)"
+msgstr "Geometrický průměr (MI)"
+
+#: data/ui/autogain.ui:150
+msgid "Geometric Mean (SI)"
+msgstr "Geometrický průměr (SI)"
+
+#: data/ui/autogain.ui:165
+msgid "Reset History"
+msgstr "Vymazat Historii"
+
+#: data/ui/autogain.ui:275
+msgid "Relative"
+msgstr "Relativní"
+
+#: data/ui/autogain.ui:305
+msgid "Range"
+msgstr "Rozsah"
+
+#: data/ui/autogain.ui:338 data/ui/bass_loudness.ui:29
+#: src/tags_plugin_name.cpp:46
+msgid "Loudness"
+msgstr "Hlasitost"
+
+#: data/ui/autogain.ui:370
+msgid "Output Gain"
+msgstr "Výstupní zesílení"
+
+#: data/ui/autogain.ui:407 data/ui/bass_enhancer.ui:262
+#: data/ui/bass_loudness.ui:146 data/ui/compressor.ui:576
+#: data/ui/compressor.ui:1058 data/ui/convolver.ui:226 data/ui/crossfeed.ui:143
+#: data/ui/crystalizer.ui:43 data/ui/deesser.ui:417 data/ui/delay.ui:235
+#: data/ui/echo_canceller.ui:149 data/ui/equalizer.ui:333
+#: data/ui/exciter.ui:262 data/ui/filter.ui:173 data/ui/gate.ui:715
+#: data/ui/gate.ui:1196 data/ui/limiter.ui:728 data/ui/loudness.ui:177
+#: data/ui/maximizer.ui:146 data/ui/multiband_compressor.ui:454
+#: data/ui/multiband_gate.ui:454 data/ui/pipe_manager_box.ui:306
+#: data/ui/pitch.ui:305 data/ui/presets_menu.ui:177 data/ui/reverb.ui:362
+#: data/ui/rnnoise.ui:155 data/ui/stereo_tools.ui:40
+#: data/ui/stereo_tools.ui:625
+msgid "Input"
+msgstr "Vstup"
+
+#: data/ui/autogain.ui:426 data/ui/bass_enhancer.ui:281
+#: data/ui/bass_loudness.ui:165 data/ui/compressor.ui:1077
+#: data/ui/convolver.ui:245 data/ui/crossfeed.ui:162 data/ui/crystalizer.ui:62
+#: data/ui/deesser.ui:436 data/ui/delay.ui:254 data/ui/echo_canceller.ui:168
+#: data/ui/equalizer.ui:352 data/ui/exciter.ui:281 data/ui/filter.ui:192
+#: data/ui/gate.ui:1215 data/ui/limiter.ui:747 data/ui/loudness.ui:196
+#: data/ui/maximizer.ui:165 data/ui/multiband_compressor.ui:473
+#: data/ui/multiband_gate.ui:473 data/ui/pitch.ui:324 data/ui/reverb.ui:381
+#: data/ui/rnnoise.ui:174 data/ui/stereo_tools.ui:644
+msgid "Plugin Input Gain"
+msgstr "Vstupní zesílení pluginu"
+
+#: data/ui/autogain.ui:491 data/ui/bass_enhancer.ui:346
+#: data/ui/bass_loudness.ui:63 data/ui/bass_loudness.ui:230
+#: data/ui/compressor.ui:1142 data/ui/convolver.ui:310 data/ui/crossfeed.ui:227
+#: data/ui/crystalizer.ui:127 data/ui/deesser.ui:501 data/ui/delay.ui:319
+#: data/ui/echo_canceller.ui:233 data/ui/equalizer.ui:417
+#: data/ui/exciter.ui:346 data/ui/filter.ui:257 data/ui/gate.ui:1280
+#: data/ui/limiter.ui:812 data/ui/loudness.ui:261 data/ui/maximizer.ui:230
+#: data/ui/multiband_compressor.ui:538 data/ui/multiband_gate.ui:538
+#: data/ui/pipe_manager_box.ui:209 data/ui/pitch.ui:389
+#: data/ui/presets_menu.ui:28 data/ui/reverb.ui:446 data/ui/rnnoise.ui:239
+#: data/ui/stereo_tools.ui:381 data/ui/stereo_tools.ui:709
+msgid "Output"
+msgstr "Výstup"
+
+#: data/ui/autogain.ui:510 data/ui/bass_enhancer.ui:365
+#: data/ui/bass_loudness.ui:249 data/ui/compressor.ui:1161
+#: data/ui/convolver.ui:329 data/ui/crossfeed.ui:246 data/ui/crystalizer.ui:146
+#: data/ui/deesser.ui:520 data/ui/delay.ui:338 data/ui/echo_canceller.ui:252
+#: data/ui/equalizer.ui:436 data/ui/exciter.ui:365 data/ui/filter.ui:276
+#: data/ui/gate.ui:1299 data/ui/limiter.ui:831 data/ui/loudness.ui:280
+#: data/ui/maximizer.ui:249 data/ui/multiband_compressor.ui:557
+#: data/ui/multiband_gate.ui:557 data/ui/pitch.ui:408 data/ui/reverb.ui:465
+#: data/ui/rnnoise.ui:258 data/ui/stereo_tools.ui:728
+msgid "Plugin Output Gain"
+msgstr "Výstupní zesílení pluginu"
+
+#: data/ui/autogain.ui:573 data/ui/bass_enhancer.ui:459
+#: data/ui/bass_loudness.ui:312 data/ui/compressor.ui:1224
+#: data/ui/convolver.ui:392 data/ui/crossfeed.ui:309 data/ui/crystalizer.ui:201
+#: data/ui/deesser.ui:643 data/ui/delay.ui:401 data/ui/echo_canceller.ui:315
+#: data/ui/equalizer.ui:499 data/ui/equalizer_band.ui:223
+#: data/ui/equalizer_band.ui:294 data/ui/exciter.ui:458 data/ui/filter.ui:339
+#: data/ui/gate.ui:1392 data/ui/limiter.ui:894 data/ui/loudness.ui:343
+#: data/ui/maximizer.ui:344 data/ui/multiband_compressor.ui:620
+#: data/ui/multiband_gate.ui:620 data/ui/pitch.ui:471 data/ui/reverb.ui:528
+#: data/ui/rnnoise.ui:321 data/ui/stereo_tools.ui:791
+msgid "Reset"
+msgstr "Vrátit na výchozí"
+
+#: data/ui/autogain.ui:587 data/ui/bass_enhancer.ui:473
+#: data/ui/bass_loudness.ui:326 data/ui/compressor.ui:1238
+#: data/ui/convolver.ui:406 data/ui/crossfeed.ui:323 data/ui/deesser.ui:657
+#: data/ui/delay.ui:415 data/ui/echo_canceller.ui:329 data/ui/equalizer.ui:513
+#: data/ui/exciter.ui:472 data/ui/filter.ui:353 data/ui/gate.ui:1406
+#: data/ui/limiter.ui:908 data/ui/loudness.ui:357 data/ui/maximizer.ui:358
+#: data/ui/multiband_compressor.ui:634 data/ui/multiband_gate.ui:634
+#: data/ui/pitch.ui:485 data/ui/reverb.ui:542 data/ui/rnnoise.ui:335
+#: data/ui/stereo_tools.ui:805
+msgid "Using"
+msgstr ""
+
+#: data/ui/autoload_row.ui:16 data/ui/compressor.ui:599 data/ui/gate.ui:738
+msgid "Device"
+msgstr "Zařízení"
+
+#: data/ui/autoload_row.ui:40 data/ui/factory_clients_listview.ui:44
+#: data/ui/factory_modules_listview.ui:44 data/ui/pipe_manager_box.ui:53
+#: data/ui/pipe_manager_box.ui:89 data/ui/presets_menu.ui:47
+#: data/ui/presets_menu.ui:195
+msgid "Name"
+msgstr "Název"
+
+#: data/ui/autoload_row.ui:64
+msgid "Profile"
+msgstr ""
+
+#: data/ui/autoload_row.ui:89
+msgid "Preset"
+msgstr "Profil"
+
+#: data/ui/autoload_row.ui:114
+msgid "Remove this autoload preset"
+msgstr "Odstranit tento automaticky načítaný profil"
+
+#: data/ui/bass_enhancer.ui:23 data/ui/compressor.ui:529 data/ui/deesser.ui:24
+#: data/ui/exciter.ui:23 data/ui/gate.ui:668
+msgid "Listen"
+msgstr "Poslouchat"
+
+#: data/ui/bass_enhancer.ui:34 data/ui/exciter.ui:34
+msgid "Blend Harmonics"
+msgstr "Míchat harmonické kmity"
+
+#: data/ui/bass_enhancer.ui:46 data/ui/exciter.ui:46
+msgid "3rd"
+msgstr "3."
+
+#: data/ui/bass_enhancer.ui:89 data/ui/exciter.ui:89
+msgid "2nd"
+msgstr "2."
+
+#: data/ui/bass_enhancer.ui:108 data/ui/exciter.ui:108
+msgid "Amount"
+msgstr "Množství"
+
+#: data/ui/bass_enhancer.ui:142 data/ui/bass_enhancer.ui:424
+#: data/ui/exciter.ui:142 data/ui/exciter.ui:424
+msgid "Harmonics"
+msgstr "Harmonické kmity"
+
+#: data/ui/bass_enhancer.ui:177 data/ui/exciter.ui:177
+msgid "Scope"
+msgstr "Rozsah"
+
+#: data/ui/bass_enhancer.ui:211
+msgid "Floor"
+msgstr "Spodní mez"
+
+#: data/ui/bass_enhancer.ui:240
+#, fuzzy
+msgid "Floor Value"
+msgstr "Spodní mez"
+
+#: data/ui/bass_loudness.ui:97
+msgid "Link"
+msgstr ""
+
+#: data/ui/blocklist_menu.ui:23 data/ui/blocklist_menu.ui:26
+msgid "Application Name"
+msgstr "Název aplikace"
+
+#: data/ui/blocklist_menu.ui:42
+msgid "Add to Excluded Applications"
+msgstr "Přidat do vyloučených aplikací"
+
+#: data/ui/blocklist_menu.ui:86
+msgid "Excluded Applications List"
+msgstr "Seznam vyloučených aplikací"
+
+#: data/ui/blocklist_menu.ui:99
+msgid "Show Excluded Applications"
+msgstr "Zobrazit vyloučené aplikace"
+
+#: data/ui/compressor.ui:41 src/tags_plugin_name.cpp:34
+msgid "Compressor"
+msgstr "Kompresor"
+
+#: data/ui/compressor.ui:53 data/ui/compressor.ui:501 data/ui/compressor.ui:796
+#: data/ui/deesser.ui:64 data/ui/equalizer.ui:62 data/ui/equalizer_band.ui:130
+#: data/ui/gate.ui:640 data/ui/gate.ui:934 data/ui/limiter.ui:46
+#: data/ui/multiband_compressor_band.ui:457 data/ui/multiband_gate_band.ui:520
+#: data/ui/pitch.ui:32
+msgid "Mode"
+msgstr "Režim"
+
+#: data/ui/compressor.ui:64 data/ui/multiband_compressor_band.ui:99
+msgid "Downward"
+msgstr "Dolů"
+
+#: data/ui/compressor.ui:65 data/ui/multiband_compressor_band.ui:100
+msgid "Upward"
+msgstr "Nahoru"
+
+#: data/ui/compressor.ui:66 data/ui/multiband_compressor_band.ui:101
+msgid "Boosting"
+msgstr ""
+
+#: data/ui/compressor.ui:73 data/ui/multiband_compressor_band.ui:88
+msgid "Compression Mode"
+msgstr "Kompresní režim"
+
+#: data/ui/compressor.ui:80 data/ui/multiband_compressor_band.ui:744
+#, fuzzy
+msgid "Boost Threshold"
+msgstr "Boost Threshold"
+
+#: data/ui/compressor.ui:119 data/ui/multiband_compressor_band.ui:700
+#, fuzzy
+msgid "Boost Amount"
+msgstr "Boost Amount"
+
+#: data/ui/compressor.ui:165 data/ui/gate.ui:60 data/ui/limiter.ui:262
+#: data/ui/limiter.ui:485 data/ui/multiband_compressor_band.ui:186
+#: data/ui/multiband_gate_band.ui:144
+msgid "Attack"
+msgstr "Náběh"
+
+#: data/ui/compressor.ui:176 data/ui/multiband_compressor_band.ui:166
+msgid "Time"
+msgstr "Čas"
+
+#: data/ui/compressor.ui:186 data/ui/deesser.ui:299 data/ui/gate.ui:153
+#: data/ui/gate.ui:247 data/ui/limiter.ui:346 data/ui/maximizer.ui:30
+#: data/ui/multiband_compressor_band.ui:177 data/ui/multiband_gate_band.ui:237
+#: data/ui/multiband_gate_band.ui:331
+msgid "Threshold"
+msgstr "Práh"
+
+#: data/ui/compressor.ui:212 data/ui/multiband_compressor_band.ui:222
+msgid "Attack Time"
+msgstr "Náběh"
+
+#: data/ui/compressor.ui:234 data/ui/gate.ui:537
+#: data/ui/multiband_compressor_band.ui:247
+#, fuzzy
+msgid "Attack Threshold"
+msgstr "Práh"
+
+#: data/ui/compressor.ui:241 data/ui/gate.ui:66 data/ui/limiter.ui:304
+#: data/ui/limiter.ui:522 data/ui/maximizer.ui:96
+#: data/ui/multiband_compressor_band.ui:195 data/ui/multiband_gate_band.ui:150
+msgid "Release"
+msgstr "Uvolnění"
+
+#: data/ui/compressor.ui:267 data/ui/multiband_compressor_band.ui:274
+msgid "Release Time"
+msgstr "Uvolnění"
+
+#: data/ui/compressor.ui:291 data/ui/gate.ui:591
+#: data/ui/multiband_compressor_band.ui:302
+#, fuzzy
+msgid "Release Threshold"
+msgstr "Release Threshold"
+
+#: data/ui/compressor.ui:298 data/ui/deesser.ui:333
+#: data/ui/multiband_compressor_band.ui:309
+msgid "Ratio"
+msgstr "Poměr"
+
+#: data/ui/compressor.ui:335 data/ui/limiter.ui:558
+#: data/ui/multiband_compressor_band.ui:347
+msgid "Knee"
+msgstr "Přechod"
+
+#: data/ui/compressor.ui:370 data/ui/deesser.ui:369 data/ui/gate.ui:428
+#: data/ui/multiband_compressor_band.ui:385 data/ui/multiband_gate_band.ui:418
+msgid "Makeup"
+msgstr "Pozvednutí"
+
+#: data/ui/compressor.ui:405 data/ui/delay.ui:105 data/ui/gate.ui:342
+#: data/ui/multiband_compressor.ui:132 data/ui/multiband_gate.ui:132
+#: data/ui/reverb.ui:208 data/ui/stereo_tools.ui:534
+#, fuzzy
+msgid "Dry Level"
+msgstr "Dry Level"
+
+#: data/ui/compressor.ui:440 data/ui/delay.ui:164 data/ui/gate.ui:347
+#: data/ui/multiband_compressor.ui:166 data/ui/multiband_gate.ui:166
+#: data/ui/reverb.ui:242 data/ui/stereo_tools.ui:570
+#, fuzzy
+msgid "Wet Level"
+msgstr "Wet Level"
+
+#: data/ui/compressor.ui:482 data/ui/compressor.ui:994 data/ui/gate.ui:621
+#: data/ui/gate.ui:1132
+msgid "Sidechain"
+msgstr "Postranní řetězec"
+
+#: data/ui/compressor.ui:511 data/ui/deesser.ui:48 data/ui/gate.ui:650
+#: data/ui/multiband_compressor_band.ui:468 data/ui/multiband_gate_band.ui:531
+msgid "Peak"
+msgstr "Vrchol"
+
+#: data/ui/compressor.ui:512 data/ui/deesser.ui:47 data/ui/gate.ui:651
+#: data/ui/multiband_compressor_band.ui:469 data/ui/multiband_gate_band.ui:532
+msgid "RMS"
+msgstr "RMS"
+
+#: data/ui/compressor.ui:513 data/ui/compressor.ui:865 data/ui/gate.ui:1003
+#: data/ui/multiband_compressor_band.ui:470
+msgid "Low-Pass"
+msgstr "Dolní pásmo"
+
+#: data/ui/compressor.ui:514 data/ui/multiband_compressor_band.ui:471
+msgid "Uniform"
+msgstr "Rovnoměrný"
+
+#: data/ui/compressor.ui:521 data/ui/gate.ui:660
+#: data/ui/multiband_compressor_band.ui:478 data/ui/multiband_gate_band.ui:541
+msgid "Sidechain Mode"
+msgstr "Režim sidechain"
+
+#: data/ui/compressor.ui:539 data/ui/gate.ui:678
+#: data/ui/multiband_compressor_band.ui:485 data/ui/multiband_gate_band.ui:548
+msgid "Source"
+msgstr "Zdroj"
+
+#: data/ui/compressor.ui:549 data/ui/gate.ui:688
+#: data/ui/multiband_compressor_band.ui:496 data/ui/multiband_gate_band.ui:559
+msgid "Middle"
+msgstr "Střední"
+
+#: data/ui/compressor.ui:550 data/ui/gate.ui:689
+#: data/ui/multiband_compressor_band.ui:497 data/ui/multiband_gate_band.ui:560
+msgid "Side"
+msgstr "Postranní"
+
+#: data/ui/compressor.ui:551 data/ui/delay.ui:30 data/ui/equalizer.ui:216
+#: data/ui/gate.ui:690 data/ui/multiband_compressor_band.ui:498
+#: data/ui/multiband_gate_band.ui:561 data/ui/pipe_manager_box.ui:504
+#: data/ui/stereo_tools.ui:161
+msgid "Left"
+msgstr "Levý"
+
+#: data/ui/compressor.ui:552 data/ui/delay.ui:39 data/ui/equalizer.ui:228
+#: data/ui/gate.ui:691 data/ui/multiband_compressor_band.ui:499
+#: data/ui/multiband_gate_band.ui:562 data/ui/pipe_manager_box.ui:515
+#: data/ui/stereo_tools.ui:216
+msgid "Right"
+msgstr "Pravý"
+
+#: data/ui/compressor.ui:559 data/ui/gate.ui:698
+#: data/ui/multiband_compressor.ui:71 data/ui/multiband_compressor_band.ui:506
+#: data/ui/multiband_gate.ui:71 data/ui/multiband_gate_band.ui:569
+msgid "Sidechain Source"
+msgstr "Zdroj sidechain"
+
+#: data/ui/compressor.ui:588 data/ui/equalizer_band.ui:98 data/ui/gate.ui:727
+msgid "Type"
+msgstr "Typ"
+
+#: data/ui/compressor.ui:612
+msgid "Feed-forward"
+msgstr "Kanál-vpřed"
+
+#: data/ui/compressor.ui:613
+msgid "Feed-back"
+msgstr "Kanál-zpět"
+
+#: data/ui/compressor.ui:614 data/ui/gate.ui:752
+msgid "External"
+msgstr ""
+
+#: data/ui/compressor.ui:621 data/ui/gate.ui:759
+msgid "Sidechain Type"
+msgstr "Druh sidechain"
+
+#: data/ui/compressor.ui:648 data/ui/gate.ui:786 src/plugins_box.cpp:646
+msgid "Input Device"
+msgstr "Vstupní zařízení"
+
+#: data/ui/compressor.ui:656 data/ui/gate.ui:794
+msgid "PreAmplification"
+msgstr "Předzesílení"
+
+#: data/ui/compressor.ui:693 data/ui/gate.ui:831
+#: data/ui/multiband_compressor_band.ui:633 data/ui/multiband_gate_band.ui:695
+msgid "Reactivity"
+msgstr "Reaktivita"
+
+#: data/ui/compressor.ui:730 data/ui/gate.ui:868 data/ui/limiter.ui:220
+#: data/ui/multiband_compressor_band.ui:667 data/ui/multiband_gate_band.ui:728
+msgid "Lookahead"
+msgstr "Výhled"
+
+#: data/ui/compressor.ui:773 data/ui/gate.ui:911
+msgid "Sidechain Filters"
+msgstr "Filtry sidechain"
+
+#: data/ui/compressor.ui:783 data/ui/gate.ui:921
+#, fuzzy
+msgid "High-Pass"
+msgstr "High-Pass"
+
+#: data/ui/compressor.ui:809 data/ui/equalizer_band.ui:197 data/ui/filter.ui:53
+#: data/ui/gate.ui:947 data/ui/pipe_manager_box.ui:561
+msgid "Frequency"
+msgstr "Kmitočet"
+
+#: data/ui/compressor.ui:822 data/ui/compressor.ui:878
+#: data/ui/equalizer_band.ui:108 data/ui/gate.ui:960 data/ui/gate.ui:1016
+msgid "Off"
+msgstr "Vypnuto"
+
+#: data/ui/compressor.ui:823 data/ui/compressor.ui:879 data/ui/gate.ui:961
+#: data/ui/gate.ui:1017
+msgid "12 dB/oct"
+msgstr "12 dB/okt"
+
+#: data/ui/compressor.ui:824 data/ui/compressor.ui:880 data/ui/gate.ui:962
+#: data/ui/gate.ui:1018
+msgid "24 dB/oct"
+msgstr "24 dB/okt"
+
+#: data/ui/compressor.ui:825 data/ui/compressor.ui:881 data/ui/gate.ui:963
+#: data/ui/gate.ui:1019
+msgid "36 dB/oct"
+msgstr "36 dB/okt"
+
+#: data/ui/compressor.ui:832 data/ui/gate.ui:970
+msgid "High-Pass Filter Mode"
+msgstr "Režim vysokopásmového filtru"
+
+#: data/ui/compressor.ui:858 data/ui/compressor.ui:914 data/ui/gate.ui:996
+#: data/ui/gate.ui:1052
+msgid "High-Pass Filter Frequency"
+msgstr "Filtr vysokého kmitočtu"
+
+#: data/ui/compressor.ui:888 data/ui/gate.ui:1026
+msgid "Low-Pass Filter Mode"
+msgstr "Režim filtrování nízkých frekvencí"
+
+#: data/ui/compressor.ui:940
+msgid "Gain"
+msgstr "Zesílení"
+
+#: data/ui/compressor.ui:967 data/ui/gate.ui:1105
+#, fuzzy
+msgid "Envelope"
+msgstr "Sklon"
+
+#: data/ui/compressor.ui:1021 data/ui/gate.ui:137 data/ui/gate.ui:1159
+#: data/ui/multiband_gate_band.ui:221
+msgid "Curve"
+msgstr "Křivka"
+
+#: data/ui/convolver.ui:40
+msgid "L"
+msgstr "L"
+
+#: data/ui/convolver.ui:43 data/ui/pipe_manager_box.ui:507
+#, fuzzy
+msgid "Left Channel"
+msgstr "Kanály"
+
+#: data/ui/convolver.ui:53
+msgid "R"
+msgstr "P"
+
+#: data/ui/convolver.ui:56 data/ui/pipe_manager_box.ui:518
+#, fuzzy
+msgid "Right Channel"
+msgstr "Rozdělit kanály"
+
+#: data/ui/convolver.ui:71
+#, fuzzy
+msgid "Impulses"
+msgstr "Odpověď impulsu"
+
+#: data/ui/convolver.ui:79 data/ui/convolver_menu_combine.ui:113
+#: data/ui/convolver_menu_combine.ui:116
+msgid "Combine"
+msgstr ""
+
+#: data/ui/convolver.ui:86
+msgid "Stereo Width"
+msgstr "Šířka sterea"
+
+#: data/ui/convolver.ui:114
+msgid "Spectrum"
+msgstr "Spektrum"
+
+#: data/ui/convolver.ui:122
+#, fuzzy
+msgid "Log Scale"
+msgstr "Měřítko"
+
+#: data/ui/convolver.ui:132 src/tags_plugin_name.cpp:31
+#, fuzzy
+msgid "Autogain"
+msgstr "Automatické zesílení"
+
+#: data/ui/convolver.ui:148
+msgid "Rate"
+msgstr "Kmitočet"
+
+#: data/ui/convolver.ui:169
+msgid "Samples"
+msgstr "Vzorky"
+
+#: data/ui/convolver.ui:190
+msgid "Duration"
+msgstr "Doba trvání"
+
+#: data/ui/convolver_menu_combine.ui:15
+#, fuzzy
+msgid "Combine Impulse Responses"
+msgstr "Odpověď impulsu"
+
+#: data/ui/convolver_menu_combine.ui:48
+msgid "First Kernel"
+msgstr ""
+
+#: data/ui/convolver_menu_combine.ui:82
+msgid "Second Kernel"
+msgstr ""
+
+#: data/ui/convolver_menu_combine.ui:91
+#, fuzzy
+msgid "Output File Name"
+msgstr "Výstup"
+
+#: data/ui/convolver_menu_combine.ui:95
+msgid "Combined Kernel Name"
+msgstr ""
+
+#: data/ui/convolver_menu_impulses.ui:16
+msgid "Import Impulse"
+msgstr "Zavést impuls"
+
+#: data/ui/convolver_menu_impulses.ui:25 data/ui/plugins_menu.ui:17
+#: data/ui/presets_menu.ui:88 data/ui/presets_menu.ui:235
+msgid "Search"
+msgstr ""
+
+#: data/ui/convolver_menu_impulses.ui:27
+#, fuzzy
+msgid "Search Impulse File"
+msgstr "Zavést soubor s impulsem"
+
+#: data/ui/convolver_menu_impulses.ui:47
+#, fuzzy
+msgid "Impulse Files List"
+msgstr "Zavést soubor s impulsem"
+
+#: data/ui/crossfeed.ui:35
+msgid "Default"
+msgstr "Výchozí"
+
+#: data/ui/crossfeed.ui:58
+msgid "Cutoff"
+msgstr "Useknutí"
+
+#: data/ui/crossfeed.ui:93
+msgid "Feed"
+msgstr "Kanál"
+
+#: data/ui/crystalizer_band.ui:11
+msgid "Bypass"
+msgstr "Překlenutí"
+
+#: data/ui/crystalizer_band.ui:17 data/ui/equalizer_band.ui:320
+#: data/ui/multiband_compressor_band.ui:136 data/ui/multiband_gate_band.ui:109
+#: data/ui/stereo_tools.ui:171 data/ui/stereo_tools.ui:196
+msgid "Mute"
+msgstr "Ztlumit"
+
+#: data/ui/deesser.ui:40
+msgid "Detection"
+msgstr "Zjištění"
+
+#: data/ui/deesser.ui:71
+msgid "Wide"
+msgstr "Rozšířit"
+
+#: data/ui/deesser.ui:72
+msgid "Split"
+msgstr "Rozdělit"
+
+#: data/ui/deesser.ui:88
+#, fuzzy
+msgid "F1 Split"
+msgstr "Rozdělit"
+
+#: data/ui/deesser.ui:108
+#, fuzzy
+msgid "Frequency 1 Split"
+msgstr "Kmitočet"
+
+#: data/ui/deesser.ui:121
+#, fuzzy
+msgid "F2 Peak"
+msgstr "Vrchol"
+
+#: data/ui/deesser.ui:141
+#, fuzzy
+msgid "Frequency 2 Peak"
+msgstr "Kmitočet"
+
+#: data/ui/deesser.ui:159
+#, fuzzy
+msgid "F1 Gain"
+msgstr "Zesílení"
+
+#: data/ui/deesser.ui:187
+#, fuzzy
+msgid "Frequency 1 Gain"
+msgstr "Kmitočet"
+
+#: data/ui/deesser.ui:194
+#, fuzzy
+msgid "F2 Level"
+msgstr "Úroveň"
+
+#: data/ui/deesser.ui:222
+#, fuzzy
+msgid "Frequency 2 Level"
+msgstr "Kmitočet"
+
+#: data/ui/deesser.ui:229
+#, fuzzy
+msgid "F2 Peak Q"
+msgstr "Vrchol Q"
+
+#: data/ui/deesser.ui:257
+#, fuzzy
+msgid "Frequency 2 Peak Q"
+msgstr "Kmitočet"
+
+#: data/ui/deesser.ui:264
+msgid "Laxity"
+msgstr "Nedbalost"
+
+#: data/ui/deesser.ui:579
+msgid "Detected"
+msgstr "Zjištěno"
+
+#: data/ui/deesser.ui:609 data/ui/gate.ui:423 data/ui/gate.ui:1078
+#: data/ui/maximizer.ui:308 data/ui/multiband_gate_band.ui:413
+#, fuzzy
+msgid "Reduction"
+msgstr "Snížení"
+
+#: data/ui/delay.ui:50 src/tags_plugin_name.cpp:39
+msgid "Delay"
+msgstr "Zpoždění"
+
+#: data/ui/delay.ui:75
+#, fuzzy
+msgid "Left Delay"
+msgstr "Předzpoždění"
+
+#: data/ui/delay.ui:97
+#, fuzzy
+msgid "Right Delay"
+msgstr "Rozdělit kanály"
+
+#: data/ui/delay.ui:132
+#, fuzzy
+msgid "Left Dry Level"
+msgstr "Úroveň"
+
+#: data/ui/delay.ui:156
+#, fuzzy
+msgid "Right Dry Level"
+msgstr "Úroveň"
+
+#: data/ui/delay.ui:190
+#, fuzzy
+msgid "Left Wet Level"
+msgstr "Úroveň cíle"
+
+#: data/ui/delay.ui:213
+#, fuzzy
+msgid "Right Wet Level"
+msgstr "Úroveň cíle"
+
+#: data/ui/echo_canceller.ui:30
+msgid "Frame Size"
+msgstr "Rozměry rámečku"
+
+#: data/ui/echo_canceller.ui:65
+#, fuzzy
+msgid "Filter Length"
+msgstr "Filtr"
+
+#: data/ui/echo_canceller.ui:100
+#, fuzzy
+msgid "Suppression"
+msgstr "Úroveň potlačení"
+
+#: data/ui/effects_box.ui:114
+msgid "Excluded Apps"
+msgstr ""
+
+#: data/ui/equalizer.ui:29
+msgid "Bands"
+msgstr "Pásma"
+
+#: data/ui/equalizer.ui:73
+msgid "IIR"
+msgstr "IIR"
+
+#: data/ui/equalizer.ui:74
+msgid "FIR"
+msgstr "FIR"
+
+#: data/ui/equalizer.ui:75
+msgid "FFT"
+msgstr "FFT"
+
+#: data/ui/equalizer.ui:76
+msgid "SPM"
+msgstr ""
+
+#: data/ui/equalizer.ui:90 data/ui/stereo_tools.ui:52
+#: data/ui/stereo_tools.ui:393
+msgid "Balance"
+msgstr "Vyvážení"
+
+#: data/ui/equalizer.ui:123
+#, fuzzy
+msgid "Pitch Left"
+msgstr "Postranní řetězec"
+
+#: data/ui/equalizer.ui:156
+#, fuzzy
+msgid "Pitch Right"
+msgstr "Postranní řetězec"
+
+#: data/ui/equalizer.ui:251
+msgid "Split Channels"
+msgstr "Rozdělit kanály"
+
+#: data/ui/equalizer.ui:257
+msgid "Flat Response"
+msgstr "Uhladit"
+
+#: data/ui/equalizer.ui:265
+msgid "Calculate Frequencies"
+msgstr "Vypočítat Kmitočty"
+
+#: data/ui/equalizer.ui:280 src/presets_menu.cpp:102
+#, fuzzy
+msgid "Import Preset"
+msgstr "Zavést přednastavení"
+
+#: data/ui/equalizer_band.ui:109
+msgid "Bell"
+msgstr "Zvonek"
+
+#: data/ui/equalizer_band.ui:110
+msgid "High Pass"
+msgstr "Horní pásmo"
+
+#: data/ui/equalizer_band.ui:111
+msgid "High Shelf"
+msgstr "Horní práh"
+
+#: data/ui/equalizer_band.ui:112
+msgid "Low Pass"
+msgstr "Dolní pásmo"
+
+#: data/ui/equalizer_band.ui:113
+msgid "Low Shelf"
+msgstr "Dolní práh"
+
+#: data/ui/equalizer_band.ui:114
+msgid "Notch"
+msgstr "Vroubek"
+
+#: data/ui/equalizer_band.ui:115 data/ui/filter.ui:88
+msgid "Resonance"
+msgstr "Rezonance"
+
+#: data/ui/equalizer_band.ui:116
+#, fuzzy
+msgid "All Pass"
+msgstr "Dolní pásmo"
+
+#: data/ui/equalizer_band.ui:123
+#, fuzzy
+msgid "Band Type"
+msgstr "Překlenutí"
+
+#: data/ui/equalizer_band.ui:153
+#, fuzzy
+msgid "Band Mode"
+msgstr "Pásma"
+
+#: data/ui/equalizer_band.ui:160
+msgid "Slope"
+msgstr "Sklon"
+
+#: data/ui/equalizer_band.ui:180
+#, fuzzy
+msgid "Band Slope"
+msgstr "Sklon"
+
+#: data/ui/equalizer_band.ui:242
+msgid "Width"
+msgstr "Šířka"
+
+#: data/ui/equalizer_band.ui:269
+msgid "Quality"
+msgstr "Jakost"
+
+#: data/ui/equalizer_band.ui:314 data/ui/multiband_compressor_band.ui:146
+#: data/ui/multiband_gate_band.ui:119
+msgid "Solo"
+msgstr "Sólo"
+
+#: data/ui/exciter.ui:211
+#, fuzzy
+msgid "Ceil"
+msgstr "Strop"
+
+#: data/ui/exciter.ui:240
+msgid "Ceil Value"
+msgstr ""
+
+#: data/ui/factory_clients_listview.ui:72
+msgid "API"
+msgstr ""
+
+#: data/ui/factory_clients_listview.ui:100
+msgid "Access"
+msgstr ""
+
+#: data/ui/factory_modules_listview.ui:72
+#, fuzzy
+msgid "Description"
+msgstr "Zjištění"
+
+#: data/ui/factory_rnnoise_listview.ui:24
+#, fuzzy
+msgid "Remove this model file"
+msgstr "Odstranit tento soubor s přednastavením"
+
+#: data/ui/filter.ui:25
+msgid "12dB/oct Lowpass"
+msgstr "Nízká pásmová propust 12 dB/okt"
+
+#: data/ui/filter.ui:26
+msgid "24dB/oct Lowpass"
+msgstr "Nízká pásmová propust 24 dB/okt"
+
+#: data/ui/filter.ui:27
+msgid "36dB/oct Lowpass"
+msgstr "Nízká pásmová propust 36 dB/okt"
+
+#: data/ui/filter.ui:28
+msgid "12dB/oct Highpass"
+msgstr "Vysoká pásmová propust 12 dB/okt"
+
+#: data/ui/filter.ui:29
+msgid "24dB/oct Highpass"
+msgstr "Vysoká pásmová propust 24 dB/okt"
+
+#: data/ui/filter.ui:30
+msgid "36dB/oct Highpass"
+msgstr "Vysoká pásmová propust 36 dB/okt"
+
+#: data/ui/filter.ui:31
+msgid "6dB/oct Bandpass"
+msgstr "Pásmová propustnost 6 dB/okt"
+
+#: data/ui/filter.ui:32
+msgid "12dB/oct Bandpass"
+msgstr "Pásmová propustnost 12 dB/okt"
+
+#: data/ui/filter.ui:33
+msgid "18dB/oct Bandpass"
+msgstr "Pásmová propustnost 18 dB/okt"
+
+#: data/ui/filter.ui:34
+msgid "6dB/oct Bandreject"
+msgstr "Vyloučení pásma 6 dB/okt"
+
+#: data/ui/filter.ui:35
+msgid "12dB/oct Bandreject"
+msgstr "Vyloučení pásma 12 dB/okt"
+
+#: data/ui/filter.ui:36
+msgid "18dB/oct Bandreject"
+msgstr "Vyloučení pásma 18 dB/okt"
+
+#: data/ui/filter.ui:123
+msgid "Inertia"
+msgstr "Setrvačnost"
+
+#: data/ui/gate.ui:41 src/tags_plugin_name.cpp:44
+msgid "Gate"
+msgstr "Brána"
+
+#: data/ui/gate.ui:159 data/ui/gate.ui:252 data/ui/multiband_gate_band.ui:243
+#: data/ui/multiband_gate_band.ui:336
+msgid "Zone"
+msgstr ""
+
+#: data/ui/gate.ui:231 data/ui/multiband_gate_band.ui:315
+msgid "Hysteresis"
+msgstr ""
+
+#: data/ui/gate.ui:326
+msgid "Mix"
+msgstr ""
+
+#: data/ui/gate.ui:510
+msgid "Attack Zone Start"
+msgstr ""
+
+#: data/ui/gate.ui:564
+#, fuzzy
+msgid "Release Zone Start"
+msgstr "Uvolnění"
+
+#: data/ui/gate.ui:652 data/ui/multiband_gate_band.ui:533
+#, fuzzy
+msgid "Low-Pass Filter"
+msgstr "Režim filtrování nízkých frekvencí"
+
+#: data/ui/gate.ui:653 data/ui/multiband_gate_band.ui:534
+msgid "Simple Moving Average"
+msgstr ""
+
+#: data/ui/gate.ui:751
+#, fuzzy
+msgid "Internal"
+msgstr "Sjednocené"
+
+#: data/ui/gate.ui:1358 data/ui/multiband_gate_band.ui:856
+msgid "Gating"
+msgstr "Hradlo"
+
+#: data/ui/limiter.ui:58
+msgid "Oversampling"
+msgstr "Převzorkování"
+
+#: data/ui/limiter.ui:70
+msgid "Dither"
+msgstr ""
+
+#: data/ui/limiter.ui:82
+msgid "Herm Thin"
+msgstr ""
+
+#: data/ui/limiter.ui:83
+#, fuzzy
+msgid "Herm Wide"
+msgstr "Rozšířit"
+
+#: data/ui/limiter.ui:84
+msgid "Herm Tail"
+msgstr ""
+
+#: data/ui/limiter.ui:85
+msgid "Herm Duck"
+msgstr ""
+
+#: data/ui/limiter.ui:86
+msgid "Exp Thin"
+msgstr ""
+
+#: data/ui/limiter.ui:87
+#, fuzzy
+msgid "Exp Wide"
+msgstr "Rozšířit"
+
+#: data/ui/limiter.ui:88
+msgid "Exp Tail"
+msgstr ""
+
+#: data/ui/limiter.ui:89
+msgid "Exp Duck"
+msgstr ""
+
+#: data/ui/limiter.ui:90
+#, fuzzy
+msgid "Line Thin"
+msgstr "Šířka čáry"
+
+#: data/ui/limiter.ui:91
+#, fuzzy
+msgid "Line Wide"
+msgstr "Šířka čáry"
+
+#: data/ui/limiter.ui:92
+#, fuzzy
+msgid "Line Tail"
+msgstr "Šířka čáry"
+
+#: data/ui/limiter.ui:93
+msgid "Line Duck"
+msgstr ""
+
+#: data/ui/limiter.ui:109 data/ui/multiband_compressor.ui:53
+#: data/ui/multiband_gate.ui:53
+msgid "None"
+msgstr "Žádný"
+
+#: data/ui/limiter.ui:110
+msgid "Half x2(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:111
+msgid "Half x2(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:112
+msgid "Half x3(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:113
+msgid "Half x3(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:114
+msgid "Half x4(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:115
+msgid "Half x4(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:116
+msgid "Half x6(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:117
+msgid "Half x6(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:118
+msgid "Half x8(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:119
+msgid "Half x8(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:120
+msgid "Full x2(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:121
+msgid "Full x2(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:122
+msgid "Full x3(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:123
+msgid "Full x3(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:124
+msgid "Full x4(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:125
+msgid "Full x4(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:126
+msgid "Full x6(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:127
+msgid "Full x6(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:128
+msgid "Full x8(2L)"
+msgstr ""
+
+#: data/ui/limiter.ui:129
+msgid "Full x8(3L)"
+msgstr ""
+
+#: data/ui/limiter.ui:179
+msgid "SC PreAmp"
+msgstr ""
+
+#: data/ui/limiter.ui:208 data/ui/multiband_compressor_band.ui:626
+#: data/ui/multiband_gate_band.ui:688
+#, fuzzy
+msgid "Sidechain PreAmplification"
+msgstr "Předzesílení"
+
+#: data/ui/limiter.ui:383
+msgid "Boost"
+msgstr ""
+
+#: data/ui/limiter.ui:398
+msgid "Stereo Link"
+msgstr "Spojení sterea"
+
+#: data/ui/limiter.ui:443 data/ui/multiband_compressor_band.ui:116
+#: data/ui/multiband_gate_band.ui:89
+#, fuzzy
+msgid "External Sidechain"
+msgstr "Postranní řetězec"
+
+#: data/ui/limiter.ui:456 data/ui/multiband_compressor.ui:91
+#: data/ui/multiband_gate.ui:91
+msgid "External Sidechain Source"
+msgstr ""
+
+#: data/ui/limiter.ui:475
+#, fuzzy
+msgid "Auto Leveling"
+msgstr "Automatické Úrovně"
+
+#: data/ui/limiter.ui:515
+#, fuzzy
+msgid "Auto Leveling Attack"
+msgstr "Automatické Úrovně"
+
+#: data/ui/limiter.ui:551
+#, fuzzy
+msgid "Auto Leveling Release"
+msgstr "Automatické Úrovně"
+
+#: data/ui/limiter.ui:586
+#, fuzzy
+msgid "Auto Leveling Knee"
+msgstr "Automatické Úrovně"
+
+#: data/ui/limiter.ui:611
+#, fuzzy
+msgid "Gain Left"
+msgstr "Levý"
+
+#: data/ui/limiter.ui:638
+#, fuzzy
+msgid "Gain Right"
+msgstr "Pravý"
+
+#: data/ui/limiter.ui:665
+#, fuzzy
+msgid "Sidechain Left"
+msgstr "Postranní řetězec"
+
+#: data/ui/limiter.ui:692
+#, fuzzy
+msgid "Sidechain Right"
+msgstr "Postranní řetězec"
+
+#: data/ui/loudness.ui:30
+msgid "Standard"
+msgstr "Standardní"
+
+#: data/ui/loudness.ui:42
+msgid "Flat"
+msgstr "Rovný"
+
+#: data/ui/loudness.ui:59
+#, fuzzy
+msgid "FFT Size"
+msgstr "Rozměry rámečku"
+
+#: data/ui/loudness.ui:84
+msgid "Fast Fourier Transform Size"
+msgstr ""
+
+#: data/ui/loudness.ui:91
+#, fuzzy
+msgid "Output Volume"
+msgstr "Výstup"
+
+#: data/ui/loudness.ui:127
+#, fuzzy
+msgid "Clipping"
+msgstr "Přiřazení kanálu"
+
+#: data/ui/loudness.ui:155
+msgid "Clipping Range"
+msgstr ""
+
+#: data/ui/maximizer.ui:63
+msgid "Ceiling"
+msgstr "Strop"
+
+#: data/ui/multiband_compressor.ui:42 data/ui/multiband_gate.ui:42
+#, fuzzy
+msgid "Sidechain Boost"
+msgstr "Postranní řetězec"
+
+#: data/ui/multiband_compressor.ui:54 data/ui/multiband_gate.ui:54
+msgid "Pink BT"
+msgstr ""
+
+#: data/ui/multiband_compressor.ui:55 data/ui/multiband_gate.ui:55
+msgid "Pink MT"
+msgstr ""
+
+#: data/ui/multiband_compressor.ui:56 data/ui/multiband_gate.ui:56
+msgid "Brown BT"
+msgstr ""
+
+#: data/ui/multiband_compressor.ui:57 data/ui/multiband_gate.ui:57
+msgid "Brown MT"
+msgstr ""
+
+#: data/ui/multiband_compressor.ui:106 data/ui/multiband_gate.ui:106
+#, fuzzy
+msgid "Operating Mode"
+msgstr "Zavést impuls"
+
+#: data/ui/multiband_compressor.ui:117 data/ui/multiband_gate.ui:117
+msgid "Classic"
+msgstr ""
+
+#: data/ui/multiband_compressor.ui:118 data/ui/multiband_gate.ui:118
+#, fuzzy
+msgid "Modern"
+msgstr "Režim"
+
+#: data/ui/multiband_compressor.ui:227 data/ui/multiband_gate.ui:227
+#, fuzzy
+msgid "Bands List"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor.ui:236 data/ui/multiband_gate.ui:236
+#, fuzzy
+msgid "Band 1"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor.ui:253 data/ui/multiband_gate.ui:253
+#, fuzzy
+msgid "Band 2"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor.ui:279 data/ui/multiband_gate.ui:279
+#, fuzzy
+msgid "Band 3"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor.ui:305 data/ui/multiband_gate.ui:305
+#, fuzzy
+msgid "Band 4"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor.ui:331 data/ui/multiband_gate.ui:331
+#, fuzzy
+msgid "Band 5"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor.ui:357 data/ui/multiband_gate.ui:357
+#, fuzzy
+msgid "Band 6"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor.ui:383 data/ui/multiband_gate.ui:383
+#, fuzzy
+msgid "Band 7"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor.ui:409 data/ui/multiband_gate.ui:409
+#, fuzzy
+msgid "Band 8"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor_band.ui:18 data/ui/multiband_gate_band.ui:18
+msgid "Band Start"
+msgstr ""
+
+#: data/ui/multiband_compressor_band.ui:57 data/ui/multiband_gate_band.ui:57
+#, fuzzy
+msgid "Band End"
+msgstr "Pásma"
+
+#: data/ui/multiband_compressor_band.ui:108
+#, fuzzy
+msgid "Band Compression Mode"
+msgstr "Kompresní režim"
+
+#: data/ui/multiband_compressor_band.ui:126 data/ui/multiband_gate_band.ui:99
+#, fuzzy
+msgid "Band Bypass"
+msgstr "Překlenutí"
+
+#: data/ui/multiband_compressor_band.ui:431 data/ui/multiband_gate_band.ui:494
+#, fuzzy
+msgid "Band Sidechain Options"
+msgstr "Postranní řetězec"
+
+#: data/ui/multiband_compressor_band.ui:515 data/ui/multiband_gate_band.ui:578
+#, fuzzy
+msgid "Low-Cut Filter"
+msgstr "Nízkopropustný Mód Filtru"
+
+#: data/ui/multiband_compressor_band.ui:543 data/ui/multiband_gate_band.ui:606
+#, fuzzy
+msgid "Low-Cut Filter Frequency"
+msgstr "Nízkopropustný Mód Filtru"
+
+#: data/ui/multiband_compressor_band.ui:552 data/ui/multiband_gate_band.ui:615
+#, fuzzy
+msgid "High-Cut Filter"
+msgstr "Vysokopásmový filtr"
+
+#: data/ui/multiband_compressor_band.ui:580 data/ui/multiband_gate_band.ui:643
+#, fuzzy
+msgid "High-Cut Filter Frequency"
+msgstr "Vysokopásmový filtr"
+
+#: data/ui/multiband_compressor_band.ui:599 data/ui/multiband_gate_band.ui:662
+msgid "PreAmp"
+msgstr ""
+
+#: data/ui/multiband_compressor_band.ui:805
+#, fuzzy
+msgid "Band Gain"
+msgstr "Vstupní zesílení"
+
+#: data/ui/multiband_compressor_band.ui:830 data/ui/multiband_gate_band.ui:802
+msgid "Band Envelope"
+msgstr ""
+
+#: data/ui/multiband_compressor_band.ui:855 data/ui/multiband_gate_band.ui:827
+#, fuzzy
+msgid "Band Curve"
+msgstr "Křivka"
+
+#: data/ui/multiband_gate_band.ui:777
+#, fuzzy
+msgid "Band Reduction"
+msgstr "Zmenšení zesílení"
+
+#: data/ui/pipe_manager_box.ui:27
+msgid "General"
+msgstr "Obecné"
+
+#: data/ui/pipe_manager_box.ui:34
+msgid "Device Management"
+msgstr ""
+
+#: data/ui/pipe_manager_box.ui:35
+msgid ""
+"It's recommended to NOT set Easy Effects Sink/Source as Default Device in "
+"external applications (e.g. Gnome Settings and Plasma System Settings)."
+msgstr ""
+
+#: data/ui/pipe_manager_box.ui:38 data/ui/pipe_manager_box.ui:44
+#, fuzzy
+msgid "Use Default Input"
+msgstr "Použít Výchozí"
+
+#: data/ui/pipe_manager_box.ui:65
+#, fuzzy
+msgid "Custom Input Device"
+msgstr "Omezovač vstupu"
+
+#: data/ui/pipe_manager_box.ui:74 data/ui/pipe_manager_box.ui:80
+#, fuzzy
+msgid "Use Default Output"
+msgstr "Použít Výchozí"
+
+#: data/ui/pipe_manager_box.ui:101
+#, fuzzy
+msgid "Custom Output Device"
+msgstr "Vstupní zesílení"
+
+#: data/ui/pipe_manager_box.ui:112
+#, fuzzy
+msgid "Server Information"
+msgstr "Dozvuk"
+
+#: data/ui/pipe_manager_box.ui:116
+#, fuzzy
+msgid "Header Version"
+msgstr "Verze"
+
+#: data/ui/pipe_manager_box.ui:127
+#, fuzzy
+msgid "Library Version"
+msgstr "Verze"
+
+#: data/ui/pipe_manager_box.ui:138
+#, fuzzy
+msgid "Sampling Rate"
+msgstr "Vzorkování"
+
+#: data/ui/pipe_manager_box.ui:149
+#, fuzzy
+msgid "Minimum Quantum"
+msgstr "Minimální Kmitočet"
+
+#: data/ui/pipe_manager_box.ui:160
+#, fuzzy
+msgid "Maximum Quantum"
+msgstr "Největší zesílení"
+
+#: data/ui/pipe_manager_box.ui:171
+#, fuzzy
+msgid "Default Quantum"
+msgstr "Výchozí zeslabení"
+
+#: data/ui/pipe_manager_box.ui:191
+msgid "Presets Autoloading"
+msgstr ""
+
+#: data/ui/pipe_manager_box.ui:232
+#, fuzzy
+msgid "Output Devices"
+msgstr "Vstupní zesílení"
+
+#: data/ui/pipe_manager_box.ui:249 src/application.cpp:243
+msgid "Output Presets"
+msgstr "Profily pro výstup"
+
+#: data/ui/pipe_manager_box.ui:256 data/ui/pipe_manager_box.ui:348
+msgid "Create Association"
+msgstr ""
+
+#: data/ui/pipe_manager_box.ui:270
+msgid "Add Autoloading Output Preset"
+msgstr ""
+
+#: data/ui/pipe_manager_box.ui:290
+msgid "Output Autoloading Presets List"
+msgstr "Seznam automaticky načítaných profilů pro výstup"
+
+#: data/ui/pipe_manager_box.ui:329
+#, fuzzy
+msgid "Input Devices"
+msgstr "Omezovač vstupu"
+
+#: data/ui/pipe_manager_box.ui:341 src/application.cpp:251
+msgid "Input Presets"
+msgstr "Profily pro vstup"
+
+#: data/ui/pipe_manager_box.ui:362
+msgid "Add Autoloading Input Preset"
+msgstr ""
+
+#: data/ui/pipe_manager_box.ui:381
+msgid "Input Autoloading Presets List"
+msgstr "Seznam automaticky načítaných profilů pro vstup"
+
+#: data/ui/pipe_manager_box.ui:411
+msgid "Modules"
+msgstr "Moduly"
+
+#: data/ui/pipe_manager_box.ui:429
+#, fuzzy
+msgid "Modules List"
+msgstr "Moduly"
+
+#: data/ui/pipe_manager_box.ui:443
+msgid "Clients"
+msgstr "Klienti"
+
+#: data/ui/pipe_manager_box.ui:461
+#, fuzzy
+msgid "Clients List"
+msgstr "Klienti"
+
+#: data/ui/pipe_manager_box.ui:475
+#, fuzzy
+msgid "Test Signal"
+msgstr "Zkušební signály"
+
+#: data/ui/pipe_manager_box.ui:480 data/ui/preferences_spectrum.ui:9
+msgid "State"
+msgstr "Stav"
+
+#: data/ui/pipe_manager_box.ui:483 data/ui/preferences_spectrum.ui:12
+#, fuzzy
+msgid "Enabled"
+msgstr "Povolit"
+
+#: data/ui/pipe_manager_box.ui:498
+msgid "Properties"
+msgstr ""
+
+#: data/ui/pipe_manager_box.ui:501
+msgid "Channels"
+msgstr "Kanály"
+
+#: data/ui/pipe_manager_box.ui:526
+msgid "Both"
+msgstr ""
+
+#: data/ui/pipe_manager_box.ui:530
+#, fuzzy
+msgid "Both Channels"
+msgstr "Kanály"
+
+#: data/ui/pipe_manager_box.ui:539
+msgid "Waveform"
+msgstr ""
+
+#: data/ui/pipe_manager_box.ui:543
+#, fuzzy
+msgid "Sine Wave"
+msgstr "Sinusová tabulka"
+
+#: data/ui/pipe_manager_box.ui:552
+msgid "White Noise"
+msgstr "Bílý šum"
+
+#: data/ui/pitch.ui:43
+#, fuzzy
+msgid "High Speed"
+msgstr "Horní práh"
+
+#: data/ui/pitch.ui:44
+#, fuzzy
+msgid "High Quality"
+msgstr "Jakost"
+
+#: data/ui/pitch.ui:45
+msgid "High Consistency"
+msgstr ""
+
+#: data/ui/pitch.ui:59
+#, fuzzy
+msgid "Formant"
+msgstr "Formát"
+
+#: data/ui/pitch.ui:70
+msgid "Shifted"
+msgstr ""
+
+#: data/ui/pitch.ui:71
+#, fuzzy
+msgid "Preserved"
+msgstr "Přednastavení"
+
+#: data/ui/pitch.ui:97
+msgid "Transients"
+msgstr ""
+
+#: data/ui/pitch.ui:108
+#, fuzzy
+msgid "Crisp"
+msgstr "Křehkost"
+
+#: data/ui/pitch.ui:109
+msgid "Mixed"
+msgstr ""
+
+#: data/ui/pitch.ui:110
+msgid "Smooth"
+msgstr ""
+
+#: data/ui/pitch.ui:124
+#, fuzzy
+msgid "Detector"
+msgstr "Zjištění"
+
+#: data/ui/pitch.ui:135
+#, fuzzy
+msgid "Compound"
+msgstr "Komprese"
+
+#: data/ui/pitch.ui:136
+msgid "Percussive"
+msgstr ""
+
+#: data/ui/pitch.ui:137
+#, fuzzy
+msgid "Soft"
+msgstr "Softclip"
+
+#: data/ui/pitch.ui:151
+msgid "Phase"
+msgstr ""
+
+#: data/ui/pitch.ui:162
+msgid "Laminar"
+msgstr ""
+
+#: data/ui/pitch.ui:163
+msgid "Independent"
+msgstr ""
+
+#: data/ui/pitch.ui:188
+msgid "Cents"
+msgstr "Centy"
+
+#: data/ui/pitch.ui:222
+msgid "Semitones"
+msgstr "Půltóny"
+
+#: data/ui/pitch.ui:256
+msgid "Octaves"
+msgstr "Oktávy"
+
+#: data/ui/plugin_row.ui:39
+#, fuzzy
+msgid "Remove this effect"
+msgstr "Odstranit tento soubor s přednastavením"
+
+#: data/ui/plugin_row.ui:51
+msgid "Enable/disable this effect"
+msgstr ""
+
+#: data/ui/plugin_row.ui:63
+msgid "Change the position of this effect"
+msgstr ""
+
+#: data/ui/plugins_box.ui:19
+#, fuzzy
+msgid "Add Effect"
+msgstr "Vstupní efekty"
+
+#: data/ui/plugins_box.ui:68
+msgid "Used Plugins List"
+msgstr ""
+
+#: data/ui/plugins_box.ui:129
+#, fuzzy
+msgid "No Effects"
+msgstr "EasyEffects"
+
+#: data/ui/plugins_box.ui:130
+msgid "Audio Stream Not Modified"
+msgstr ""
+
+#: data/ui/plugins_menu.ui:19
+msgid "Search Plugin"
+msgstr ""
+
+#: data/ui/plugins_menu.ui:74
+msgid "Plugins List"
+msgstr ""
+
+#: data/ui/preferences_general.ui:5
+#, fuzzy
+msgid "_General"
+msgstr "Obecné"
+
+#: data/ui/preferences_general.ui:10
+#, fuzzy
+msgid "Service"
+msgstr "Omezovač vstupu"
+
+#: data/ui/preferences_general.ui:13
+msgid "Launch Service at System Startup"
+msgstr ""
+
+#: data/ui/preferences_general.ui:25
+msgid "Shutdown on Window Closing"
+msgstr ""
+
+#: data/ui/preferences_general.ui:39
+msgid "Audio"
+msgstr ""
+
+#: data/ui/preferences_general.ui:42
+#, fuzzy
+msgid "Process All Output Streams"
+msgstr "Zpracovat všechny výstupy"
+
+#: data/ui/preferences_general.ui:54
+#, fuzzy
+msgid "Process All Input Streams"
+msgstr "Zpracovat všechny vstupy"
+
+#: data/ui/preferences_general.ui:66
+msgid "Ignore Streams from Monitor of Devices"
+msgstr ""
+
+#: data/ui/preferences_general.ui:78
+msgid "Use Cubic Volume"
+msgstr ""
+
+#: data/ui/preferences_general.ui:90
+msgid "Inactivity Timeout"
+msgstr ""
+
+#: data/ui/preferences_general.ui:115 data/ui/preferences_spectrum.ui:26
+msgid "Style"
+msgstr ""
+
+#: data/ui/preferences_general.ui:118
+msgid "Use Dark Theme"
+msgstr "Použít tmavý vzhled"
+
+#: data/ui/preferences_general.ui:130
+msgid "Hide Menus on Outside Clicks"
+msgstr ""
+
+#: data/ui/preferences_spectrum.ui:5
+#, fuzzy
+msgid "_Spectrum"
+msgstr "Spektrum"
+
+#: data/ui/preferences_spectrum.ui:29
+msgid "Shape"
+msgstr ""
+
+#: data/ui/preferences_spectrum.ui:35
+msgid "Bars"
+msgstr "Pruhy"
+
+#: data/ui/preferences_spectrum.ui:36
+msgid "Lines"
+msgstr "Čáry"
+
+#: data/ui/preferences_spectrum.ui:37
+msgid "Dots"
+msgstr ""
+
+#: data/ui/preferences_spectrum.ui:46
+msgid "Points"
+msgstr "Body"
+
+#: data/ui/preferences_spectrum.ui:68
+msgid "Height"
+msgstr "Výška"
+
+#: data/ui/preferences_spectrum.ui:91
+msgid "Line Width"
+msgstr "Šířka čáry"
+
+#: data/ui/preferences_spectrum.ui:114
+msgid "Fill"
+msgstr "Výplň"
+
+#: data/ui/preferences_spectrum.ui:126
+msgid "Show Bars Border"
+msgstr ""
+
+#: data/ui/preferences_spectrum.ui:138
+msgid "Rounded Corners"
+msgstr ""
+
+#: data/ui/preferences_spectrum.ui:152
+msgid "Color"
+msgstr ""
+
+#: data/ui/preferences_spectrum.ui:155
+msgid "Lines and Bars"
+msgstr ""
+
+#: data/ui/preferences_spectrum.ui:169
+msgid "Axis Labels"
+msgstr ""
+
+#: data/ui/preferences_spectrum.ui:185
+#, fuzzy
+msgid "Frequency Range"
+msgstr "Kmitočet"
+
+#: data/ui/preferences_spectrum.ui:188
+#, fuzzy
+msgid "Minimum"
+msgstr "Nejvýše"
+
+#: data/ui/preferences_spectrum.ui:211
+msgid "Maximum"
+msgstr "Nejvýše"
+
+#: data/ui/preset_row.ui:25 src/convolver_menu_impulses.cpp:183
+msgid "Load"
+msgstr "Načíst"
+
+#: data/ui/preset_row.ui:34
+msgid "Save current settings to this preset file"
+msgstr "Uložit nynější nastavení do tohoto souboru s přednastavením"
+
+#: data/ui/preset_row.ui:44
+msgid "Remove this preset file"
+msgstr "Odstranit tento soubor s přednastavením"
+
+#: data/ui/presets_menu.ui:51
+msgid "New Output Preset Name"
+msgstr "Název nového profilu pro výstup"
+
+#: data/ui/presets_menu.ui:59 data/ui/presets_menu.ui:207
+#, fuzzy
+msgid "Create a new preset"
+msgstr "Vytvořit přednastavení"
+
+#: data/ui/presets_menu.ui:73 data/ui/presets_menu.ui:221
+#, fuzzy
+msgid "Import a preset"
+msgstr "Zavést přednastavení"
+
+#: data/ui/presets_menu.ui:90
+msgid "Search Output Preset"
+msgstr "Hledat profil pro výstup"
+
+#: data/ui/presets_menu.ui:151
+msgid "Output Presets List"
+msgstr "Seznam profilů pro výstup"
+
+#: data/ui/presets_menu.ui:199
+msgid "New Input Preset Name"
+msgstr "Název nového profilu pro vstup"
+
+#: data/ui/presets_menu.ui:237
+msgid "Search Input Preset"
+msgstr "Hledat profil pro vstup"
+
+#: data/ui/presets_menu.ui:298
+msgid "Input Presets List"
+msgstr "Hledat profil pro vstup"
+
+#: data/ui/reverb.ui:41
+msgid "High Frequency Damping"
+msgstr "Tlumení vysokého kmitočtu"
+
+#: data/ui/reverb.ui:73
+msgid "Room Size"
+msgstr "Velikost prostoru"
+
+#: data/ui/reverb.ui:81
+msgid "Small"
+msgstr "Malý"
+
+#: data/ui/reverb.ui:82
+msgid "Medium"
+msgstr "Střední"
+
+#: data/ui/reverb.ui:83
+msgid "Large"
+msgstr "Velký"
+
+#: data/ui/reverb.ui:84
+msgid "Tunnel"
+msgstr "Chodba"
+
+#: data/ui/reverb.ui:85
+msgid "Large/smooth"
+msgstr "Velký/plynulý"
+
+#: data/ui/reverb.ui:86
+msgid "Experimental"
+msgstr "Pokusný"
+
+#: data/ui/reverb.ui:103
+msgid "Diffusion"
+msgstr "Rozptylování"
+
+#: data/ui/reverb.ui:140
+msgid "Pre Delay"
+msgstr "Předzpoždění"
+
+#: data/ui/reverb.ui:173
+msgid "Decay Time"
+msgstr "Čas dozvuku"
+
+#: data/ui/reverb.ui:277
+msgid "Bass Cut"
+msgstr "Ořezání hloubek"
+
+#: data/ui/reverb.ui:312
+msgid "Treble Cut"
+msgstr "Ořezání výšek"
+
+#: data/ui/reverb.ui:580
+msgid "Ambience"
+msgstr "Okolní prostředí"
+
+#: data/ui/reverb.ui:587
+msgid "Empty Walls"
+msgstr "Prázdné zdi"
+
+#: data/ui/reverb.ui:600
+msgid "Room"
+msgstr "Pokoj"
+
+#: data/ui/reverb.ui:607
+msgid "Large Empty Hall"
+msgstr "Velký prázdný sál"
+
+#: data/ui/reverb.ui:620
+msgid "Disco"
+msgstr "Disko"
+
+#: data/ui/reverb.ui:627
+msgid "Large Occupied Hall"
+msgstr "Velký obsazený sál"
+
+#: data/ui/rnnoise.ui:31
+#, fuzzy
+msgid "Import Model"
+msgstr "Zavést impuls"
+
+#: data/ui/rnnoise.ui:40
+#, fuzzy
+msgid "Models"
+msgstr "Režim"
+
+#. If this changes, it has to be updated in src/rnnoise_ui.cpp as default_model_name
+#: data/ui/rnnoise.ui:62 src/rnnoise_ui.cpp:94 src/rnnoise_ui.cpp:240
+#: src/rnnoise_ui.cpp:274
+#, fuzzy
+msgid "Standard Model"
+msgstr "Standardní"
+
+#: data/ui/rnnoise.ui:90
+msgid "RNNoise Models List"
+msgstr ""
+
+#: data/ui/rnnoise.ui:110
+msgid "Model Not Loaded"
+msgstr ""
+
+#: data/ui/rnnoise.ui:116
+#, fuzzy
+msgid "Active Model"
+msgstr "Agresivní režim"
+
+#: data/ui/rnnoise.ui:124
+msgid "Standard RNNoise Model"
+msgstr ""
+
+#: data/ui/shortcuts.ui:11
+#, fuzzy
+msgid "Overview"
+msgstr "Omezovač vstupu"
+
+#: data/ui/shortcuts.ui:16
+#, fuzzy
+msgid "Open the Easy Effects Manual"
+msgstr "Otevřít manuál EasyEffects"
+
+#: data/ui/shortcuts.ui:23
+msgid "Fullscreen/Restore from fullscreen"
+msgstr ""
+
+#: data/ui/shortcuts.ui:30
+#, fuzzy
+msgid "Close the Window"
+msgstr "Skrýt Okno"
+
+#: data/ui/shortcuts.ui:37
+#, fuzzy
+msgid "Quit Easy Effects"
+msgstr "EasyEffects"
+
+#: data/ui/stereo_tools.ui:79
+#, fuzzy
+msgid "Input Balance"
+msgstr "Vyvážení"
+
+#: data/ui/stereo_tools.ui:88
+msgid "Softclip"
+msgstr "Softclip"
+
+#: data/ui/stereo_tools.ui:116
+#, fuzzy
+msgid "Softclip Level"
+msgstr "Softclip"
+
+#: data/ui/stereo_tools.ui:128
+msgid "Stereo Matrix"
+msgstr "Matrice sterea"
+
+#: data/ui/stereo_tools.ui:138
+msgid "LR > LR (Stereo Default)"
+msgstr "LP > LP (výchozí stereo)"
+
+#: data/ui/stereo_tools.ui:139
+msgid "LR > MS (Stereo to Mid-Side)"
+msgstr "LP > SS (stereo ke střední straně)"
+
+#: data/ui/stereo_tools.ui:140
+msgid "MS > LR (Mid-Side to Stereo)"
+msgstr "SS > LP (střední strana ke stereu)"
+
+#: data/ui/stereo_tools.ui:141
+msgid "LR > LL (Mono Left Channel)"
+msgstr "LP > LL (mono levý kanál)"
+
+#: data/ui/stereo_tools.ui:142
+msgid "LR > RR (Mono Right Channel)"
+msgstr "LP > PP (mono pravý kanál)"
+
+#: data/ui/stereo_tools.ui:143
+msgid "LR > L+R (Mono Sum L+R)"
+msgstr "LP > L+P (mono součet L+P)"
+
+#: data/ui/stereo_tools.ui:144
+msgid "LR > RL (Stereo Flip Channels)"
+msgstr "LR > RL (stereo obrácení kanálů)"
+
+#: data/ui/stereo_tools.ui:147
+#, fuzzy
+msgid "Stereo Mode"
+msgstr "Základ sterea"
+
+#: data/ui/stereo_tools.ui:180 data/ui/stereo_tools.ui:205
+msgid "Invert Phase"
+msgstr "Obrátit fázi"
+
+#: data/ui/stereo_tools.ui:232
+msgid "Side Level"
+msgstr "Postranní úroveň"
+
+#: data/ui/stereo_tools.ui:268
+msgid "Side Balance"
+msgstr "Postranní vyvážení"
+
+#: data/ui/stereo_tools.ui:304
+msgid "Middle Level"
+msgstr "Prostřední úroveň"
+
+#: data/ui/stereo_tools.ui:340
+msgid "Middle Panorama"
+msgstr "Prostřední panorama"
+
+#: data/ui/stereo_tools.ui:420
+#, fuzzy
+msgid "Output Balance"
+msgstr "Vstupní zesílení"
+
+#: data/ui/stereo_tools.ui:429
+msgid "Delay L/R"
+msgstr "Zpoždění L/P"
+
+#: data/ui/stereo_tools.ui:456
+#, fuzzy
+msgid "Delay Left Right"
+msgstr "Zpoždění L/P"
+
+#: data/ui/stereo_tools.ui:465
+msgid "Stereo Base"
+msgstr "Základ sterea"
+
+#: data/ui/stereo_tools.ui:501
+msgid "Stereo Phase"
+msgstr "Fáze sterea"
+
+#: src/app_info.cpp:64
+msgid "Running"
+msgstr ""
+
+#: src/app_info.cpp:66
+msgid "Suspended"
+msgstr ""
+
+#: src/app_info.cpp:68
+msgid "Idle"
+msgstr ""
+
+#: src/app_info.cpp:70
+#, fuzzy
+msgid "Creating"
+msgstr "Hradlo"
+
+#: src/app_info.cpp:72
+msgid "Error"
+msgstr ""
+
+#: src/app_info.cpp:74
+msgid "Unknown"
+msgstr ""
+
+#: src/app_info.cpp:228
+#, fuzzy
+msgid "channels"
+msgstr "Kanály"
+
+#: src/application.cpp:415
+msgid "Weblate https://hosted.weblate.org/projects/easyeffects/"
+msgstr ""
+
+#: src/application.cpp:505
+#, fuzzy
+msgid "Quit Easy Effects. Useful when running in service mode."
+msgstr "Ukončit EasyEffects. Užitečné, když běži ve služebním režimu."
+
+#: src/application.cpp:508
+msgid "Load a preset. Example: easyeffects -l music"
+msgstr "Nahrát přednastavení. Příklad: easyeffects -l music"
+
+#: src/application.cpp:511
+#, fuzzy
+msgid "Reset Easy Effects."
+msgstr "Vynulovat EasyEffects."
+
+#: src/application.cpp:514
+msgid "Hide the Window."
+msgstr "Skrýt Okno."
+
+#: src/application.cpp:517
+msgid "Global bypass. 1 to enable, 2 to disable and 3 to get status"
+msgstr "Globální propuštění. 1 pro zapnutí, 2 pro vypnutí, 3 pro získání stavu"
+
+#: src/application.cpp:520
+msgid "Show available presets."
+msgstr "Ukázat dostupná přednastavení."
+
+#: src/application_ui.cpp:277
+#, fuzzy
+msgid "_Output"
+msgstr "Výstup"
+
+#: src/application_ui.cpp:278
+#, fuzzy
+msgid "_Input"
+msgstr "Vstup"
+
+#: src/application_ui.cpp:279
+msgid "_PipeWire"
+msgstr ""
+
+#: src/convolver_menu_impulses.cpp:101
+msgid "The File Is Not Regular"
+msgstr ""
+
+#: src/convolver_menu_impulses.cpp:106
+msgid "The Impulse File May Be Corrupted or Unsupported"
+msgstr ""
+
+#: src/convolver_menu_impulses.cpp:111
+msgid "Only Stereo Impulse Files Are Supported"
+msgstr ""
+
+#: src/convolver_menu_impulses.cpp:121
+#, fuzzy
+msgid "Impulse File Not Imported"
+msgstr "Zavést soubor s impulsem"
+
+#: src/convolver_menu_impulses.cpp:127
+msgid "Import Impulse File"
+msgstr "Zavést soubor s impulsem"
+
+#: src/convolver_menu_impulses.cpp:128 src/equalizer_ui.cpp:364
+#: src/equalizer_ui.cpp:555 src/presets_menu.cpp:102 src/rnnoise_ui.cpp:131
+msgid "Open"
+msgstr "Otevřít"
+
+#: src/convolver_menu_impulses.cpp:128 src/equalizer_ui.cpp:364
+#: src/equalizer_ui.cpp:555 src/presets_menu.cpp:103 src/rnnoise_ui.cpp:131
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: src/convolver_menu_impulses.cpp:132
+msgid "Impulse Response"
+msgstr "Odpověď impulsu"
+
+#: src/convolver_menu_impulses.cpp:245
+#, fuzzy
+msgid "Load Impulse"
+msgstr "Odpověď impulsu"
+
+#: src/convolver_menu_impulses.cpp:248
+#, fuzzy
+msgid "Remove Impulse"
+msgstr "Zavést impuls"
+
+#: src/convolver_ui.cpp:324
+#, fuzzy
+msgid "No Impulse File Loaded"
+msgstr "Zavést soubor s impulsem"
+
+#: src/convolver_ui.cpp:346
+#, fuzzy
+msgid "Failed To Load The Impulse File"
+msgstr "Nepodařilo se nahrát soubor s impulsem"
+
+#: src/effects_box.cpp:259 src/plugins_box.cpp:647
+#, fuzzy
+msgid "Recorders"
+msgstr "Okraj"
+
+#: src/effects_box.cpp:282 src/plugins_box.cpp:667
+msgid "Players"
+msgstr ""
+
+#: src/effects_box.cpp:305
+#, fuzzy
+msgid "Effects"
+msgstr "EasyEffects"
+
+#: src/equalizer_band_box.cpp:82
+msgid "infinity"
+msgstr "nekonečno"
+
+#: src/equalizer_ui.cpp:363
+#, fuzzy
+msgid "Import APO Preset File"
+msgstr "Zavést APO přednastavení"
+
+#: src/equalizer_ui.cpp:369
+#, fuzzy
+msgid "APO Presets"
+msgstr "APO Přednastavení"
+
+#: src/equalizer_ui.cpp:387
+msgid ""
+"APO Preset Not Loaded. File Format May Be Wrong. Please Check Its Content."
+msgstr ""
+
+#: src/equalizer_ui.cpp:554
+#, fuzzy
+msgid "Import GraphicEQ Preset File"
+msgstr "Zavést APO přednastavení"
+
+#: src/equalizer_ui.cpp:560
+#, fuzzy
+msgid "GraphicEQ Presets"
+msgstr "Profily pro vstup"
+
+#: src/equalizer_ui.cpp:578
+msgid ""
+"GraphicEQ Preset Not Loaded. File Format May Be Wrong. Please Check Its "
+"Content."
+msgstr ""
+
+#: src/pipe_manager_box.cpp:327
+#, fuzzy
+msgid "Remove Autoloading Preset"
+msgstr "Odstranit tento soubor s přednastavením"
+
+#: src/plugins_box.cpp:599
+msgid "Remove"
+msgstr ""
+
+#: src/plugins_box.cpp:668
+#, fuzzy
+msgid "Output Device"
+msgstr "Vstupní zesílení"
+
+#: src/plugins_menu.cpp:154
+msgid "Add"
+msgstr ""
+
+#: src/rnnoise_ui.cpp:89
+msgid ""
+"Selected Model Not Loaded. Its Format May Be Unsupported. Fell Back To The "
+"Standard Model."
+msgstr ""
+
+#: src/rnnoise_ui.cpp:130
+#, fuzzy
+msgid "Import Model File"
+msgstr "Zavést soubor s impulsem"
+
+#: src/rnnoise_ui.cpp:135
+#, fuzzy
+msgid "RNNoise Models"
+msgstr "Agresivní režim"
+
+#: src/tags_plugin_name.cpp:32
+msgid "Bass Enhancer"
+msgstr "Zlepšovač hloubek"
+
+#: src/tags_plugin_name.cpp:33
+#, fuzzy
+msgid "Bass Loudness"
+msgstr "Hlasitost"
+
+#: src/tags_plugin_name.cpp:35
+msgid "Convolver"
+msgstr "Svinovač"
+
+#: src/tags_plugin_name.cpp:36
+msgid "Crossfeed"
+msgstr "Prolínání kanálů"
+
+#: src/tags_plugin_name.cpp:37
+msgid "Crystalizer"
+msgstr "Krystalizátor"
+
+#: src/tags_plugin_name.cpp:38
+msgid "Deesser"
+msgstr "Odstraňovač sykotu"
+
+#: src/tags_plugin_name.cpp:40
+msgid "Echo Canceller"
+msgstr "Potlačovač echa"
+
+#: src/tags_plugin_name.cpp:41
+msgid "Equalizer"
+msgstr "Ekvalizér"
+
+#: src/tags_plugin_name.cpp:42
+msgid "Exciter"
+msgstr "Zvukový budič"
+
+#: src/tags_plugin_name.cpp:43
+msgid "Filter"
+msgstr "Filtr"
+
+#: src/tags_plugin_name.cpp:45
+msgid "Limiter"
+msgstr "Omezovač"
+
+#: src/tags_plugin_name.cpp:47
+msgid "Maximizer"
+msgstr "Zvětšovač"
+
+#: src/tags_plugin_name.cpp:48
+msgid "Multiband Compressor"
+msgstr "Vícepásmový kompresor"
+
+#: src/tags_plugin_name.cpp:49
+msgid "Multiband Gate"
+msgstr "Vícepásmová brána"
+
+#: src/tags_plugin_name.cpp:50
+msgid "Pitch"
+msgstr "Výška tónu"
+
+#: src/tags_plugin_name.cpp:51
+#, fuzzy
+msgid "Reverberation"
+msgstr "Dozvuk"
+
+#: src/tags_plugin_name.cpp:52
+#, fuzzy
+msgid "Noise Reduction"
+msgstr "Zmenšení zesílení"
+
+#: src/tags_plugin_name.cpp:53
+msgid "Speech Processor"
+msgstr ""
+
+#: src/tags_plugin_name.cpp:54
+msgid "Stereo Tools"
+msgstr "Nástroje sterea"
+
+#. For translators: {} is replaced by the effect name.
+#: src/ui_helpers.cpp:81
+msgid "{} Not Available"
+msgstr ""
+
+#. For translators: {} is replaced by the package name.
+#: src/ui_helpers.cpp:84
+msgid "{} Is Not Installed On The System"
+msgstr ""
+
+#. Add custom button to hint the user to press ESC to destroy the dialog.
+#. This has been introduced because multiple GTK4 dialogs shown at
+#. the same time could have issues on Wayland and the only way to
+#. close the outer one is pressing ESC, the mouse click does not work.
+#: src/ui_helpers.cpp:116
+msgid "Close (Press ESC)"
+msgstr ""
+
+#: src/ui_helpers.cpp:140 src/ui_helpers.cpp:160
+msgid "-inf"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Audio effects for PipeWire applications"
+#~ msgstr "Zvukové efekty pro programy využívající PulseAudio"
+
+#, fuzzy
+#~ msgid "Noise Reduction (Fast)"
+#~ msgstr "Zmenšení zesílení"
+
+#, fuzzy
+#~ msgid "Load APO Preset"
+#~ msgstr "APO Přednastavení"
+
+#~ msgid "EasyEffects"
+#~ msgstr "EasyEffects"
+
+#~ msgid "Output Presets: "
+#~ msgstr "Profily pro výstup: "
+
+#~ msgid "Input Presets: "
+#~ msgstr "Profily pro vstupy: "
+
+#, fuzzy
+#~ msgid "Split Mode"
+#~ msgstr "Rozdělit"
+
+#~ msgid "Split 1/2"
+#~ msgstr "Rozdělit 1/2"
+
+#, fuzzy
+#~ msgid "Split Frequency 1"
+#~ msgstr "Kmitočet"
+
+#~ msgid "Split 2/3"
+#~ msgstr "Rozdělit 2/3"
+
+#, fuzzy
+#~ msgid "Split Frequency 2"
+#~ msgstr "Kmitočet"
+
+#~ msgid "Split 3/4"
+#~ msgstr "Rozdělit 3/4"
+
+#, fuzzy
+#~ msgid "Split Frequency 3"
+#~ msgstr "Kmitočet"
+
+#~ msgid "Sub Band"
+#~ msgstr "Spodní pásmo"
+
+#, fuzzy
+#~ msgid "Band 1 Bypass"
+#~ msgstr "Překlenutí"
+
+#, fuzzy
+#~ msgid "Band 1 Solo"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 1 Detection"
+#~ msgstr "Zmenšení zesílení"
+
+#, fuzzy
+#~ msgid "Band 1 Attack"
+#~ msgstr "Náběh"
+
+#, fuzzy
+#~ msgid "Band 1 Release"
+#~ msgstr "Uvolnění"
+
+#, fuzzy
+#~ msgid "Band 1 Threshold"
+#~ msgstr "Práh"
+
+#, fuzzy
+#~ msgid "Band 1 Ratio"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 1 Knee"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 1 Makeup"
+#~ msgstr "Pozvednutí"
+
+#~ msgid "Max Reduction"
+#~ msgstr "Snížení"
+
+#~ msgid "Low Band"
+#~ msgstr "Nízké pásmo"
+
+#, fuzzy
+#~ msgid "Band 2 Bypass"
+#~ msgstr "Překlenutí"
+
+#, fuzzy
+#~ msgid "Band 2 Solo"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 2 Detection"
+#~ msgstr "Zmenšení zesílení"
+
+#, fuzzy
+#~ msgid "Band 2 Attack"
+#~ msgstr "Náběh"
+
+#, fuzzy
+#~ msgid "Band 2 Release"
+#~ msgstr "Uvolnění"
+
+#, fuzzy
+#~ msgid "Band 2 Threshold"
+#~ msgstr "Práh"
+
+#, fuzzy
+#~ msgid "Band 2 Ratio"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 2 Knee"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 2 Makeup"
+#~ msgstr "Pozvednutí"
+
+#, fuzzy
+#~ msgid "Band 2 Max Reduction"
+#~ msgstr "Zmenšení zesílení"
+
+#~ msgid "Mid Band"
+#~ msgstr "Střední pásmo"
+
+#, fuzzy
+#~ msgid "Band 3 Bypass"
+#~ msgstr "Překlenutí"
+
+#, fuzzy
+#~ msgid "Band 3 Solo"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 3 Detection"
+#~ msgstr "Zmenšení zesílení"
+
+#, fuzzy
+#~ msgid "Band 3 Attack"
+#~ msgstr "Náběh"
+
+#, fuzzy
+#~ msgid "Band 3 Release"
+#~ msgstr "Uvolnění"
+
+#, fuzzy
+#~ msgid "Band 3 Threshold"
+#~ msgstr "Práh"
+
+#, fuzzy
+#~ msgid "Band 3 Ratio"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 3 Knee"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 3 Makeup"
+#~ msgstr "Pozvednutí"
+
+#, fuzzy
+#~ msgid "Band 3 Max Reduction"
+#~ msgstr "Zmenšení zesílení"
+
+#~ msgid "High Band"
+#~ msgstr "Vysoké pásmo"
+
+#, fuzzy
+#~ msgid "Band 4 Bypass"
+#~ msgstr "Překlenutí"
+
+#, fuzzy
+#~ msgid "Band 4 Solo"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 4 Detection"
+#~ msgstr "Zmenšení zesílení"
+
+#, fuzzy
+#~ msgid "Band 4 Attack"
+#~ msgstr "Náběh"
+
+#, fuzzy
+#~ msgid "Band 4 Release"
+#~ msgstr "Uvolnění"
+
+#, fuzzy
+#~ msgid "Band 4 Threshold"
+#~ msgstr "Práh"
+
+#, fuzzy
+#~ msgid "Band 4 Ratio"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 4 Knee"
+#~ msgstr "Pásma"
+
+#, fuzzy
+#~ msgid "Band 4 Makeup"
+#~ msgstr "Pozvednutí"
+
+#, fuzzy
+#~ msgid "Band 4 Max Reduction"
+#~ msgstr "Zmenšení zesílení"
+
+#, fuzzy
+#~ msgid "Wet Amount"
+#~ msgstr "Množství"
+
+#, fuzzy
+#~ msgid "Dry Amount"
+#~ msgstr "Množství"
+
+#~ msgid "Wellington Wallace"
+#~ msgstr "Wellington Wallace"
+
+#, fuzzy
+#~ msgid ""
+#~ "EasyEffects is an advanced audio manipulation tool. It includes an "
+#~ "equalizer, limiter, compressor and a reverberation tool, just to mention "
+#~ "a few. To complement this there is also a built in spectrum analyzer."
+#~ msgstr ""
+#~ "EasyEffects je pokročilým nástrojem pro zacházení se zvukem. Obsahuje "
+#~ "mimo jiné nástroj ekvalizéru, omezovače (limiter), kompresoru a dozvuku. "
+#~ "Na doplnění je také vestavěn analyzátor spektra."
+
+#, fuzzy
+#~ msgid ""
+#~ "Because EasyEffects uses the default PipeWire sound server it will work "
+#~ "with most, if not all, applications you use. All supported applications "
+#~ "are presented in the main window, where each can be enabled individually."
+#~ msgstr ""
+#~ "Protože EasyEffects používá výchozí zvukový server PulseAudio, bude "
+#~ "pracovat s většinou, pokud už ne se všemi vámi používanými programy. "
+#~ "Všechny podporované programy jsou ukázány v hlavním okně, v němž je možné "
+#~ "kterýkoli z nich ručně povolit."
+
+#, fuzzy
+#~ msgid ""
+#~ "Besides manipulating sound output, EasyEffects is able to apply effects "
+#~ "to an input device, such as a microphone. This is, for example, useful in "
+#~ "audio recording, but it also works well during voice conversations."
+#~ msgstr ""
+#~ "Vedle práce se zvukovým výstupem dokáže EasyEffects efekty použít i na "
+#~ "vstupní zařízení, jako je mikrofon. To je užitečné mimo jiné při "
+#~ "nahrávání zvuku, pracuje to ale dobře během hlasových hovorů."
+
+#, fuzzy
+#~ msgid ""
+#~ "When EasyEffects is launched it will conveniently remember the "
+#~ "configuration used in the last session. It is also possible to save all "
+#~ "the current settings as profiles."
+#~ msgstr ""
+#~ "Když je EasyEffects spuštěn, zapamatuje si příhodně nastavení používané "
+#~ "při posledním sezení. Je možné i uložení všech nynějších nastavení jako "
+#~ "profilů."
+
+#, fuzzy
+#~ msgid "and #1427"
+#~ msgstr "Pásma"
+
+#~ msgid "Average"
+#~ msgstr "Průměr"
+
+#~ msgid "Failed"
+#~ msgstr "Nepodařilo se"
+
+#, fuzzy
+#~ msgid "Use Default"
+#~ msgstr "Použít Výchozí"
+
+#, fuzzy
+#~ msgid "Remove this plugin"
+#~ msgstr "Odstranit tento soubor s přednastavením"
+
+#~ msgid "Import Presets"
+#~ msgstr "Zavést přednastavení"
+
+#~ msgid "Start Service at Login"
+#~ msgstr "Spustit službu při přihlášení"
+
+#, fuzzy
+#~ msgid "Activate"
+#~ msgstr "Agresivní režim"
+
+#, fuzzy
+#~ msgid "Add to Blocklist"
+#~ msgstr "Černá listina"
+
+#~ msgid "Blocklist"
+#~ msgstr "Černá listina"
+
+#, fuzzy
+#~ msgid "Microphone"
+#~ msgstr "Kalibrace mikrofonu"
+
+#, fuzzy
+#~ msgid "enabled"
+#~ msgstr "Povolit"
+
+#, fuzzy
+#~ msgid "disabled"
+#~ msgstr "Povolit"
+
+#~ msgid "Format"
+#~ msgstr "Formát"
+
+#~ msgid "Latency"
+#~ msgstr "Prodleva"
+
+#~ msgid "Faster"
+#~ msgstr "Rychleji"
+
+#~ msgid "Preserve Formant"
+#~ msgstr "Zachovat složku rozhodující o barvě zvuku"
+
+#~ msgid "Cmoy"
+#~ msgstr "Sluchátkový zesilovač (CMoy)"
+
+#~ msgid "Jmeier"
+#~ msgstr "Jmeier"
+
+#~ msgid "RLC (BT)"
+#~ msgstr "RLC (BT)"
+
+#~ msgid "RLC (MT)"
+#~ msgstr "RLC (MT)"
+
+#~ msgid "BWC (BT)"
+#~ msgstr "BWC (BT)"
+
+#~ msgid "BWC (MT)"
+#~ msgstr "BWC (MT)"
+
+#~ msgid "LRX (BT)"
+#~ msgstr "LRX (BT)"
+
+#~ msgid "LRX (MT)"
+#~ msgstr "LRX (MT)"
+
+#~ msgid "APO (DR)"
+#~ msgstr "APO (DR)"
+
+#~ msgid "LR4"
+#~ msgstr "LR4"
+
+#~ msgid "LR8"
+#~ msgstr "LR8"
+
+#, fuzzy
+#~ msgid "Output Channel"
+#~ msgstr "Vstupní zesílení"
+
+#, fuzzy
+#~ msgid "Channel"
+#~ msgstr "Kanály"
+
+#, fuzzy
+#~ msgid "Value"
+#~ msgstr "Spodní mez"
+
+#~ msgid "Output Effects"
+#~ msgstr "Výstupní efekty"
+
+#~ msgid "Settings"
+#~ msgstr "Nastavení"
+
+#, fuzzy
+#~ msgid "Settings Menu"
+#~ msgstr "Nastavení"
+
+#, fuzzy
+#~ msgid "Documentation"
+#~ msgstr "Doba trvání"
+
+#, fuzzy
+#~ msgid "Enable Test Signal"
+#~ msgstr "Zkušební signály"
+
+#, fuzzy
+#~ msgid "Signal"
+#~ msgstr "Zkušební signály"
+
+#~ msgid "Show Spectrum"
+#~ msgstr "Ukázat spektrum"
+
+#~ msgid "Border"
+#~ msgstr "Okraj"
+
+#~ msgid "Spectrum Type"
+#~ msgstr "Typ spektra"
+
+#~ msgid "Spectrum Color"
+#~ msgstr "Barva spektra"
+
+#, fuzzy
+#~ msgid "Remove Model"
+#~ msgstr "Agresivní režim"
+
+#, fuzzy
+#~ msgid "Maximum Gain Reduction"
+#~ msgstr "Zmenšení zesílení"
+
+#, fuzzy
+#~ msgid "Wet"
+#~ msgstr "Váhy"
+
+#~ msgid "Dry"
+#~ msgstr "Zkušební"
+
+#~ msgid "S/C Level"
+#~ msgstr "Úroveň S/C"
+
+#~ msgid "Short Term"
+#~ msgstr "Jednorázové"
+
+#, fuzzy
+#~ msgid "Low-pass"
+#~ msgstr "Dolní pásmo"
+
+#~ msgid "Set the volume and turn on/off effects"
+#~ msgstr "Nastavit hlasitost a zapnout/vypnout efekty"
+
+#~ msgid "Includes an equalizer with built-in presets"
+#~ msgstr "Zahrnuje ekvalizér s vestavěnými přednastaveními"
+
+#~ msgid "Input Limiter"
+#~ msgstr "Omezovač vstupu"
+
+#~ msgid "Calibration"
+#~ msgstr "Kalibrace"
+
+#~ msgid "Automatic Smoothing Control"
+#~ msgstr "Automatické Vyhlazení"
+
+#~ msgid "Limit"
+#~ msgstr "Omezení"
+
+#~ msgid "ASC"
+#~ msgstr "ASC"
+
+#~ msgid "Attenuation"
+#~ msgstr "Tlumení"
+
+#~ msgid "ISO226-2003"
+#~ msgstr "ISO226-2003"
+
+#~ msgid "Fletcher-Munson"
+#~ msgstr "Fletcher-Munson"
+
+#~ msgid "Robinson-Dadson"
+#~ msgstr "Robinson-Dadson"
+
+#~ msgid "Audio Effects for PulseAudio Applications"
+#~ msgstr "Zvukové efekty pro programy využívající PulseAudio"
+
+#~ msgid "Audio effects for PulseAudio applications"
+#~ msgstr "Zvukové efekty pro programy PulseAudio"
+
+#~ msgid "Help"
+#~ msgstr "Nápověda"
+
+#~ msgid "Calibration Microphone"
+#~ msgstr "Kalibrace mikrofonu"
+
+#~ msgid ""
+#~ "Automatically apply this preset whenever the currently used device is "
+#~ "plugged in the system"
+#~ msgstr ""
+#~ "Automaticky použít toto přednastavení, když je nyní používané zařízení "
+#~ "zapojeno v systému"
+
+#, fuzzy
+#~ msgid "Version"
+#~ msgstr "Verze"
+
+#~ msgid "Sine"
+#~ msgstr "Sinus"
+
+#~ msgid "Square"
+#~ msgstr "Čtverec"
+
+#~ msgid "Saw"
+#~ msgstr "Pila"
+
+#~ msgid "Triangle"
+#~ msgstr "Trojúhelník"
+
+#~ msgid "Pink Noise"
+#~ msgstr "Růžový šum"
+
+#~ msgid "Ticks"
+#~ msgstr "Tiknutí"
+
+#~ msgid "Gaussian Noise"
+#~ msgstr "Gaussovský šum"
+
+#~ msgid "Red Noise"
+#~ msgstr "Červený šum"
+
+#~ msgid "Blue Noise"
+#~ msgstr "Modrý šum"
+
+#~ msgid "Violet Noise"
+#~ msgstr "Fialový šum"
+
+#~ msgid "Volume"
+#~ msgstr "Hlasitost"
+
+#~ msgid "Window"
+#~ msgstr "Okno"
+
+#~ msgid "Measure Noise"
+#~ msgstr "Změřit šum"
+
+#~ msgid "Subtract Noise"
+#~ msgstr "Odečíst šum"
+
+#~ msgid "WebRTC"
+#~ msgstr "WebRTC"
+
+#~ msgid "Provided by"
+#~ msgstr "Poskytuje"
+
+#~ msgid "Extended Filter"
+#~ msgstr "Rozšířený filtr"
+
+#~ msgid "Low"
+#~ msgstr "Nízký"
+
+#~ msgid "Moderate"
+#~ msgstr "Střední"
+
+#~ msgid "High"
+#~ msgstr "Vysoký"
+
+#~ msgid "Delay Agnostic"
+#~ msgstr "Zpozdit absolutní"
+
+#~ msgid "Very High"
+#~ msgstr "Velmi vysoký"
+
+#~ msgid "Noise Suppressor"
+#~ msgstr "Potlačovač šumu"
+
+#~ msgid "Adaptive Digital"
+#~ msgstr "Přizpůsobivý digitální"
+
+#~ msgid "Fixed Digital"
+#~ msgstr "Pevný digitální"
+
+#~ msgid "Gain Controller"
+#~ msgstr "Ovladač zesílení"
+
+#~ msgid "Detection Likelihood"
+#~ msgstr "Pravděpodobnost zjištění"
+
+#~ msgid "Very Low"
+#~ msgstr "Velmi nízká"
+
+#~ msgid "Voice Detector"
+#~ msgstr "Zjišťovatel hlasu"
+
+#~ msgid "Use Custom Color"
+#~ msgstr "Použít vlastní barvu"
+
+#~ msgid "Use Gradient"
+#~ msgstr "Použít přechod"
+
+#~ msgid "Gradient Color"
+#~ msgstr "Barva přechodu"
+
+#~ msgid "Import Impulse Response File"
+#~ msgstr "Zavést soubor s odpovědí impulsu"
+
+#~ msgid "Select the impulse Response File"
+#~ msgstr "Vybrat soubor s odpovědí impulsu"
+
+#~ msgid "Aggressive Mode"
+#~ msgstr "Agresivní režim"
+
+#~ msgid "Before"
+#~ msgstr "Před"
+
+#~ msgid "After"
+#~ msgstr "Po"
+
+#~ msgid "Loudness Range"
+#~ msgstr "Rozsah hlasitosti"
+
+#~ msgid "Loudness Compensator"
+#~ msgstr "Kompenzace Hlasitosti"
+
+#~ msgid "Apply"
+#~ msgstr "Použít"
+
+#~ msgid "Based on"
+#~ msgstr "Na základě"
+
+#, fuzzy
+#~ msgid "Default Clock Rate"
+#~ msgstr "Výchozí rychlost vzorkování"
+
+#~ msgid "Default Source"
+#~ msgstr "Výchozí zdroj"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "File"
+#~ msgstr "Soubor"
+
+#~ msgid "Configuration"
+#~ msgstr "Nastavení"
+
+#, fuzzy
+#~ msgid "server"
+#~ msgstr "Server"
+
+#, fuzzy
+#~ msgid "Based on a"
+#~ msgstr "Na základě"
+
+#, fuzzy
+#~ msgid "Low-pass Frequency"
+#~ msgstr "Spočítat kmitočty"
+
+#, fuzzy
+#~ msgid "Advanced"
+#~ msgstr "Nastavení"
+
+#, fuzzy
+#~ msgid "Apply APO Preset"
+#~ msgstr "APO Přednastavení"
+
+#~ msgid "Auto Gain"
+#~ msgstr "Automatické zesílení"
+
+#~ msgid "Detect Silence"
+#~ msgstr "Zjištění Ticha"
+
+#~ msgid "Muted"
+#~ msgstr "Ztlumeno"
+
+#~ msgid "Distant Headphones"
+#~ msgstr "Vzdálená sluchátka"
+
+#~ msgid "Priority Type"
+#~ msgstr "Typ přednosti"
+
+#~ msgid "Niceness"
+#~ msgstr "Přívětivost"
+
+#~ msgid "Priority"
+#~ msgstr "Přednost"
+
+#, fuzzy
+#~ msgid "Minimum Frequency"
+#~ msgstr "Minimální Kmitočet"
+
+#, fuzzy
+#~ msgid "Maximum Frequency"
+#~ msgstr "Maximální Kmitočet"
+
+#~ msgid "Reconnect the microphone to apply new changes made to the Blocklist"
+#~ msgstr "Znovu připojit mikrofon pro použití změn provedených v Blocklistu"
+
+#~ msgid "Restart the player to apply new changes made to the Blocklist"
+#~ msgstr "Restartovat přehrávač pro použití změn provedených v Blocklistu"
+
+#~ msgid "About"
+#~ msgstr "O programu"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokol"
+
+#~ msgid "Default Sample Format"
+#~ msgstr "Výchozí formát vzorku"
+
+#~ msgid "Resamplers"
+#~ msgstr "Převzorkovače"
+
+#~ msgid "Buffer"
+#~ msgstr "Vyrovnávací paměť"
+
+#, fuzzy
+#~ msgid "Pipeline Output"
+#~ msgstr "Ekvalizér - výstup"
+
+#~ msgid "Block Size"
+#~ msgstr "Velikost Bloku"
+
+#~ msgid "Resampler"
+#~ msgstr "Převzorkovač"
+
+#~ msgid "paused"
+#~ msgstr "Pozastaveno"
+
+#~ msgid "playing"
+#~ msgstr "Přehrává se"
+
+#~ msgid "Pulseaudio"
+#~ msgstr "Pulseaudio"
+
+#~ msgid "Import APO Presets"
+#~ msgstr "Zavést APO Přednastavení"
+
+#, fuzzy
+#~ msgid "Gain Detection"
+#~ msgstr "Zmenšení zesílení"
+
+#~ msgid "Exponent"
+#~ msgstr "Exponent"

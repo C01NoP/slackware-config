@@ -1,0 +1,152 @@
+on:
+  push:
+    branches-ignore:
+      # dependabot branches will fail on push since they run with fork-level permissions despite being in the main repo.
+      # said branches are tested anyhow when dependabot makes its PR and the pull_request triggers the run.
+      - 'dependabot/**'
+  pull_request:
+
+name: CI
+jobs:
+  prepare:
+    name: Prepare
+    runs-on: ubuntu-20.04
+    outputs:
+      github_commit_desc: ${{ steps.get_commit_desc.outputs.github_commit_desc }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.1.0
+        with:
+          fetch-depth: 0
+
+      - name: Get head branch latest commit
+        run: echo "GITHUB_PR_HEAD_SHA=$(git log --pretty=format:'%h' $GITHUB_SHA^2 -1)" >> $GITHUB_ENV
+
+      - name: Get base branch latest commit
+        run: echo "GITHUB_PR_BASE_SHA=$(git log --pretty=format:'%h' $GITHUB_SHA^1 -1)" >> $GITHUB_ENV
+
+      - name: Get latest commit
+        run: echo "GITHUB_HEAD_SHA=$(git log --pretty=format:'%h' -1)" >> $GITHUB_ENV
+      
+      # on a pull_request event in github actions, the tests are not run on the head branch of the PR, rather they are run on the merge commit of head merged into the base branch
+      # this means the latest commit in github actions, which is used for build artifact names is a commit that does not exist in the repository
+      # so on pull requests we create a user-friendly string to use in place of the merge commit sha, otherwise we just use the normal git HEAD sha.
+      - id: get_commit_desc
+        run: | 
+          if [[ ${{ github.event_name }} == 'pull_request' ]]; then
+            echo "::set-output name=github_commit_desc::merge-${{ env.GITHUB_PR_HEAD_SHA }}-into-${{ env.GITHUB_PR_BASE_SHA }}"
+          else
+            echo "::set-output name=github_commit_desc::${{ env.GITHUB_HEAD_SHA }}"
+          fi
+
+  flatpak:
+    name: Flatpak
+    runs-on: ubuntu-20.04
+    env:
+      FLATPAK_BUILD_PATH: flatpak_app/files/share
+    needs: prepare
+    container:
+      image: bilelmoussaoui/flatpak-github-actions:gnome-43
+      options: --privileged
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3.1.0
+
+    - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v4
+      with:
+        bundle: easyeffects-flatpak-${{ needs.prepare.outputs.github_commit_desc }}.flatpak
+        manifest-path: util/flatpak/com.github.wwmm.easyeffects.Devel.json
+        cache-key: flatpak-builder-${{ github.sha }}
+        run-tests: true
+    
+    # we also validate appstream in the appstream-news-validate job, 
+    # but we still should specifically ensure the flatpak outputs it properly
+    - name: Validate AppStream
+      shell: bash
+      working-directory: ${{ env.FLATPAK_BUILD_PATH }}
+      run: |
+        appstream-util validate-relax appdata/com.github.wwmm.easyeffects.Devel.appdata.xml
+    
+    - name: Verify icon and metadata in app-info
+      shell: bash
+      working-directory: ${{ env.FLATPAK_BUILD_PATH }}
+      run: |
+        test -f app-info/icons/flatpak/128x128/com.github.wwmm.easyeffects.Devel.png || { echo "Missing 128x128 icon in app-info" ; exit 1; }
+        test -f app-info/xmls/com.github.wwmm.easyeffects.Devel.xml.gz || { echo "Missing com.github.wwmm.easyeffects.Devel.xml.gz in app-info" ; exit 1; }
+
+  arch-linux:
+    name: Arch Linux
+    runs-on: ubuntu-20.04
+    needs: prepare
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3.1.0
+      with:
+        # needed for getting git describe info for pkgver() in pkgbuild
+        fetch-depth: 0
+
+    - name: Save commit description to file
+      # if this file is present, pkgver() in pkgbuild will use it to show a more user-friendly commit sha
+      run: echo ${{ needs.prepare.outputs.github_commit_desc }} >> GITHUB_COMMIT_DESC
+
+    - name: Makepkg Build and Check
+      id: makepkg
+      uses: edlanglois/pkgbuild-action@v1.1.8
+      with:
+        # namcap doesn't actually exclude this rule, resulting in unnecessary warnings, so just disable namcap since it's not critical
+        # namcapExcludeRules: unusedsodepends
+        namcapDisable: true
+
+    - name: Upload Package Archive
+      uses: actions/upload-artifact@v3.1.1
+      with:
+        name: easyeffects-archlinux-${{ needs.prepare.outputs.github_commit_desc }}-x86_64
+        path: ${{ steps.makepkg.outputs.pkgfile0 }}
+        if-no-files-found: error
+
+  codeql-analyze:
+    name: CodeQL Analyze
+    runs-on: ubuntu-20.04
+    permissions:
+      security-events: write
+    container:
+      image: archlinux
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3.1.0
+
+    - name: Install deps
+      run: |
+        # install general build deps
+        pacman -Syu --noconfirm ninja gcc pkgconf python3 python-pip which
+        # install easyeffects deps
+        source ./PKGBUILD && pacman -Syu --noconfirm --needed --asdeps "${makedepends[@]}" "${depends[@]}"
+
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v2
+      with:
+        languages: cpp # we don't use a matrix build (to analyze multiple lanaguages in parallel) as we are only analyzing c++
+
+    - name: Autobuild
+      uses: github/codeql-action/autobuild@v2
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
+
+  appstream-news-validate:
+    name: AppStream and News validate
+    runs-on: ubuntu-20.04
+    container:
+      # normally we'd use archlinux for up-to-date builds, but appstream-util 0.8.0 doesn't work
+      # https://github.com/hughsie/appstream-glib/issues/449
+      image: fedora:35
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3.1.0
+      
+      - name: Install deps
+        run: dnf -y install appstream libappstream-glib libxslt which
+        
+      - name: Validate existing files
+        run: ./util/update-release-files.sh --no-new-release

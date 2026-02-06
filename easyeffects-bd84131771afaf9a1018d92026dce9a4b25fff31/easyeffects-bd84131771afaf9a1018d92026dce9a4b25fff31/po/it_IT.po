@@ -1,0 +1,3459 @@
+# Italian translation file for EasyEffects
+# Copyright (C) 2018
+# This file is distributed under the same license as the EasyEffects package.
+# Matteo Iervasi <matteoiervasi@gmail.com>, 2018.
+# Gianluca Boiano <morf3089@gmail.com>, 2018.
+# Albano Battistella <albano_battistella@hotmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-10 15:49+0000\n"
+"PO-Revision-Date: 2022-10-31 07:06+0000\n"
+"Last-Translator: Giusy Digital <kurmikon@libero.it>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/easyeffects/main/"
+"it/>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2-dev\n"
+"Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
+
+#. Translators: This is a variable for the application name, don't translate!
+#: data/com.github.wwmm.easyeffects.desktop.in:4
+msgid "@APP_NAME@"
+msgstr "@APP_NAME@"
+
+#: data/com.github.wwmm.easyeffects.desktop.in:5
+msgid "Equalizer, Compressor and Other Audio Effects"
+msgstr "Equalizzatore, Compressore e Altri Effetti Audio"
+
+#: data/com.github.wwmm.easyeffects.desktop.in:6
+msgid "Audio Effects for PipeWire Applications"
+msgstr "Effetti Audio per Applicazioni Pipewire"
+
+#: data/com.github.wwmm.easyeffects.desktop.in:7
+msgid "limiter;compressor;reverberation;equalizer;autovolume;"
+msgstr "limiter;compressore;riverbero;equalizzatore;autovolume;"
+
+#: data/schemas/com.github.wwmm.easyeffects.gschema.xml:14
+#: data/schemas/com.github.wwmm.easyeffects.gschema.xml:17
+msgid "\"Presets\""
+msgstr "\"Profili\""
+
+#: data/ui/app_info.ui:212
+msgid "Enable/disable this application"
+msgstr "Abilita/disabilita questa applicazione"
+
+#: data/ui/app_info.ui:213
+msgid "Enable"
+msgstr "Abilita"
+
+#: data/ui/app_info.ui:225
+msgid "Excluded App List: Add/remove this application"
+msgstr "Lista App Escluse: Aggiungi/rimuovi questa applicazione"
+
+#: data/ui/app_info.ui:226
+msgid "Exclude"
+msgstr "Escludi"
+
+#: data/ui/app_info.ui:247 data/ui/app_info.ui:249
+msgid "Mute Application"
+msgstr "Silenzia Applicazione"
+
+#: data/ui/app_info.ui:270
+msgid "Change the volume of this application"
+msgstr "Modifica il volume di questa applicazione"
+
+#: data/ui/app_info.ui:272
+msgid "Application Volume"
+msgstr "Volume Applicazione"
+
+#: data/ui/application_window.ui:6
+msgid "_Preferences"
+msgstr "_Preferenze"
+
+#: data/ui/application_window.ui:10
+msgid "_Manual"
+msgstr "_Manuale"
+
+#: data/ui/application_window.ui:14
+msgid "_Shortcuts"
+msgstr "_Scorciatoie"
+
+#: data/ui/application_window.ui:20
+msgid "_Reset Settings"
+msgstr "_Reset Preferenze"
+
+#: data/ui/application_window.ui:26
+msgid "_About Easy Effects"
+msgstr "_Info su Easy Effects"
+
+#: data/ui/application_window.ui:52 data/ui/reverb.ui:25
+#: src/presets_menu.cpp:108 src/presets_menu.cpp:258 src/presets_menu.cpp:259
+#: src/presets_menu.cpp:276 src/presets_menu.cpp:277
+msgid "Presets"
+msgstr "Profili"
+
+#: data/ui/application_window.ui:54
+msgid "Presets Menu"
+msgstr "Menu Profili"
+
+#: data/ui/application_window.ui:61
+msgid "Enable/disable the global bypass"
+msgstr "Abilita/disabilita il bypass globale"
+
+#: data/ui/application_window.ui:66
+msgid "Global Bypass"
+msgstr "Bypass Globale"
+
+#: data/ui/application_window.ui:76
+msgid "Primary Menu"
+msgstr "Menu Principale"
+
+#: data/ui/application_window.ui:91
+msgid "Easy Effects Window"
+msgstr "Finestra di Easy Effects"
+
+#: data/ui/apps_box.ui:17
+msgid "Applications List"
+msgstr "Lista Applicazioni"
+
+#: data/ui/apps_box.ui:27
+msgid "Empty List"
+msgstr "Elenco Vuoto"
+
+#: data/ui/apps_box.ui:28
+msgid "No Audio Application Available"
+msgstr "Nessuna Applicazione Audio Disponibile"
+
+#: data/ui/autogain.ui:29
+msgid "Target"
+msgstr "Livello"
+
+#: data/ui/autogain.ui:63
+msgid "Silence"
+msgstr "Silenzio"
+
+#: data/ui/autogain.ui:98
+msgid "Maximum History"
+msgstr "Cronologia Massima"
+
+#: data/ui/autogain.ui:132
+msgid "Reference"
+msgstr "Riferimento"
+
+#: data/ui/autogain.ui:144 data/ui/autogain.ui:185
+msgid "Momentary"
+msgstr "Momentaneo"
+
+#: data/ui/autogain.ui:145 data/ui/autogain.ui:215
+msgid "Short-Term"
+msgstr "Breve-Termine"
+
+#: data/ui/autogain.ui:146 data/ui/autogain.ui:245
+msgid "Integrated"
+msgstr "Integrato"
+
+#: data/ui/autogain.ui:147
+msgid "Geometric Mean (MSI)"
+msgstr "Media Geometrica (MBI)"
+
+#: data/ui/autogain.ui:148
+msgid "Geometric Mean (MS)"
+msgstr "Media Geometrica (MB)"
+
+#: data/ui/autogain.ui:149
+msgid "Geometric Mean (MI)"
+msgstr "Media Geometrica (MI)"
+
+#: data/ui/autogain.ui:150
+msgid "Geometric Mean (SI)"
+msgstr "Media Geometrica (BI)"
+
+#: data/ui/autogain.ui:165
+msgid "Reset History"
+msgstr "Reset Cronologia"
+
+#: data/ui/autogain.ui:275
+msgid "Relative"
+msgstr "Relativo"
+
+#: data/ui/autogain.ui:305
+msgid "Range"
+msgstr "Gamma"
+
+#: data/ui/autogain.ui:338 data/ui/bass_loudness.ui:29
+#: src/tags_plugin_name.cpp:46
+msgid "Loudness"
+msgstr "Loudness"
+
+#: data/ui/autogain.ui:370
+msgid "Output Gain"
+msgstr "Guadagno Uscita"
+
+#: data/ui/autogain.ui:407 data/ui/bass_enhancer.ui:262
+#: data/ui/bass_loudness.ui:146 data/ui/compressor.ui:576
+#: data/ui/compressor.ui:1058 data/ui/convolver.ui:226 data/ui/crossfeed.ui:143
+#: data/ui/crystalizer.ui:43 data/ui/deesser.ui:417 data/ui/delay.ui:235
+#: data/ui/echo_canceller.ui:149 data/ui/equalizer.ui:333
+#: data/ui/exciter.ui:262 data/ui/filter.ui:173 data/ui/gate.ui:715
+#: data/ui/gate.ui:1196 data/ui/limiter.ui:728 data/ui/loudness.ui:177
+#: data/ui/maximizer.ui:146 data/ui/multiband_compressor.ui:454
+#: data/ui/multiband_gate.ui:454 data/ui/pipe_manager_box.ui:306
+#: data/ui/pitch.ui:305 data/ui/presets_menu.ui:177 data/ui/reverb.ui:362
+#: data/ui/rnnoise.ui:155 data/ui/stereo_tools.ui:40
+#: data/ui/stereo_tools.ui:625
+msgid "Input"
+msgstr "Ingresso"
+
+#: data/ui/autogain.ui:426 data/ui/bass_enhancer.ui:281
+#: data/ui/bass_loudness.ui:165 data/ui/compressor.ui:1077
+#: data/ui/convolver.ui:245 data/ui/crossfeed.ui:162 data/ui/crystalizer.ui:62
+#: data/ui/deesser.ui:436 data/ui/delay.ui:254 data/ui/echo_canceller.ui:168
+#: data/ui/equalizer.ui:352 data/ui/exciter.ui:281 data/ui/filter.ui:192
+#: data/ui/gate.ui:1215 data/ui/limiter.ui:747 data/ui/loudness.ui:196
+#: data/ui/maximizer.ui:165 data/ui/multiband_compressor.ui:473
+#: data/ui/multiband_gate.ui:473 data/ui/pitch.ui:324 data/ui/reverb.ui:381
+#: data/ui/rnnoise.ui:174 data/ui/stereo_tools.ui:644
+msgid "Plugin Input Gain"
+msgstr "Guadagno in Ingresso del Plugin"
+
+#: data/ui/autogain.ui:491 data/ui/bass_enhancer.ui:346
+#: data/ui/bass_loudness.ui:63 data/ui/bass_loudness.ui:230
+#: data/ui/compressor.ui:1142 data/ui/convolver.ui:310 data/ui/crossfeed.ui:227
+#: data/ui/crystalizer.ui:127 data/ui/deesser.ui:501 data/ui/delay.ui:319
+#: data/ui/echo_canceller.ui:233 data/ui/equalizer.ui:417
+#: data/ui/exciter.ui:346 data/ui/filter.ui:257 data/ui/gate.ui:1280
+#: data/ui/limiter.ui:812 data/ui/loudness.ui:261 data/ui/maximizer.ui:230
+#: data/ui/multiband_compressor.ui:538 data/ui/multiband_gate.ui:538
+#: data/ui/pipe_manager_box.ui:209 data/ui/pitch.ui:389
+#: data/ui/presets_menu.ui:28 data/ui/reverb.ui:446 data/ui/rnnoise.ui:239
+#: data/ui/stereo_tools.ui:381 data/ui/stereo_tools.ui:709
+msgid "Output"
+msgstr "Uscita"
+
+#: data/ui/autogain.ui:510 data/ui/bass_enhancer.ui:365
+#: data/ui/bass_loudness.ui:249 data/ui/compressor.ui:1161
+#: data/ui/convolver.ui:329 data/ui/crossfeed.ui:246 data/ui/crystalizer.ui:146
+#: data/ui/deesser.ui:520 data/ui/delay.ui:338 data/ui/echo_canceller.ui:252
+#: data/ui/equalizer.ui:436 data/ui/exciter.ui:365 data/ui/filter.ui:276
+#: data/ui/gate.ui:1299 data/ui/limiter.ui:831 data/ui/loudness.ui:280
+#: data/ui/maximizer.ui:249 data/ui/multiband_compressor.ui:557
+#: data/ui/multiband_gate.ui:557 data/ui/pitch.ui:408 data/ui/reverb.ui:465
+#: data/ui/rnnoise.ui:258 data/ui/stereo_tools.ui:728
+msgid "Plugin Output Gain"
+msgstr "Guadagno in Uscita del Plugin"
+
+#: data/ui/autogain.ui:573 data/ui/bass_enhancer.ui:459
+#: data/ui/bass_loudness.ui:312 data/ui/compressor.ui:1224
+#: data/ui/convolver.ui:392 data/ui/crossfeed.ui:309 data/ui/crystalizer.ui:201
+#: data/ui/deesser.ui:643 data/ui/delay.ui:401 data/ui/echo_canceller.ui:315
+#: data/ui/equalizer.ui:499 data/ui/equalizer_band.ui:223
+#: data/ui/equalizer_band.ui:294 data/ui/exciter.ui:458 data/ui/filter.ui:339
+#: data/ui/gate.ui:1392 data/ui/limiter.ui:894 data/ui/loudness.ui:343
+#: data/ui/maximizer.ui:344 data/ui/multiband_compressor.ui:620
+#: data/ui/multiband_gate.ui:620 data/ui/pitch.ui:471 data/ui/reverb.ui:528
+#: data/ui/rnnoise.ui:321 data/ui/stereo_tools.ui:791
+msgid "Reset"
+msgstr "Reset"
+
+#: data/ui/autogain.ui:587 data/ui/bass_enhancer.ui:473
+#: data/ui/bass_loudness.ui:326 data/ui/compressor.ui:1238
+#: data/ui/convolver.ui:406 data/ui/crossfeed.ui:323 data/ui/deesser.ui:657
+#: data/ui/delay.ui:415 data/ui/echo_canceller.ui:329 data/ui/equalizer.ui:513
+#: data/ui/exciter.ui:472 data/ui/filter.ui:353 data/ui/gate.ui:1406
+#: data/ui/limiter.ui:908 data/ui/loudness.ui:357 data/ui/maximizer.ui:358
+#: data/ui/multiband_compressor.ui:634 data/ui/multiband_gate.ui:634
+#: data/ui/pitch.ui:485 data/ui/reverb.ui:542 data/ui/rnnoise.ui:335
+#: data/ui/stereo_tools.ui:805
+msgid "Using"
+msgstr "Utilizzo"
+
+#: data/ui/autoload_row.ui:16 data/ui/compressor.ui:599 data/ui/gate.ui:738
+msgid "Device"
+msgstr "Dispositivo Audio"
+
+#: data/ui/autoload_row.ui:40 data/ui/factory_clients_listview.ui:44
+#: data/ui/factory_modules_listview.ui:44 data/ui/pipe_manager_box.ui:53
+#: data/ui/pipe_manager_box.ui:89 data/ui/presets_menu.ui:47
+#: data/ui/presets_menu.ui:195
+msgid "Name"
+msgstr "Nome"
+
+#: data/ui/autoload_row.ui:64
+msgid "Profile"
+msgstr "Profilo Dispositivo"
+
+#: data/ui/autoload_row.ui:89
+msgid "Preset"
+msgstr "Profilo EasyEffects"
+
+#: data/ui/autoload_row.ui:114
+msgid "Remove this autoload preset"
+msgstr "Rimuovi questo profilo di auto-caricamento"
+
+#: data/ui/bass_enhancer.ui:23 data/ui/compressor.ui:529 data/ui/deesser.ui:24
+#: data/ui/exciter.ui:23 data/ui/gate.ui:668
+msgid "Listen"
+msgstr "Ascolta"
+
+#: data/ui/bass_enhancer.ui:34 data/ui/exciter.ui:34
+msgid "Blend Harmonics"
+msgstr "Mix Armoniche"
+
+#: data/ui/bass_enhancer.ui:46 data/ui/exciter.ui:46
+msgid "3rd"
+msgstr "3ª"
+
+#: data/ui/bass_enhancer.ui:89 data/ui/exciter.ui:89
+msgid "2nd"
+msgstr "2ª"
+
+#: data/ui/bass_enhancer.ui:108 data/ui/exciter.ui:108
+msgid "Amount"
+msgstr "Quantità"
+
+#: data/ui/bass_enhancer.ui:142 data/ui/bass_enhancer.ui:424
+#: data/ui/exciter.ui:142 data/ui/exciter.ui:424
+msgid "Harmonics"
+msgstr "Armoniche"
+
+#: data/ui/bass_enhancer.ui:177 data/ui/exciter.ui:177
+msgid "Scope"
+msgstr "Soglia"
+
+#: data/ui/bass_enhancer.ui:211
+msgid "Floor"
+msgstr "Limite Inferiore"
+
+#: data/ui/bass_enhancer.ui:240
+msgid "Floor Value"
+msgstr "Valore Limite Inferiore"
+
+#: data/ui/bass_loudness.ui:97
+msgid "Link"
+msgstr "Link"
+
+#: data/ui/blocklist_menu.ui:23 data/ui/blocklist_menu.ui:26
+msgid "Application Name"
+msgstr "Nome Applicazione"
+
+#: data/ui/blocklist_menu.ui:42
+msgid "Add to Excluded Applications"
+msgstr "Aggiungi alle Applicazioni Escluse"
+
+#: data/ui/blocklist_menu.ui:86
+msgid "Excluded Applications List"
+msgstr "Lista delle Applicazioni Escluse"
+
+#: data/ui/blocklist_menu.ui:99
+msgid "Show Excluded Applications"
+msgstr "Mostra Applicazioni Escluse"
+
+#: data/ui/compressor.ui:41 src/tags_plugin_name.cpp:34
+msgid "Compressor"
+msgstr "Compressore"
+
+#: data/ui/compressor.ui:53 data/ui/compressor.ui:501 data/ui/compressor.ui:796
+#: data/ui/deesser.ui:64 data/ui/equalizer.ui:62 data/ui/equalizer_band.ui:130
+#: data/ui/gate.ui:640 data/ui/gate.ui:934 data/ui/limiter.ui:46
+#: data/ui/multiband_compressor_band.ui:457 data/ui/multiband_gate_band.ui:520
+#: data/ui/pitch.ui:32
+msgid "Mode"
+msgstr "Modalità"
+
+#: data/ui/compressor.ui:64 data/ui/multiband_compressor_band.ui:99
+msgid "Downward"
+msgstr "Riduttiva"
+
+#: data/ui/compressor.ui:65 data/ui/multiband_compressor_band.ui:100
+msgid "Upward"
+msgstr "Espansiva"
+
+#: data/ui/compressor.ui:66 data/ui/multiband_compressor_band.ui:101
+msgid "Boosting"
+msgstr "Incrementale"
+
+#: data/ui/compressor.ui:73 data/ui/multiband_compressor_band.ui:88
+msgid "Compression Mode"
+msgstr "Modalità Compressione"
+
+#: data/ui/compressor.ui:80 data/ui/multiband_compressor_band.ui:744
+msgid "Boost Threshold"
+msgstr "Soglia Incremento"
+
+#: data/ui/compressor.ui:119 data/ui/multiband_compressor_band.ui:700
+msgid "Boost Amount"
+msgstr "Quantità Incremento"
+
+#: data/ui/compressor.ui:165 data/ui/gate.ui:60 data/ui/limiter.ui:262
+#: data/ui/limiter.ui:485 data/ui/multiband_compressor_band.ui:186
+#: data/ui/multiband_gate_band.ui:144
+msgid "Attack"
+msgstr "Attacco"
+
+#: data/ui/compressor.ui:176 data/ui/multiband_compressor_band.ui:166
+msgid "Time"
+msgstr "Tempo"
+
+#: data/ui/compressor.ui:186 data/ui/deesser.ui:299 data/ui/gate.ui:153
+#: data/ui/gate.ui:247 data/ui/limiter.ui:346 data/ui/maximizer.ui:30
+#: data/ui/multiband_compressor_band.ui:177 data/ui/multiband_gate_band.ui:237
+#: data/ui/multiband_gate_band.ui:331
+msgid "Threshold"
+msgstr "Soglia"
+
+#: data/ui/compressor.ui:212 data/ui/multiband_compressor_band.ui:222
+msgid "Attack Time"
+msgstr "Tempo di Attacco"
+
+#: data/ui/compressor.ui:234 data/ui/gate.ui:537
+#: data/ui/multiband_compressor_band.ui:247
+msgid "Attack Threshold"
+msgstr "Soglia di Attacco"
+
+#: data/ui/compressor.ui:241 data/ui/gate.ui:66 data/ui/limiter.ui:304
+#: data/ui/limiter.ui:522 data/ui/maximizer.ui:96
+#: data/ui/multiband_compressor_band.ui:195 data/ui/multiband_gate_band.ui:150
+msgid "Release"
+msgstr "Rilascio"
+
+#: data/ui/compressor.ui:267 data/ui/multiband_compressor_band.ui:274
+msgid "Release Time"
+msgstr "Tempo di Rilascio"
+
+#: data/ui/compressor.ui:291 data/ui/gate.ui:591
+#: data/ui/multiband_compressor_band.ui:302
+msgid "Release Threshold"
+msgstr "Soglia di Rilascio"
+
+#: data/ui/compressor.ui:298 data/ui/deesser.ui:333
+#: data/ui/multiband_compressor_band.ui:309
+msgid "Ratio"
+msgstr "Rapporto"
+
+#: data/ui/compressor.ui:335 data/ui/limiter.ui:558
+#: data/ui/multiband_compressor_band.ui:347
+msgid "Knee"
+msgstr "Curvatura"
+
+#: data/ui/compressor.ui:370 data/ui/deesser.ui:369 data/ui/gate.ui:428
+#: data/ui/multiband_compressor_band.ui:385 data/ui/multiband_gate_band.ui:418
+msgid "Makeup"
+msgstr "Guadagno"
+
+#: data/ui/compressor.ui:405 data/ui/delay.ui:105 data/ui/gate.ui:342
+#: data/ui/multiband_compressor.ui:132 data/ui/multiband_gate.ui:132
+#: data/ui/reverb.ui:208 data/ui/stereo_tools.ui:534
+msgid "Dry Level"
+msgstr "Livello Dry"
+
+#: data/ui/compressor.ui:440 data/ui/delay.ui:164 data/ui/gate.ui:347
+#: data/ui/multiband_compressor.ui:166 data/ui/multiband_gate.ui:166
+#: data/ui/reverb.ui:242 data/ui/stereo_tools.ui:570
+msgid "Wet Level"
+msgstr "Livello Wet"
+
+#: data/ui/compressor.ui:482 data/ui/compressor.ui:994 data/ui/gate.ui:621
+#: data/ui/gate.ui:1132
+msgid "Sidechain"
+msgstr "Sidechain"
+
+#: data/ui/compressor.ui:511 data/ui/deesser.ui:48 data/ui/gate.ui:650
+#: data/ui/multiband_compressor_band.ui:468 data/ui/multiband_gate_band.ui:531
+msgid "Peak"
+msgstr "Picco"
+
+#: data/ui/compressor.ui:512 data/ui/deesser.ui:47 data/ui/gate.ui:651
+#: data/ui/multiband_compressor_band.ui:469 data/ui/multiband_gate_band.ui:532
+msgid "RMS"
+msgstr "RMS"
+
+#: data/ui/compressor.ui:513 data/ui/compressor.ui:865 data/ui/gate.ui:1003
+#: data/ui/multiband_compressor_band.ui:470
+msgid "Low-Pass"
+msgstr "Passa-Basso"
+
+#: data/ui/compressor.ui:514 data/ui/multiband_compressor_band.ui:471
+msgid "Uniform"
+msgstr "Uniforme"
+
+#: data/ui/compressor.ui:521 data/ui/gate.ui:660
+#: data/ui/multiband_compressor_band.ui:478 data/ui/multiband_gate_band.ui:541
+msgid "Sidechain Mode"
+msgstr "Modalità Sidechain"
+
+#: data/ui/compressor.ui:539 data/ui/gate.ui:678
+#: data/ui/multiband_compressor_band.ui:485 data/ui/multiband_gate_band.ui:548
+msgid "Source"
+msgstr "Sorgente"
+
+#: data/ui/compressor.ui:549 data/ui/gate.ui:688
+#: data/ui/multiband_compressor_band.ui:496 data/ui/multiband_gate_band.ui:559
+msgid "Middle"
+msgstr "Medio"
+
+#: data/ui/compressor.ui:550 data/ui/gate.ui:689
+#: data/ui/multiband_compressor_band.ui:497 data/ui/multiband_gate_band.ui:560
+msgid "Side"
+msgstr "Lato"
+
+#: data/ui/compressor.ui:551 data/ui/delay.ui:30 data/ui/equalizer.ui:216
+#: data/ui/gate.ui:690 data/ui/multiband_compressor_band.ui:498
+#: data/ui/multiband_gate_band.ui:561 data/ui/pipe_manager_box.ui:504
+#: data/ui/stereo_tools.ui:161
+msgid "Left"
+msgstr "Sinistro"
+
+#: data/ui/compressor.ui:552 data/ui/delay.ui:39 data/ui/equalizer.ui:228
+#: data/ui/gate.ui:691 data/ui/multiband_compressor_band.ui:499
+#: data/ui/multiband_gate_band.ui:562 data/ui/pipe_manager_box.ui:515
+#: data/ui/stereo_tools.ui:216
+msgid "Right"
+msgstr "Destro"
+
+#: data/ui/compressor.ui:559 data/ui/gate.ui:698
+#: data/ui/multiband_compressor.ui:71 data/ui/multiband_compressor_band.ui:506
+#: data/ui/multiband_gate.ui:71 data/ui/multiband_gate_band.ui:569
+msgid "Sidechain Source"
+msgstr "Sorgente Sidechain"
+
+#: data/ui/compressor.ui:588 data/ui/equalizer_band.ui:98 data/ui/gate.ui:727
+msgid "Type"
+msgstr "Tipo"
+
+#: data/ui/compressor.ui:612
+msgid "Feed-forward"
+msgstr "Feed-forward"
+
+#: data/ui/compressor.ui:613
+msgid "Feed-back"
+msgstr "Feed-back"
+
+#: data/ui/compressor.ui:614 data/ui/gate.ui:752
+msgid "External"
+msgstr "Esterna"
+
+#: data/ui/compressor.ui:621 data/ui/gate.ui:759
+msgid "Sidechain Type"
+msgstr "Tipo Sidechain"
+
+#: data/ui/compressor.ui:648 data/ui/gate.ui:786 src/plugins_box.cpp:646
+msgid "Input Device"
+msgstr "Dispositivo Ingresso"
+
+#: data/ui/compressor.ui:656 data/ui/gate.ui:794
+msgid "PreAmplification"
+msgstr "PreAmplificazione"
+
+#: data/ui/compressor.ui:693 data/ui/gate.ui:831
+#: data/ui/multiband_compressor_band.ui:633 data/ui/multiband_gate_band.ui:695
+msgid "Reactivity"
+msgstr "Reattività"
+
+#: data/ui/compressor.ui:730 data/ui/gate.ui:868 data/ui/limiter.ui:220
+#: data/ui/multiband_compressor_band.ui:667 data/ui/multiband_gate_band.ui:728
+msgid "Lookahead"
+msgstr "Lookahead"
+
+#: data/ui/compressor.ui:773 data/ui/gate.ui:911
+msgid "Sidechain Filters"
+msgstr "Filtri Sidechain"
+
+#: data/ui/compressor.ui:783 data/ui/gate.ui:921
+msgid "High-Pass"
+msgstr "Passa-Alto"
+
+#: data/ui/compressor.ui:809 data/ui/equalizer_band.ui:197 data/ui/filter.ui:53
+#: data/ui/gate.ui:947 data/ui/pipe_manager_box.ui:561
+msgid "Frequency"
+msgstr "Frequenza"
+
+#: data/ui/compressor.ui:822 data/ui/compressor.ui:878
+#: data/ui/equalizer_band.ui:108 data/ui/gate.ui:960 data/ui/gate.ui:1016
+msgid "Off"
+msgstr "Off"
+
+#: data/ui/compressor.ui:823 data/ui/compressor.ui:879 data/ui/gate.ui:961
+#: data/ui/gate.ui:1017
+msgid "12 dB/oct"
+msgstr "12 dB/ott"
+
+#: data/ui/compressor.ui:824 data/ui/compressor.ui:880 data/ui/gate.ui:962
+#: data/ui/gate.ui:1018
+msgid "24 dB/oct"
+msgstr "24 dB/ott"
+
+#: data/ui/compressor.ui:825 data/ui/compressor.ui:881 data/ui/gate.ui:963
+#: data/ui/gate.ui:1019
+msgid "36 dB/oct"
+msgstr "36 dB/ott"
+
+#: data/ui/compressor.ui:832 data/ui/gate.ui:970
+msgid "High-Pass Filter Mode"
+msgstr "Modalità Filtro Passa-Alto"
+
+#: data/ui/compressor.ui:858 data/ui/compressor.ui:914 data/ui/gate.ui:996
+#: data/ui/gate.ui:1052
+msgid "High-Pass Filter Frequency"
+msgstr "Frequenza Filtro Passa-Alto"
+
+#: data/ui/compressor.ui:888 data/ui/gate.ui:1026
+msgid "Low-Pass Filter Mode"
+msgstr "Modalità Filtro Passa-Basso"
+
+#: data/ui/compressor.ui:940
+msgid "Gain"
+msgstr "Guadagno"
+
+#: data/ui/compressor.ui:967 data/ui/gate.ui:1105
+msgid "Envelope"
+msgstr "Envelope"
+
+#: data/ui/compressor.ui:1021 data/ui/gate.ui:137 data/ui/gate.ui:1159
+#: data/ui/multiband_gate_band.ui:221
+msgid "Curve"
+msgstr "Curva"
+
+#: data/ui/convolver.ui:40
+msgid "L"
+msgstr "S"
+
+#: data/ui/convolver.ui:43 data/ui/pipe_manager_box.ui:507
+msgid "Left Channel"
+msgstr "Canale Sinistro"
+
+#: data/ui/convolver.ui:53
+msgid "R"
+msgstr "D"
+
+#: data/ui/convolver.ui:56 data/ui/pipe_manager_box.ui:518
+msgid "Right Channel"
+msgstr "Canale Destro"
+
+#: data/ui/convolver.ui:71
+msgid "Impulses"
+msgstr "Impulsi"
+
+#: data/ui/convolver.ui:79 data/ui/convolver_menu_combine.ui:113
+#: data/ui/convolver_menu_combine.ui:116
+msgid "Combine"
+msgstr "Combina"
+
+#: data/ui/convolver.ui:86
+msgid "Stereo Width"
+msgstr "Ampiezza Stereo"
+
+#: data/ui/convolver.ui:114
+msgid "Spectrum"
+msgstr "Spettro"
+
+#: data/ui/convolver.ui:122
+msgid "Log Scale"
+msgstr "Scala Logaritmica"
+
+#: data/ui/convolver.ui:132 src/tags_plugin_name.cpp:31
+msgid "Autogain"
+msgstr "Auto Guadagno"
+
+#: data/ui/convolver.ui:148
+msgid "Rate"
+msgstr "Frequenza"
+
+#: data/ui/convolver.ui:169
+msgid "Samples"
+msgstr "Campioni"
+
+#: data/ui/convolver.ui:190
+msgid "Duration"
+msgstr "Durata"
+
+#: data/ui/convolver_menu_combine.ui:15
+msgid "Combine Impulse Responses"
+msgstr "Combina Risposte Impulso"
+
+#: data/ui/convolver_menu_combine.ui:48
+msgid "First Kernel"
+msgstr "Primo Kernel"
+
+#: data/ui/convolver_menu_combine.ui:82
+msgid "Second Kernel"
+msgstr "Secondo Kernel"
+
+#: data/ui/convolver_menu_combine.ui:91
+msgid "Output File Name"
+msgstr "Nome File Combinato"
+
+#: data/ui/convolver_menu_combine.ui:95
+msgid "Combined Kernel Name"
+msgstr "Nome File Combinato"
+
+#: data/ui/convolver_menu_impulses.ui:16
+msgid "Import Impulse"
+msgstr "Importa Impulso"
+
+#: data/ui/convolver_menu_impulses.ui:25 data/ui/plugins_menu.ui:17
+#: data/ui/presets_menu.ui:88 data/ui/presets_menu.ui:235
+msgid "Search"
+msgstr "Cerca"
+
+#: data/ui/convolver_menu_impulses.ui:27
+msgid "Search Impulse File"
+msgstr "Cerca File di Impulso"
+
+#: data/ui/convolver_menu_impulses.ui:47
+msgid "Impulse Files List"
+msgstr "Lista File di Impulso"
+
+#: data/ui/crossfeed.ui:35
+msgid "Default"
+msgstr "Predefinito"
+
+#: data/ui/crossfeed.ui:58
+msgid "Cutoff"
+msgstr "Taglio"
+
+#: data/ui/crossfeed.ui:93
+msgid "Feed"
+msgstr "Feed"
+
+#: data/ui/crystalizer_band.ui:11
+msgid "Bypass"
+msgstr "Bypass"
+
+#: data/ui/crystalizer_band.ui:17 data/ui/equalizer_band.ui:320
+#: data/ui/multiband_compressor_band.ui:136 data/ui/multiband_gate_band.ui:109
+#: data/ui/stereo_tools.ui:171 data/ui/stereo_tools.ui:196
+msgid "Mute"
+msgstr "Silenzia"
+
+#: data/ui/deesser.ui:40
+msgid "Detection"
+msgstr "Rilevamento"
+
+#: data/ui/deesser.ui:71
+msgid "Wide"
+msgstr "Banda Larga"
+
+#: data/ui/deesser.ui:72
+msgid "Split"
+msgstr "Split"
+
+#: data/ui/deesser.ui:88
+msgid "F1 Split"
+msgstr "F1 Split"
+
+#: data/ui/deesser.ui:108
+msgid "Frequency 1 Split"
+msgstr "Frequenza 1 Split"
+
+#: data/ui/deesser.ui:121
+msgid "F2 Peak"
+msgstr "F2 Picco"
+
+#: data/ui/deesser.ui:141
+msgid "Frequency 2 Peak"
+msgstr "Frequenza 2 Picco"
+
+#: data/ui/deesser.ui:159
+msgid "F1 Gain"
+msgstr "F1 Guadagno"
+
+#: data/ui/deesser.ui:187
+msgid "Frequency 1 Gain"
+msgstr "Frequenza 1 Guadagno"
+
+#: data/ui/deesser.ui:194
+msgid "F2 Level"
+msgstr "F2 Livello"
+
+#: data/ui/deesser.ui:222
+msgid "Frequency 2 Level"
+msgstr "Frequenza 2 Livello"
+
+#: data/ui/deesser.ui:229
+msgid "F2 Peak Q"
+msgstr "F2 Picco Q"
+
+#: data/ui/deesser.ui:257
+msgid "Frequency 2 Peak Q"
+msgstr "Frequenza 2 Picco Q"
+
+#: data/ui/deesser.ui:264
+msgid "Laxity"
+msgstr "Lassità"
+
+#: data/ui/deesser.ui:579
+msgid "Detected"
+msgstr "Rilevato"
+
+#: data/ui/deesser.ui:609 data/ui/gate.ui:423 data/ui/gate.ui:1078
+#: data/ui/maximizer.ui:308 data/ui/multiband_gate_band.ui:413
+msgid "Reduction"
+msgstr "Riduzione"
+
+#: data/ui/delay.ui:50 src/tags_plugin_name.cpp:39
+msgid "Delay"
+msgstr "Delay"
+
+#: data/ui/delay.ui:75
+msgid "Left Delay"
+msgstr "Ritardo Sinistro"
+
+#: data/ui/delay.ui:97
+msgid "Right Delay"
+msgstr "Ritardo Destro"
+
+#: data/ui/delay.ui:132
+msgid "Left Dry Level"
+msgstr "Livello Dry Sinistro"
+
+#: data/ui/delay.ui:156
+msgid "Right Dry Level"
+msgstr "Livello Dry Destro"
+
+#: data/ui/delay.ui:190
+msgid "Left Wet Level"
+msgstr "Livello Wet Sinistro"
+
+#: data/ui/delay.ui:213
+msgid "Right Wet Level"
+msgstr "Livello Wet Destro"
+
+#: data/ui/echo_canceller.ui:30
+msgid "Frame Size"
+msgstr "Dimensione Frame"
+
+#: data/ui/echo_canceller.ui:65
+msgid "Filter Length"
+msgstr "Lunghezza Filtro"
+
+#: data/ui/echo_canceller.ui:100
+msgid "Suppression"
+msgstr "Soppressione"
+
+#: data/ui/effects_box.ui:114
+msgid "Excluded Apps"
+msgstr "App Escluse"
+
+#: data/ui/equalizer.ui:29
+msgid "Bands"
+msgstr "Bande"
+
+#: data/ui/equalizer.ui:73
+msgid "IIR"
+msgstr "IIR"
+
+#: data/ui/equalizer.ui:74
+msgid "FIR"
+msgstr "FIR"
+
+#: data/ui/equalizer.ui:75
+msgid "FFT"
+msgstr "FFT"
+
+#: data/ui/equalizer.ui:76
+msgid "SPM"
+msgstr "SPM"
+
+#: data/ui/equalizer.ui:90 data/ui/stereo_tools.ui:52
+#: data/ui/stereo_tools.ui:393
+msgid "Balance"
+msgstr "Bilanciamento"
+
+#: data/ui/equalizer.ui:123
+msgid "Pitch Left"
+msgstr "Tono Sinistro"
+
+#: data/ui/equalizer.ui:156
+msgid "Pitch Right"
+msgstr "Tono Destro"
+
+#: data/ui/equalizer.ui:251
+msgid "Split Channels"
+msgstr "Separa Canali"
+
+#: data/ui/equalizer.ui:257
+msgid "Flat Response"
+msgstr "Risposta Piatta"
+
+#: data/ui/equalizer.ui:265
+msgid "Calculate Frequencies"
+msgstr "Calcola Frequenze"
+
+#: data/ui/equalizer.ui:280 src/presets_menu.cpp:102
+msgid "Import Preset"
+msgstr "Importa Profilo"
+
+#: data/ui/equalizer_band.ui:109
+msgid "Bell"
+msgstr "Campana"
+
+#: data/ui/equalizer_band.ui:110
+msgid "High Pass"
+msgstr "Passa Alto"
+
+#: data/ui/equalizer_band.ui:111
+msgid "High Shelf"
+msgstr "Sopra Soglia"
+
+#: data/ui/equalizer_band.ui:112
+msgid "Low Pass"
+msgstr "Passa Basso"
+
+#: data/ui/equalizer_band.ui:113
+msgid "Low Shelf"
+msgstr "Sotto Soglia"
+
+#: data/ui/equalizer_band.ui:114
+msgid "Notch"
+msgstr "Notch"
+
+#: data/ui/equalizer_band.ui:115 data/ui/filter.ui:88
+msgid "Resonance"
+msgstr "Risonanza"
+
+#: data/ui/equalizer_band.ui:116
+msgid "All Pass"
+msgstr "Passa Tutto"
+
+#: data/ui/equalizer_band.ui:123
+msgid "Band Type"
+msgstr "Tipo Banda"
+
+#: data/ui/equalizer_band.ui:153
+msgid "Band Mode"
+msgstr "Modalità Banda"
+
+#: data/ui/equalizer_band.ui:160
+msgid "Slope"
+msgstr "Pendenza"
+
+#: data/ui/equalizer_band.ui:180
+msgid "Band Slope"
+msgstr "Pendenza della Banda"
+
+#: data/ui/equalizer_band.ui:242
+msgid "Width"
+msgstr "Ampiezza"
+
+#: data/ui/equalizer_band.ui:269
+msgid "Quality"
+msgstr "Qualità"
+
+#: data/ui/equalizer_band.ui:314 data/ui/multiband_compressor_band.ui:146
+#: data/ui/multiband_gate_band.ui:119
+msgid "Solo"
+msgstr "Isola"
+
+#: data/ui/exciter.ui:211
+msgid "Ceil"
+msgstr "Limite Superiore"
+
+#: data/ui/exciter.ui:240
+msgid "Ceil Value"
+msgstr "Valore Limite Superiore"
+
+#: data/ui/factory_clients_listview.ui:72
+msgid "API"
+msgstr "API"
+
+#: data/ui/factory_clients_listview.ui:100
+msgid "Access"
+msgstr "Accesso"
+
+#: data/ui/factory_modules_listview.ui:72
+msgid "Description"
+msgstr "Descrizione"
+
+#: data/ui/factory_rnnoise_listview.ui:24
+msgid "Remove this model file"
+msgstr "Rimuovi questo profilo"
+
+#: data/ui/filter.ui:25
+msgid "12dB/oct Lowpass"
+msgstr "12dB/oct Passa Basso"
+
+#: data/ui/filter.ui:26
+msgid "24dB/oct Lowpass"
+msgstr "24dB/oct Passa Basso"
+
+#: data/ui/filter.ui:27
+msgid "36dB/oct Lowpass"
+msgstr "36dB/oct Passa Basso"
+
+#: data/ui/filter.ui:28
+msgid "12dB/oct Highpass"
+msgstr "12dB/oct Passa Alto"
+
+#: data/ui/filter.ui:29
+msgid "24dB/oct Highpass"
+msgstr "24dB/oct Passa Alto"
+
+#: data/ui/filter.ui:30
+msgid "36dB/oct Highpass"
+msgstr "36dB/oct Passa Alto"
+
+#: data/ui/filter.ui:31
+msgid "6dB/oct Bandpass"
+msgstr "6dB/oct Passa Banda"
+
+#: data/ui/filter.ui:32
+msgid "12dB/oct Bandpass"
+msgstr "12dB/oct Passa Banda"
+
+#: data/ui/filter.ui:33
+msgid "18dB/oct Bandpass"
+msgstr "18dB/oct Passa Banda"
+
+#: data/ui/filter.ui:34
+msgid "6dB/oct Bandreject"
+msgstr "6dB/oct Elimina Banda"
+
+#: data/ui/filter.ui:35
+msgid "12dB/oct Bandreject"
+msgstr "12dB/oct Elimina Banda"
+
+#: data/ui/filter.ui:36
+msgid "18dB/oct Bandreject"
+msgstr "18dB/oct Elimina Banda"
+
+#: data/ui/filter.ui:123
+msgid "Inertia"
+msgstr "Inerzia"
+
+#: data/ui/gate.ui:41 src/tags_plugin_name.cpp:44
+msgid "Gate"
+msgstr "Gate"
+
+#: data/ui/gate.ui:159 data/ui/gate.ui:252 data/ui/multiband_gate_band.ui:243
+#: data/ui/multiband_gate_band.ui:336
+msgid "Zone"
+msgstr "Zona"
+
+#: data/ui/gate.ui:231 data/ui/multiband_gate_band.ui:315
+msgid "Hysteresis"
+msgstr "Isteresi"
+
+#: data/ui/gate.ui:326
+msgid "Mix"
+msgstr "Mix"
+
+#: data/ui/gate.ui:510
+msgid "Attack Zone Start"
+msgstr "Inizio Zona Attacco"
+
+#: data/ui/gate.ui:564
+msgid "Release Zone Start"
+msgstr "Inizio Zona Rilascio"
+
+#: data/ui/gate.ui:652 data/ui/multiband_gate_band.ui:533
+msgid "Low-Pass Filter"
+msgstr "Filtro Passa-Basso"
+
+#: data/ui/gate.ui:653 data/ui/multiband_gate_band.ui:534
+msgid "Simple Moving Average"
+msgstr "Media Mobile Semplice"
+
+#: data/ui/gate.ui:751
+msgid "Internal"
+msgstr "Interna"
+
+#: data/ui/gate.ui:1358 data/ui/multiband_gate_band.ui:856
+msgid "Gating"
+msgstr "Gate"
+
+#: data/ui/limiter.ui:58
+msgid "Oversampling"
+msgstr "Sovracampionamento"
+
+#: data/ui/limiter.ui:70
+msgid "Dither"
+msgstr "Dither"
+
+#: data/ui/limiter.ui:82
+msgid "Herm Thin"
+msgstr "Herm Thin"
+
+#: data/ui/limiter.ui:83
+msgid "Herm Wide"
+msgstr "Herm Wide"
+
+#: data/ui/limiter.ui:84
+msgid "Herm Tail"
+msgstr "Herm Tail"
+
+#: data/ui/limiter.ui:85
+msgid "Herm Duck"
+msgstr "Herm Duck"
+
+#: data/ui/limiter.ui:86
+msgid "Exp Thin"
+msgstr "Exp Thin"
+
+#: data/ui/limiter.ui:87
+msgid "Exp Wide"
+msgstr "Exp Wide"
+
+#: data/ui/limiter.ui:88
+msgid "Exp Tail"
+msgstr "Exp Tail"
+
+#: data/ui/limiter.ui:89
+msgid "Exp Duck"
+msgstr "Exp Duck"
+
+#: data/ui/limiter.ui:90
+msgid "Line Thin"
+msgstr "Line Thin"
+
+#: data/ui/limiter.ui:91
+msgid "Line Wide"
+msgstr "Line Wide"
+
+#: data/ui/limiter.ui:92
+msgid "Line Tail"
+msgstr "Line Tail"
+
+#: data/ui/limiter.ui:93
+msgid "Line Duck"
+msgstr "Line Duck"
+
+#: data/ui/limiter.ui:109 data/ui/multiband_compressor.ui:53
+#: data/ui/multiband_gate.ui:53
+msgid "None"
+msgstr "Off"
+
+#: data/ui/limiter.ui:110
+msgid "Half x2(2L)"
+msgstr "Parziale x2(2L)"
+
+#: data/ui/limiter.ui:111
+msgid "Half x2(3L)"
+msgstr "Parziale x2(3L)"
+
+#: data/ui/limiter.ui:112
+msgid "Half x3(2L)"
+msgstr "Parziale x3(2L)"
+
+#: data/ui/limiter.ui:113
+msgid "Half x3(3L)"
+msgstr "Parziale x3(3L)"
+
+#: data/ui/limiter.ui:114
+msgid "Half x4(2L)"
+msgstr "Parziale x4(2L)"
+
+#: data/ui/limiter.ui:115
+msgid "Half x4(3L)"
+msgstr "Parziale x4(3L)"
+
+#: data/ui/limiter.ui:116
+msgid "Half x6(2L)"
+msgstr "Parziale x6(2L)"
+
+#: data/ui/limiter.ui:117
+msgid "Half x6(3L)"
+msgstr "Parziale x6(3L)"
+
+#: data/ui/limiter.ui:118
+msgid "Half x8(2L)"
+msgstr "Parziale x8(2L)"
+
+#: data/ui/limiter.ui:119
+msgid "Half x8(3L)"
+msgstr "Parziale x8(3L)"
+
+#: data/ui/limiter.ui:120
+msgid "Full x2(2L)"
+msgstr "Intero x2(2L)"
+
+#: data/ui/limiter.ui:121
+msgid "Full x2(3L)"
+msgstr "Intero x2(3L)"
+
+#: data/ui/limiter.ui:122
+msgid "Full x3(2L)"
+msgstr "Intero x3(2L)"
+
+#: data/ui/limiter.ui:123
+msgid "Full x3(3L)"
+msgstr "Intero x3(3L)"
+
+#: data/ui/limiter.ui:124
+msgid "Full x4(2L)"
+msgstr "Intero x4(2L)"
+
+#: data/ui/limiter.ui:125
+msgid "Full x4(3L)"
+msgstr "Intero x4(3L)"
+
+#: data/ui/limiter.ui:126
+msgid "Full x6(2L)"
+msgstr "Intero x6(2L)"
+
+#: data/ui/limiter.ui:127
+msgid "Full x6(3L)"
+msgstr "Intero x6(3L)"
+
+#: data/ui/limiter.ui:128
+msgid "Full x8(2L)"
+msgstr "Intero x8(2L)"
+
+#: data/ui/limiter.ui:129
+msgid "Full x8(3L)"
+msgstr "Intero x8(3L)"
+
+#: data/ui/limiter.ui:179
+msgid "SC PreAmp"
+msgstr "SC PreAmp"
+
+#: data/ui/limiter.ui:208 data/ui/multiband_compressor_band.ui:626
+#: data/ui/multiband_gate_band.ui:688
+msgid "Sidechain PreAmplification"
+msgstr "PreAmplificazione Sidechain"
+
+#: data/ui/limiter.ui:383
+msgid "Boost"
+msgstr "Incremento"
+
+#: data/ui/limiter.ui:398
+msgid "Stereo Link"
+msgstr "Relazione Canali"
+
+#: data/ui/limiter.ui:443 data/ui/multiband_compressor_band.ui:116
+#: data/ui/multiband_gate_band.ui:89
+msgid "External Sidechain"
+msgstr "Sidechain Esterna"
+
+#: data/ui/limiter.ui:456 data/ui/multiband_compressor.ui:91
+#: data/ui/multiband_gate.ui:91
+msgid "External Sidechain Source"
+msgstr "Sorgente Sidechain Esterna"
+
+#: data/ui/limiter.ui:475
+msgid "Auto Leveling"
+msgstr "Auto Regolazione"
+
+#: data/ui/limiter.ui:515
+msgid "Auto Leveling Attack"
+msgstr "Auto Regolazione Attacco"
+
+#: data/ui/limiter.ui:551
+msgid "Auto Leveling Release"
+msgstr "Auto Regolazione Rilascio"
+
+#: data/ui/limiter.ui:586
+msgid "Auto Leveling Knee"
+msgstr "Auto Regolazione Curvatura"
+
+#: data/ui/limiter.ui:611
+msgid "Gain Left"
+msgstr "Guadagno Sinistro"
+
+#: data/ui/limiter.ui:638
+msgid "Gain Right"
+msgstr "Guadagno Destro"
+
+#: data/ui/limiter.ui:665
+msgid "Sidechain Left"
+msgstr "Sidechain Sinistro"
+
+#: data/ui/limiter.ui:692
+msgid "Sidechain Right"
+msgstr "Sidechain Destro"
+
+#: data/ui/loudness.ui:30
+msgid "Standard"
+msgstr "Standard"
+
+#: data/ui/loudness.ui:42
+msgid "Flat"
+msgstr "Flat"
+
+#: data/ui/loudness.ui:59
+msgid "FFT Size"
+msgstr "Dimensione FFT"
+
+#: data/ui/loudness.ui:84
+msgid "Fast Fourier Transform Size"
+msgstr "Dimensione della Trasformata di Fourier Veloce"
+
+#: data/ui/loudness.ui:91
+msgid "Output Volume"
+msgstr "Volume Uscita"
+
+#: data/ui/loudness.ui:127
+msgid "Clipping"
+msgstr "Clipping"
+
+#: data/ui/loudness.ui:155
+msgid "Clipping Range"
+msgstr "Livello Clipping"
+
+#: data/ui/maximizer.ui:63
+msgid "Ceiling"
+msgstr "Limite Superiore"
+
+#: data/ui/multiband_compressor.ui:42 data/ui/multiband_gate.ui:42
+msgid "Sidechain Boost"
+msgstr "Incremento Sidechain"
+
+#: data/ui/multiband_compressor.ui:54 data/ui/multiband_gate.ui:54
+msgid "Pink BT"
+msgstr "Rumore Rosa BT"
+
+#: data/ui/multiband_compressor.ui:55 data/ui/multiband_gate.ui:55
+msgid "Pink MT"
+msgstr "Rumore Rosa MT"
+
+#: data/ui/multiband_compressor.ui:56 data/ui/multiband_gate.ui:56
+msgid "Brown BT"
+msgstr "Rumore Marrone BT"
+
+#: data/ui/multiband_compressor.ui:57 data/ui/multiband_gate.ui:57
+msgid "Brown MT"
+msgstr "Rumore Marrone MT"
+
+#: data/ui/multiband_compressor.ui:106 data/ui/multiband_gate.ui:106
+msgid "Operating Mode"
+msgstr "Modalità Operativa"
+
+#: data/ui/multiband_compressor.ui:117 data/ui/multiband_gate.ui:117
+msgid "Classic"
+msgstr "Classica"
+
+#: data/ui/multiband_compressor.ui:118 data/ui/multiband_gate.ui:118
+msgid "Modern"
+msgstr "Moderna"
+
+#: data/ui/multiband_compressor.ui:227 data/ui/multiband_gate.ui:227
+msgid "Bands List"
+msgstr "Lista Bande"
+
+#: data/ui/multiband_compressor.ui:236 data/ui/multiband_gate.ui:236
+msgid "Band 1"
+msgstr "Banda 1"
+
+#: data/ui/multiband_compressor.ui:253 data/ui/multiband_gate.ui:253
+msgid "Band 2"
+msgstr "Banda 2"
+
+#: data/ui/multiband_compressor.ui:279 data/ui/multiband_gate.ui:279
+msgid "Band 3"
+msgstr "Banda 3"
+
+#: data/ui/multiband_compressor.ui:305 data/ui/multiband_gate.ui:305
+msgid "Band 4"
+msgstr "Banda 4"
+
+#: data/ui/multiband_compressor.ui:331 data/ui/multiband_gate.ui:331
+msgid "Band 5"
+msgstr "Banda 5"
+
+#: data/ui/multiband_compressor.ui:357 data/ui/multiband_gate.ui:357
+msgid "Band 6"
+msgstr "Banda 6"
+
+#: data/ui/multiband_compressor.ui:383 data/ui/multiband_gate.ui:383
+msgid "Band 7"
+msgstr "Banda 7"
+
+#: data/ui/multiband_compressor.ui:409 data/ui/multiband_gate.ui:409
+msgid "Band 8"
+msgstr "Banda 8"
+
+#: data/ui/multiband_compressor_band.ui:18 data/ui/multiband_gate_band.ui:18
+msgid "Band Start"
+msgstr "Inizio Banda"
+
+#: data/ui/multiband_compressor_band.ui:57 data/ui/multiband_gate_band.ui:57
+msgid "Band End"
+msgstr "Fine Banda"
+
+#: data/ui/multiband_compressor_band.ui:108
+msgid "Band Compression Mode"
+msgstr "Banda Modalità Compressione"
+
+#: data/ui/multiband_compressor_band.ui:126 data/ui/multiband_gate_band.ui:99
+msgid "Band Bypass"
+msgstr "Bypass Banda"
+
+#: data/ui/multiband_compressor_band.ui:431 data/ui/multiband_gate_band.ui:494
+msgid "Band Sidechain Options"
+msgstr "Opzioni Sidechain Banda"
+
+#: data/ui/multiband_compressor_band.ui:515 data/ui/multiband_gate_band.ui:578
+msgid "Low-Cut Filter"
+msgstr "Filtro Passa-Basso"
+
+#: data/ui/multiband_compressor_band.ui:543 data/ui/multiband_gate_band.ui:606
+msgid "Low-Cut Filter Frequency"
+msgstr "Frequenza Filtro Passa-Basso"
+
+#: data/ui/multiband_compressor_band.ui:552 data/ui/multiband_gate_band.ui:615
+msgid "High-Cut Filter"
+msgstr "Filtro Passa-Alto"
+
+#: data/ui/multiband_compressor_band.ui:580 data/ui/multiband_gate_band.ui:643
+msgid "High-Cut Filter Frequency"
+msgstr "Frequenza Filtro Passa-Alto"
+
+#: data/ui/multiband_compressor_band.ui:599 data/ui/multiband_gate_band.ui:662
+msgid "PreAmp"
+msgstr "PreAmp"
+
+#: data/ui/multiband_compressor_band.ui:805
+msgid "Band Gain"
+msgstr "Guadagno Banda"
+
+#: data/ui/multiband_compressor_band.ui:830 data/ui/multiband_gate_band.ui:802
+msgid "Band Envelope"
+msgstr "Envelope Banda"
+
+#: data/ui/multiband_compressor_band.ui:855 data/ui/multiband_gate_band.ui:827
+msgid "Band Curve"
+msgstr "Curva Banda"
+
+#: data/ui/multiband_gate_band.ui:777
+msgid "Band Reduction"
+msgstr "Riduzione Banda"
+
+#: data/ui/pipe_manager_box.ui:27
+msgid "General"
+msgstr "Generale"
+
+#: data/ui/pipe_manager_box.ui:34
+msgid "Device Management"
+msgstr "Gestione Dispositivi"
+
+#: data/ui/pipe_manager_box.ui:35
+msgid ""
+"It's recommended to NOT set Easy Effects Sink/Source as Default Device in "
+"external applications (e.g. Gnome Settings and Plasma System Settings)."
+msgstr ""
+"Si raccomanda di NON impostare il dispositivo \"Easy Effects Sink/Source\" "
+"come Dispositivo Predefinito in applicazioni esterne (per esempio Gnome "
+"Settings e Plasma System Settings)."
+
+#: data/ui/pipe_manager_box.ui:38 data/ui/pipe_manager_box.ui:44
+msgid "Use Default Input"
+msgstr "Usa Ingresso Predefinito"
+
+#: data/ui/pipe_manager_box.ui:65
+msgid "Custom Input Device"
+msgstr "Dispositivo Ingresso Personalizzato"
+
+#: data/ui/pipe_manager_box.ui:74 data/ui/pipe_manager_box.ui:80
+msgid "Use Default Output"
+msgstr "Usa Uscita Predefinita"
+
+#: data/ui/pipe_manager_box.ui:101
+msgid "Custom Output Device"
+msgstr "Dispositivo Uscita Personalizzato"
+
+#: data/ui/pipe_manager_box.ui:112
+msgid "Server Information"
+msgstr "Informazioni Server"
+
+#: data/ui/pipe_manager_box.ui:116
+msgid "Header Version"
+msgstr "Versione Header"
+
+#: data/ui/pipe_manager_box.ui:127
+msgid "Library Version"
+msgstr "Versione Libreria"
+
+#: data/ui/pipe_manager_box.ui:138
+msgid "Sampling Rate"
+msgstr "Frequenza di Campionamento"
+
+#: data/ui/pipe_manager_box.ui:149
+msgid "Minimum Quantum"
+msgstr "Quantum Minimo"
+
+#: data/ui/pipe_manager_box.ui:160
+msgid "Maximum Quantum"
+msgstr "Quantum Massimo"
+
+#: data/ui/pipe_manager_box.ui:171
+msgid "Default Quantum"
+msgstr "Quantum Predefinito"
+
+#: data/ui/pipe_manager_box.ui:191
+msgid "Presets Autoloading"
+msgstr "Auto Caricamento Profili"
+
+#: data/ui/pipe_manager_box.ui:232
+msgid "Output Devices"
+msgstr "Dispositivi di Uscita"
+
+#: data/ui/pipe_manager_box.ui:249 src/application.cpp:243
+msgid "Output Presets"
+msgstr "Profili di Uscita"
+
+#: data/ui/pipe_manager_box.ui:256 data/ui/pipe_manager_box.ui:348
+msgid "Create Association"
+msgstr "Crea Associazione"
+
+#: data/ui/pipe_manager_box.ui:270
+msgid "Add Autoloading Output Preset"
+msgstr "Aggiungi Profilo di Auto Caricamento in Uscita"
+
+#: data/ui/pipe_manager_box.ui:290
+msgid "Output Autoloading Presets List"
+msgstr "Profili di Auto Caricamento in Uscita"
+
+#: data/ui/pipe_manager_box.ui:329
+msgid "Input Devices"
+msgstr "Dispositivi di Ingresso"
+
+#: data/ui/pipe_manager_box.ui:341 src/application.cpp:251
+msgid "Input Presets"
+msgstr "Profili di Ingresso"
+
+#: data/ui/pipe_manager_box.ui:362
+msgid "Add Autoloading Input Preset"
+msgstr "Aggiungi Profilo di Auto Caricamento in Ingresso"
+
+#: data/ui/pipe_manager_box.ui:381
+msgid "Input Autoloading Presets List"
+msgstr "Profili di Auto Caricamento in Ingresso"
+
+#: data/ui/pipe_manager_box.ui:411
+msgid "Modules"
+msgstr "Moduli"
+
+#: data/ui/pipe_manager_box.ui:429
+msgid "Modules List"
+msgstr "Lista Moduli"
+
+#: data/ui/pipe_manager_box.ui:443
+msgid "Clients"
+msgstr "Client"
+
+#: data/ui/pipe_manager_box.ui:461
+msgid "Clients List"
+msgstr "Lista Client"
+
+#: data/ui/pipe_manager_box.ui:475
+msgid "Test Signal"
+msgstr "Segnale di Test"
+
+#: data/ui/pipe_manager_box.ui:480 data/ui/preferences_spectrum.ui:9
+msgid "State"
+msgstr "Stato"
+
+#: data/ui/pipe_manager_box.ui:483 data/ui/preferences_spectrum.ui:12
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: data/ui/pipe_manager_box.ui:498
+msgid "Properties"
+msgstr "Proprietà"
+
+#: data/ui/pipe_manager_box.ui:501
+msgid "Channels"
+msgstr "Canali"
+
+#: data/ui/pipe_manager_box.ui:526
+msgid "Both"
+msgstr "Entrambi"
+
+#: data/ui/pipe_manager_box.ui:530
+msgid "Both Channels"
+msgstr "Entrambi i Canali"
+
+#: data/ui/pipe_manager_box.ui:539
+msgid "Waveform"
+msgstr "Tipo Onda"
+
+#: data/ui/pipe_manager_box.ui:543
+msgid "Sine Wave"
+msgstr "Sinusoidale"
+
+#: data/ui/pipe_manager_box.ui:552
+msgid "White Noise"
+msgstr "Rumore Bianco"
+
+#: data/ui/pitch.ui:43
+msgid "High Speed"
+msgstr "Alta Velocità"
+
+#: data/ui/pitch.ui:44
+msgid "High Quality"
+msgstr "Alta Qualità"
+
+#: data/ui/pitch.ui:45
+msgid "High Consistency"
+msgstr "Alta Consistenza"
+
+#: data/ui/pitch.ui:59
+msgid "Formant"
+msgstr "Formante"
+
+#: data/ui/pitch.ui:70
+msgid "Shifted"
+msgstr "Alterata"
+
+#: data/ui/pitch.ui:71
+msgid "Preserved"
+msgstr "Preservata"
+
+#: data/ui/pitch.ui:97
+msgid "Transients"
+msgstr "Transienti"
+
+#: data/ui/pitch.ui:108
+msgid "Crisp"
+msgstr "Netti"
+
+#: data/ui/pitch.ui:109
+msgid "Mixed"
+msgstr "Intermedi"
+
+#: data/ui/pitch.ui:110
+msgid "Smooth"
+msgstr "Tenui"
+
+#: data/ui/pitch.ui:124
+msgid "Detector"
+msgstr "Rilevazione"
+
+#: data/ui/pitch.ui:135
+msgid "Compound"
+msgstr "Composto"
+
+#: data/ui/pitch.ui:136
+msgid "Percussive"
+msgstr "Percussivo"
+
+#: data/ui/pitch.ui:137
+msgid "Soft"
+msgstr "Soft"
+
+#: data/ui/pitch.ui:151
+msgid "Phase"
+msgstr "Fase"
+
+#: data/ui/pitch.ui:162
+msgid "Laminar"
+msgstr "Laminare"
+
+#: data/ui/pitch.ui:163
+msgid "Independent"
+msgstr "Indipendente"
+
+#: data/ui/pitch.ui:188
+msgid "Cents"
+msgstr "Centesimi"
+
+#: data/ui/pitch.ui:222
+msgid "Semitones"
+msgstr "Semitoni"
+
+#: data/ui/pitch.ui:256
+msgid "Octaves"
+msgstr "Ottave"
+
+#: data/ui/plugin_row.ui:39
+msgid "Remove this effect"
+msgstr "Rimuovi questo effetto"
+
+#: data/ui/plugin_row.ui:51
+msgid "Enable/disable this effect"
+msgstr "Abilita/disabilita questo effetto"
+
+#: data/ui/plugin_row.ui:63
+msgid "Change the position of this effect"
+msgstr "Cambia la posizione di questo effetto"
+
+#: data/ui/plugins_box.ui:19
+msgid "Add Effect"
+msgstr "Aggiungi Effetto"
+
+#: data/ui/plugins_box.ui:68
+msgid "Used Plugins List"
+msgstr "Lista Moduli Utilizzati"
+
+#: data/ui/plugins_box.ui:129
+msgid "No Effects"
+msgstr "Nessun Effetto"
+
+#: data/ui/plugins_box.ui:130
+msgid "Audio Stream Not Modified"
+msgstr "Flusso Audio Non Alterato"
+
+#: data/ui/plugins_menu.ui:19
+msgid "Search Plugin"
+msgstr "Cerca Modulo"
+
+#: data/ui/plugins_menu.ui:74
+msgid "Plugins List"
+msgstr "Lista dei Moduli"
+
+#: data/ui/preferences_general.ui:5
+msgid "_General"
+msgstr "_Generale"
+
+#: data/ui/preferences_general.ui:10
+msgid "Service"
+msgstr "Servizio"
+
+#: data/ui/preferences_general.ui:13
+msgid "Launch Service at System Startup"
+msgstr "Inizia come Servizio all'Avvio del Sistema"
+
+#: data/ui/preferences_general.ui:25
+msgid "Shutdown on Window Closing"
+msgstr "Termina alla Chiusura della Finestra"
+
+#: data/ui/preferences_general.ui:39
+msgid "Audio"
+msgstr "Audio"
+
+#: data/ui/preferences_general.ui:42
+msgid "Process All Output Streams"
+msgstr "Processa Tutto i Flussi in Uscita"
+
+#: data/ui/preferences_general.ui:54
+msgid "Process All Input Streams"
+msgstr "Processa Tutti i Flussi in Ingresso"
+
+#: data/ui/preferences_general.ui:66
+msgid "Ignore Streams from Monitor of Devices"
+msgstr "Ignora i Flussi dai Monitor dei Dispositivi"
+
+#: data/ui/preferences_general.ui:78
+msgid "Use Cubic Volume"
+msgstr "Usa Volume Cubico"
+
+#: data/ui/preferences_general.ui:90
+msgid "Inactivity Timeout"
+msgstr "Tempo Inattività"
+
+#: data/ui/preferences_general.ui:115 data/ui/preferences_spectrum.ui:26
+msgid "Style"
+msgstr "Stile"
+
+#: data/ui/preferences_general.ui:118
+msgid "Use Dark Theme"
+msgstr "Usa Tema Scuro"
+
+#: data/ui/preferences_general.ui:130
+msgid "Hide Menus on Outside Clicks"
+msgstr "Chiudi Menu con Click Esterno"
+
+#: data/ui/preferences_spectrum.ui:5
+msgid "_Spectrum"
+msgstr "_Spettro"
+
+#: data/ui/preferences_spectrum.ui:29
+msgid "Shape"
+msgstr "Forma"
+
+#: data/ui/preferences_spectrum.ui:35
+msgid "Bars"
+msgstr "Barre"
+
+#: data/ui/preferences_spectrum.ui:36
+msgid "Lines"
+msgstr "Linee"
+
+#: data/ui/preferences_spectrum.ui:37
+msgid "Dots"
+msgstr "Punti"
+
+#: data/ui/preferences_spectrum.ui:46
+msgid "Points"
+msgstr "Punti"
+
+#: data/ui/preferences_spectrum.ui:68
+msgid "Height"
+msgstr "Altezza"
+
+#: data/ui/preferences_spectrum.ui:91
+msgid "Line Width"
+msgstr "Spessore Linea"
+
+#: data/ui/preferences_spectrum.ui:114
+msgid "Fill"
+msgstr "Riempi"
+
+#: data/ui/preferences_spectrum.ui:126
+msgid "Show Bars Border"
+msgstr "Mostra Bordo"
+
+#: data/ui/preferences_spectrum.ui:138
+msgid "Rounded Corners"
+msgstr "Angoli Arrotondati"
+
+#: data/ui/preferences_spectrum.ui:152
+msgid "Color"
+msgstr "Colore"
+
+#: data/ui/preferences_spectrum.ui:155
+msgid "Lines and Bars"
+msgstr "Linee e Barre"
+
+#: data/ui/preferences_spectrum.ui:169
+msgid "Axis Labels"
+msgstr "Etichette sull'Asse"
+
+#: data/ui/preferences_spectrum.ui:185
+msgid "Frequency Range"
+msgstr "Gamma Frequenze"
+
+#: data/ui/preferences_spectrum.ui:188
+msgid "Minimum"
+msgstr "Minima"
+
+#: data/ui/preferences_spectrum.ui:211
+msgid "Maximum"
+msgstr "Massima"
+
+#: data/ui/preset_row.ui:25 src/convolver_menu_impulses.cpp:183
+msgid "Load"
+msgstr "Carica"
+
+#: data/ui/preset_row.ui:34
+msgid "Save current settings to this preset file"
+msgstr "Salva impostazioni attuali in questo profilo"
+
+#: data/ui/preset_row.ui:44
+msgid "Remove this preset file"
+msgstr "Rimuovi questo profilo"
+
+#: data/ui/presets_menu.ui:51
+msgid "New Output Preset Name"
+msgstr "Nome Nuovo Profilo di Uscita"
+
+#: data/ui/presets_menu.ui:59 data/ui/presets_menu.ui:207
+msgid "Create a new preset"
+msgstr "Crea un nuovo profilo"
+
+#: data/ui/presets_menu.ui:73 data/ui/presets_menu.ui:221
+msgid "Import a preset"
+msgstr "Importa un profilo"
+
+#: data/ui/presets_menu.ui:90
+msgid "Search Output Preset"
+msgstr "Cerca Profilo di Uscita"
+
+#: data/ui/presets_menu.ui:151
+msgid "Output Presets List"
+msgstr "Lista Profili di Uscita"
+
+#: data/ui/presets_menu.ui:199
+msgid "New Input Preset Name"
+msgstr "Nome Nuovo Profilo di Ingresso"
+
+#: data/ui/presets_menu.ui:237
+msgid "Search Input Preset"
+msgstr "Cerca Profilo di Ingresso"
+
+#: data/ui/presets_menu.ui:298
+msgid "Input Presets List"
+msgstr "Lista Profili di Ingresso"
+
+#: data/ui/reverb.ui:41
+msgid "High Frequency Damping"
+msgstr "Smorza Alte Frequenze"
+
+#: data/ui/reverb.ui:73
+msgid "Room Size"
+msgstr "Dimensione Stanza"
+
+#: data/ui/reverb.ui:81
+msgid "Small"
+msgstr "Piccola"
+
+#: data/ui/reverb.ui:82
+msgid "Medium"
+msgstr "Media"
+
+#: data/ui/reverb.ui:83
+msgid "Large"
+msgstr "Grande"
+
+#: data/ui/reverb.ui:84
+msgid "Tunnel"
+msgstr "Tunnel"
+
+#: data/ui/reverb.ui:85
+msgid "Large/smooth"
+msgstr "Grande/liscia"
+
+#: data/ui/reverb.ui:86
+msgid "Experimental"
+msgstr "Sperimentale"
+
+#: data/ui/reverb.ui:103
+msgid "Diffusion"
+msgstr "Diffusione"
+
+#: data/ui/reverb.ui:140
+msgid "Pre Delay"
+msgstr "Pre Ritardo"
+
+#: data/ui/reverb.ui:173
+msgid "Decay Time"
+msgstr "Tempo Decay"
+
+#: data/ui/reverb.ui:277
+msgid "Bass Cut"
+msgstr "Taglio Bassi"
+
+#: data/ui/reverb.ui:312
+msgid "Treble Cut"
+msgstr "Taglio Alti"
+
+#: data/ui/reverb.ui:580
+msgid "Ambience"
+msgstr "Ambiente"
+
+#: data/ui/reverb.ui:587
+msgid "Empty Walls"
+msgstr "Mura Vuote"
+
+#: data/ui/reverb.ui:600
+msgid "Room"
+msgstr "Stanza"
+
+#: data/ui/reverb.ui:607
+msgid "Large Empty Hall"
+msgstr "Sala Grande Vuota"
+
+#: data/ui/reverb.ui:620
+msgid "Disco"
+msgstr "Discoteca"
+
+#: data/ui/reverb.ui:627
+msgid "Large Occupied Hall"
+msgstr "Sala Grande Occupata"
+
+#: data/ui/rnnoise.ui:31
+msgid "Import Model"
+msgstr "Importa Modello"
+
+#: data/ui/rnnoise.ui:40
+msgid "Models"
+msgstr "Modelli"
+
+#. If this changes, it has to be updated in src/rnnoise_ui.cpp as default_model_name
+#: data/ui/rnnoise.ui:62 src/rnnoise_ui.cpp:94 src/rnnoise_ui.cpp:240
+#: src/rnnoise_ui.cpp:274
+msgid "Standard Model"
+msgstr "Modello Standard"
+
+#: data/ui/rnnoise.ui:90
+msgid "RNNoise Models List"
+msgstr "Lista Modelli RNNoise"
+
+#: data/ui/rnnoise.ui:110
+msgid "Model Not Loaded"
+msgstr "Modello Non Caricato"
+
+#: data/ui/rnnoise.ui:116
+msgid "Active Model"
+msgstr "Modello Attivo"
+
+#: data/ui/rnnoise.ui:124
+msgid "Standard RNNoise Model"
+msgstr "Modello RNNoise Standard"
+
+#: data/ui/shortcuts.ui:11
+msgid "Overview"
+msgstr "Sommario"
+
+#: data/ui/shortcuts.ui:16
+msgid "Open the Easy Effects Manual"
+msgstr "Apri il Manuale di Easy Effects"
+
+#: data/ui/shortcuts.ui:23
+msgid "Fullscreen/Restore from fullscreen"
+msgstr "Attiva/Disattiva Schermo Intero"
+
+#: data/ui/shortcuts.ui:30
+msgid "Close the Window"
+msgstr "Chiudi la Finestra"
+
+#: data/ui/shortcuts.ui:37
+msgid "Quit Easy Effects"
+msgstr "Termina Easy Effects"
+
+#: data/ui/stereo_tools.ui:79
+msgid "Input Balance"
+msgstr "Bilanciamento Ingresso"
+
+#: data/ui/stereo_tools.ui:88
+msgid "Softclip"
+msgstr "Softclip"
+
+#: data/ui/stereo_tools.ui:116
+msgid "Softclip Level"
+msgstr "Livello Softclip"
+
+#: data/ui/stereo_tools.ui:128
+msgid "Stereo Matrix"
+msgstr "Matrice Stereo"
+
+#: data/ui/stereo_tools.ui:138
+msgid "LR > LR (Stereo Default)"
+msgstr "SD > SD (Predefinito Stereo)"
+
+#: data/ui/stereo_tools.ui:139
+msgid "LR > MS (Stereo to Mid-Side)"
+msgstr "SD > MS (Stereo a Medio-Lato)"
+
+#: data/ui/stereo_tools.ui:140
+msgid "MS > LR (Mid-Side to Stereo)"
+msgstr "MS > SD (Medio-Lato a Stereo)"
+
+#: data/ui/stereo_tools.ui:141
+msgid "LR > LL (Mono Left Channel)"
+msgstr "SD > SS (Canale Sinistro Mono)"
+
+#: data/ui/stereo_tools.ui:142
+msgid "LR > RR (Mono Right Channel)"
+msgstr "SD > DD (Canale Destro Mono)"
+
+#: data/ui/stereo_tools.ui:143
+msgid "LR > L+R (Mono Sum L+R)"
+msgstr "SD > S+D (Mono Somma S+D)"
+
+#: data/ui/stereo_tools.ui:144
+msgid "LR > RL (Stereo Flip Channels)"
+msgstr "SD > DS (Inverti Canali Stereo)"
+
+#: data/ui/stereo_tools.ui:147
+msgid "Stereo Mode"
+msgstr "Modalità Stereo"
+
+#: data/ui/stereo_tools.ui:180 data/ui/stereo_tools.ui:205
+msgid "Invert Phase"
+msgstr "Inverti Fase"
+
+#: data/ui/stereo_tools.ui:232
+msgid "Side Level"
+msgstr "Livello Lato"
+
+#: data/ui/stereo_tools.ui:268
+msgid "Side Balance"
+msgstr "Bilanciamento Lato"
+
+#: data/ui/stereo_tools.ui:304
+msgid "Middle Level"
+msgstr "Livello Medio"
+
+#: data/ui/stereo_tools.ui:340
+msgid "Middle Panorama"
+msgstr "Panorama Medio"
+
+#: data/ui/stereo_tools.ui:420
+msgid "Output Balance"
+msgstr "Bilanciamento in Uscita"
+
+#: data/ui/stereo_tools.ui:429
+msgid "Delay L/R"
+msgstr "Delay S/D"
+
+#: data/ui/stereo_tools.ui:456
+msgid "Delay Left Right"
+msgstr "Ritardo Sinistro Destro"
+
+#: data/ui/stereo_tools.ui:465
+msgid "Stereo Base"
+msgstr "Base Stereo"
+
+#: data/ui/stereo_tools.ui:501
+msgid "Stereo Phase"
+msgstr "Fase Stereo"
+
+#: src/app_info.cpp:64
+msgid "Running"
+msgstr "In esecuzione"
+
+#: src/app_info.cpp:66
+msgid "Suspended"
+msgstr "Sospeso"
+
+#: src/app_info.cpp:68
+msgid "Idle"
+msgstr "Inattivo"
+
+#: src/app_info.cpp:70
+msgid "Creating"
+msgstr "In creazione"
+
+#: src/app_info.cpp:72
+msgid "Error"
+msgstr "Errore"
+
+#: src/app_info.cpp:74
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: src/app_info.cpp:228
+msgid "channels"
+msgstr "Canali"
+
+#: src/application.cpp:415
+msgid "Weblate https://hosted.weblate.org/projects/easyeffects/"
+msgstr "Weblate https://hosted.weblate.org/projects/easyeffects/"
+
+#: src/application.cpp:505
+msgid "Quit Easy Effects. Useful when running in service mode."
+msgstr "Chiudi Easy Effects. Utile in esecuzione come servizio."
+
+#: src/application.cpp:508
+msgid "Load a preset. Example: easyeffects -l music"
+msgstr "Carica un profilo. Esempio: easyeffects -l music"
+
+#: src/application.cpp:511
+msgid "Reset Easy Effects."
+msgstr "Reset Easy Effects."
+
+#: src/application.cpp:514
+msgid "Hide the Window."
+msgstr "Nascondi la Finestra."
+
+#: src/application.cpp:517
+msgid "Global bypass. 1 to enable, 2 to disable and 3 to get status"
+msgstr ""
+"Bypass globale. 1 per abilitare, 2 per disabilitare e 3 per ottenere lo stato"
+
+#: src/application.cpp:520
+msgid "Show available presets."
+msgstr "Mostra profili disponibili."
+
+#: src/application_ui.cpp:277
+#, fuzzy
+msgid "_Output"
+msgstr "Uscita"
+
+#: src/application_ui.cpp:278
+#, fuzzy
+msgid "_Input"
+msgstr "Ingresso"
+
+#: src/application_ui.cpp:279
+#, fuzzy
+msgid "_PipeWire"
+msgstr "PipeWire"
+
+#: src/convolver_menu_impulses.cpp:101
+msgid "The File Is Not Regular"
+msgstr "Il File È Irregolare"
+
+#: src/convolver_menu_impulses.cpp:106
+msgid "The Impulse File May Be Corrupted or Unsupported"
+msgstr "Il File di Risposta Impulsiva Può Essere Corrotto o Non Supportato"
+
+#: src/convolver_menu_impulses.cpp:111
+msgid "Only Stereo Impulse Files Are Supported"
+msgstr "Sono Supportati Soltanto File di Risposta Impulsiva in Formato Stereo"
+
+#: src/convolver_menu_impulses.cpp:121
+msgid "Impulse File Not Imported"
+msgstr "File di Risposta Impulsiva Non Importato"
+
+#: src/convolver_menu_impulses.cpp:127
+msgid "Import Impulse File"
+msgstr "Importa File di Impulso"
+
+#: src/convolver_menu_impulses.cpp:128 src/equalizer_ui.cpp:364
+#: src/equalizer_ui.cpp:555 src/presets_menu.cpp:102 src/rnnoise_ui.cpp:131
+msgid "Open"
+msgstr "Apri"
+
+#: src/convolver_menu_impulses.cpp:128 src/equalizer_ui.cpp:364
+#: src/equalizer_ui.cpp:555 src/presets_menu.cpp:103 src/rnnoise_ui.cpp:131
+msgid "Cancel"
+msgstr "Annulla"
+
+#: src/convolver_menu_impulses.cpp:132
+msgid "Impulse Response"
+msgstr "Risposta Impulso"
+
+#: src/convolver_menu_impulses.cpp:245
+msgid "Load Impulse"
+msgstr "Carica Impulso"
+
+#: src/convolver_menu_impulses.cpp:248
+msgid "Remove Impulse"
+msgstr "Rimuovi Impulso"
+
+#: src/convolver_ui.cpp:324
+msgid "No Impulse File Loaded"
+msgstr "Nessun File di Risposta Impulsiva Caricato"
+
+#: src/convolver_ui.cpp:346
+msgid "Failed To Load The Impulse File"
+msgstr "Impossibile Caricare il File di Risposta Impulsiva"
+
+#: src/effects_box.cpp:259 src/plugins_box.cpp:647
+msgid "Recorders"
+msgstr "Registratori"
+
+#: src/effects_box.cpp:282 src/plugins_box.cpp:667
+msgid "Players"
+msgstr "Riproduttori"
+
+#: src/effects_box.cpp:305
+msgid "Effects"
+msgstr "Effetti"
+
+#: src/equalizer_band_box.cpp:82
+msgid "infinity"
+msgstr "infinito"
+
+#: src/equalizer_ui.cpp:363
+msgid "Import APO Preset File"
+msgstr "Importa File di Profilo APO"
+
+#: src/equalizer_ui.cpp:369
+msgid "APO Presets"
+msgstr "Profili APO"
+
+#: src/equalizer_ui.cpp:387
+msgid ""
+"APO Preset Not Loaded. File Format May Be Wrong. Please Check Its Content."
+msgstr ""
+"Profilo APO Non Caricato. Il Formato Potrebbe Essere Errato. Si Prega di "
+"Controllare il Contenuto."
+
+#: src/equalizer_ui.cpp:554
+msgid "Import GraphicEQ Preset File"
+msgstr "Importa File di Profilo GraphicEQ"
+
+#: src/equalizer_ui.cpp:560
+msgid "GraphicEQ Presets"
+msgstr "Profili GraphicEQ"
+
+#: src/equalizer_ui.cpp:578
+msgid ""
+"GraphicEQ Preset Not Loaded. File Format May Be Wrong. Please Check Its "
+"Content."
+msgstr ""
+"Profilo GraphicEQ Non Caricato. Il Formato Potrebbe Essere Errato. Si Prega "
+"di Controllare il Contenuto."
+
+#: src/pipe_manager_box.cpp:327
+msgid "Remove Autoloading Preset"
+msgstr "Rimuovi Profilo di Auto Caricamento"
+
+#: src/plugins_box.cpp:599
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: src/plugins_box.cpp:668
+msgid "Output Device"
+msgstr "Dispositivo Uscita"
+
+#: src/plugins_menu.cpp:154
+msgid "Add"
+msgstr "Aggiungi"
+
+#: src/rnnoise_ui.cpp:89
+msgid ""
+"Selected Model Not Loaded. Its Format May Be Unsupported. Fell Back To The "
+"Standard Model."
+msgstr ""
+"Il Modello Selezionato Non È Stato Caricato. Il Formato Potrebbe Essere Non "
+"Supportato. Il Modello Standard È Stato Ripristinato."
+
+#: src/rnnoise_ui.cpp:130
+msgid "Import Model File"
+msgstr "Importa File Modello"
+
+#: src/rnnoise_ui.cpp:135
+msgid "RNNoise Models"
+msgstr "Modelli RNNoise"
+
+#: src/tags_plugin_name.cpp:32
+msgid "Bass Enhancer"
+msgstr "Enfasi Bassi"
+
+#: src/tags_plugin_name.cpp:33
+msgid "Bass Loudness"
+msgstr "Loudness Bassi"
+
+#: src/tags_plugin_name.cpp:35
+msgid "Convolver"
+msgstr "Convolver"
+
+#: src/tags_plugin_name.cpp:36
+msgid "Crossfeed"
+msgstr "Crossfeed"
+
+#: src/tags_plugin_name.cpp:37
+msgid "Crystalizer"
+msgstr "Crystalizer"
+
+#: src/tags_plugin_name.cpp:38
+msgid "Deesser"
+msgstr "Deesser"
+
+#: src/tags_plugin_name.cpp:40
+msgid "Echo Canceller"
+msgstr "Rimozione Eco"
+
+#: src/tags_plugin_name.cpp:41
+msgid "Equalizer"
+msgstr "Equalizzatore"
+
+#: src/tags_plugin_name.cpp:42
+msgid "Exciter"
+msgstr "Exciter"
+
+#: src/tags_plugin_name.cpp:43
+msgid "Filter"
+msgstr "Filtro"
+
+#: src/tags_plugin_name.cpp:45
+msgid "Limiter"
+msgstr "Limiter"
+
+#: src/tags_plugin_name.cpp:47
+msgid "Maximizer"
+msgstr "Maximizer"
+
+#: src/tags_plugin_name.cpp:48
+msgid "Multiband Compressor"
+msgstr "Compressore Multibanda"
+
+#: src/tags_plugin_name.cpp:49
+msgid "Multiband Gate"
+msgstr "Gate Multibanda"
+
+#: src/tags_plugin_name.cpp:50
+msgid "Pitch"
+msgstr "Intonazione"
+
+#: src/tags_plugin_name.cpp:51
+msgid "Reverberation"
+msgstr "Riverbero"
+
+#: src/tags_plugin_name.cpp:52
+msgid "Noise Reduction"
+msgstr "Riduzione Rumore"
+
+#: src/tags_plugin_name.cpp:53
+msgid "Speech Processor"
+msgstr "Miglioramento Voce"
+
+#: src/tags_plugin_name.cpp:54
+msgid "Stereo Tools"
+msgstr "Strumenti Stereo"
+
+#. For translators: {} is replaced by the effect name.
+#: src/ui_helpers.cpp:81
+msgid "{} Not Available"
+msgstr "{} Non Disponibile"
+
+#. For translators: {} is replaced by the package name.
+#: src/ui_helpers.cpp:84
+msgid "{} Is Not Installed On The System"
+msgstr "{} Non Installato sul Sistema"
+
+#. Add custom button to hint the user to press ESC to destroy the dialog.
+#. This has been introduced because multiple GTK4 dialogs shown at
+#. the same time could have issues on Wayland and the only way to
+#. close the outer one is pressing ESC, the mouse click does not work.
+#: src/ui_helpers.cpp:116
+msgid "Close (Press ESC)"
+msgstr "Chiudi (Premi ESC)"
+
+#: src/ui_helpers.cpp:140 src/ui_helpers.cpp:160
+msgid "-inf"
+msgstr "-inf"
+
+#~ msgid "Audio effects for PipeWire applications"
+#~ msgstr "Effetti Audio per Applicazioni PipeWire"
+
+#, fuzzy
+#~ msgid "Noise Reduction (Fast)"
+#~ msgstr "Riduzione Rumore"
+
+#~ msgid "Load APO Preset"
+#~ msgstr "Carica Profilo APO"
+
+#~ msgid "Reset Volume of EasyEffects Virtual Devices at Startup"
+#~ msgstr ""
+#~ "Reimposta il Volume dei Dispositivi Virtuali di EasyEffects all'Avvio"
+
+#~ msgid "EasyEffects"
+#~ msgstr "EasyEffects"
+
+#~ msgid "Split Mode"
+#~ msgstr "Modalità Split"
+
+#~ msgid "Split 1/2"
+#~ msgstr "Split 1/2"
+
+#~ msgid "Split Frequency 1"
+#~ msgstr "Frequenza Split 1"
+
+#~ msgid "Split 2/3"
+#~ msgstr "Split 2/3"
+
+#~ msgid "Split Frequency 2"
+#~ msgstr "Frequenza Split 2"
+
+#~ msgid "Split 3/4"
+#~ msgstr "Split 3/4"
+
+#~ msgid "Split Frequency 3"
+#~ msgstr "Frequenza Split 3"
+
+#~ msgid "Sub Band"
+#~ msgstr "Sottobanda"
+
+#~ msgid "Band 1 Bypass"
+#~ msgstr "Banda 1 Bypass"
+
+#~ msgid "Band 1 Solo"
+#~ msgstr "Banda 1 Isola"
+
+#~ msgid "Band 1 Detection"
+#~ msgstr "Banda 1 Rilevamento"
+
+#~ msgid "Band 1 Attack"
+#~ msgstr "Banda 1 Attacco"
+
+#~ msgid "Band 1 Release"
+#~ msgstr "Banda 1 Rilascio"
+
+#~ msgid "Band 1 Threshold"
+#~ msgstr "Banda 1 Soglia"
+
+#~ msgid "Band 1 Ratio"
+#~ msgstr "Banda 1 Rapporto"
+
+#~ msgid "Band 1 Knee"
+#~ msgstr "Banda 1 Curvatura"
+
+#~ msgid "Band 1 Makeup"
+#~ msgstr "Banda 1 Guadagno"
+
+#~ msgid "Max Reduction"
+#~ msgstr "Max Riduzione"
+
+#~ msgid "Band 1 Max Reduction"
+#~ msgstr "Banda 1 Massima Riduzione"
+
+#~ msgid "Low Band"
+#~ msgstr "Banda Bassa"
+
+#~ msgid "Band 2 Bypass"
+#~ msgstr "Banda 2 Bypass"
+
+#~ msgid "Band 2 Solo"
+#~ msgstr "Banda 2 Isola"
+
+#~ msgid "Band 2 Detection"
+#~ msgstr "Banda 2 Rilevamento"
+
+#~ msgid "Band 2 Attack"
+#~ msgstr "Banda 2 Attacco"
+
+#~ msgid "Band 2 Release"
+#~ msgstr "Banda 2 Rilascio"
+
+#~ msgid "Band 2 Threshold"
+#~ msgstr "Banda 2 Soglia"
+
+#~ msgid "Band 2 Ratio"
+#~ msgstr "Banda 2 Rapporto"
+
+#~ msgid "Band 2 Knee"
+#~ msgstr "Banda 2 Curvatura"
+
+#~ msgid "Band 2 Makeup"
+#~ msgstr "Banda 2 Guadagno"
+
+#~ msgid "Band 2 Max Reduction"
+#~ msgstr "Banda 2 Massima Riduzione"
+
+#~ msgid "Mid Band"
+#~ msgstr "Banda Media"
+
+#~ msgid "Band 3 Bypass"
+#~ msgstr "Banda 3 Bypass"
+
+#~ msgid "Band 3 Solo"
+#~ msgstr "Banda 3 Isola"
+
+#~ msgid "Band 3 Detection"
+#~ msgstr "Banda 3 Rilevamento"
+
+#~ msgid "Band 3 Attack"
+#~ msgstr "Banda 3 Attacco"
+
+#~ msgid "Band 3 Release"
+#~ msgstr "Banda 3 Rilascio"
+
+#~ msgid "Band 3 Threshold"
+#~ msgstr "Banda 3 Soglia"
+
+#~ msgid "Band 3 Ratio"
+#~ msgstr "Banda 3 Rapporto"
+
+#~ msgid "Band 3 Knee"
+#~ msgstr "Banda 3 Curvatura"
+
+#~ msgid "Band 3 Makeup"
+#~ msgstr "Banda 3 Guadagno"
+
+#~ msgid "Band 3 Max Reduction"
+#~ msgstr "Banda 3 Massima Riduzione"
+
+#~ msgid "High Band"
+#~ msgstr "Banda Alta"
+
+#~ msgid "Band 4 Bypass"
+#~ msgstr "Banda 4 Bypass"
+
+#~ msgid "Band 4 Solo"
+#~ msgstr "Banda 4 Isola"
+
+#~ msgid "Band 4 Detection"
+#~ msgstr "Banda 4 Rilevamento"
+
+#~ msgid "Band 4 Attack"
+#~ msgstr "Banda 4 Attacco"
+
+#~ msgid "Band 4 Release"
+#~ msgstr "Banda 4 Rilascio"
+
+#~ msgid "Band 4 Threshold"
+#~ msgstr "Banda 4 Soglia"
+
+#~ msgid "Band 4 Ratio"
+#~ msgstr "Banda 4 Rapporto"
+
+#~ msgid "Band 4 Knee"
+#~ msgstr "Banda 4 Curvatura"
+
+#~ msgid "Band 4 Makeup"
+#~ msgstr "Banda 4 Guadagno"
+
+#~ msgid "Band 4 Max Reduction"
+#~ msgstr "Banda 4 Massima Riduzione"
+
+#~ msgid "Output Presets: "
+#~ msgstr "Profili Uscita: "
+
+#~ msgid "Input Presets: "
+#~ msgstr "Profili Ingresso: "
+
+#~ msgid "Wet Amount"
+#~ msgstr "Quantità Dry"
+
+#~ msgid "Dry Amount"
+#~ msgstr "Quantità Wet"
+
+#~ msgid "Wellington Wallace"
+#~ msgstr "Wellington Wallace"
+
+#~ msgid ""
+#~ "EasyEffects is an advanced audio manipulation tool. It includes an "
+#~ "equalizer, limiter, compressor and a reverberation tool, just to mention "
+#~ "a few. To complement this there is also a built in spectrum analyzer."
+#~ msgstr ""
+#~ "EasyEffects è un'applicazione specifica per la manipolazione dei flussi "
+#~ "audio. Tra i diversi moduli contenuti, include un equalizzatore, un "
+#~ "limiter, un compressore e uno strumento per il riverbero. In aggiunta è "
+#~ "anche disponibile un analizzatore dello spettro delle frequenze."
+
+#~ msgid ""
+#~ "EasyEffects is the successor to PulseEffects. EasyEffects only supports "
+#~ "PipeWire's audio server. PulseAudio users should instead use PulseEffects."
+#~ msgstr ""
+#~ "EasyEffects è il successore di PulseEffects. EasyEffects supporta "
+#~ "esclusivamente il server audio PipeWire. Gli utenti su PulseAudio possono "
+#~ "continuare a usare PulseEffects in alternativa."
+
+#~ msgid ""
+#~ "Because EasyEffects uses the default PipeWire sound server it will work "
+#~ "with most, if not all, applications you use. All supported applications "
+#~ "are presented in the main window, where each can be enabled individually."
+#~ msgstr ""
+#~ "Eseguito in simultanea al server PipeWire, EasyEffects funzionerà con la "
+#~ "quasi totalità, se non tutte, le applicazioni disponibili sul sistema. Le "
+#~ "applicazioni supportate sono mostrate nella finestra principale e ognuna "
+#~ "può essere abilitata individualmente."
+
+#~ msgid ""
+#~ "Besides manipulating sound output, EasyEffects is able to apply effects "
+#~ "to an input device, such as a microphone. This is, for example, useful in "
+#~ "audio recording, but it also works well during voice conversations."
+#~ msgstr ""
+#~ "Oltre alla manipolazione dei flussi in uscita, EasyEffects è in grado di "
+#~ "applicare effetti anche a dispositivi in ingresso, per esempio un "
+#~ "microfono. Una funzionalità utile sia durante le registrazioni che nelle "
+#~ "conversazioni di gruppo."
+
+#~ msgid ""
+#~ "When EasyEffects is launched it will conveniently remember the "
+#~ "configuration used in the last session. It is also possible to save all "
+#~ "the current settings as profiles."
+#~ msgstr ""
+#~ "EasyEffects all'avvio presenta la configurazione utilizzata nella "
+#~ "sessione precedente. Tuttavia è possibile salvare i parametri attuali in "
+#~ "uno specifico profilo."
+
+#~ msgid "The main page showing two audio output apps"
+#~ msgstr ""
+#~ "La scheda principale che mostra il flusso in uscita di due applicazioni"
+
+#~ msgid "The bass enhancer page showing audio controls"
+#~ msgstr "Il modulo di Enfasi Bassi con i propri parametri"
+
+#~ msgid "The convolver page showing audio controls"
+#~ msgstr "Il modulo Convolver con i propri parametri"
+
+#~ msgid "This release adds the following features:"
+#~ msgstr "Questa release aggiunge le seguenti funzionalità:"
+
+#~ msgid ""
+#~ "When effects are disable to an application we now set its target metadata "
+#~ "to null. This will allow the media session"
+#~ msgstr ""
+#~ "Quando gli effetti sono disabilitati per un applicazione, adesso "
+#~ "impostiamo il suo target metadata a null. Questo permetterà al media "
+#~ "session"
+
+#~ msgid "manager"
+#~ msgstr "manager"
+
+#~ msgid ""
+#~ "A new configuration option was added. It allows EasyEffects to ignore "
+#~ "streams whose purpose is to monitor sink"
+#~ msgstr ""
+#~ "Aggiunta una nuova configurazione. EasyEffects adesso può essere "
+#~ "impostato per ignorare i flussi dei monitor"
+
+#~ msgid ""
+#~ "devices. This will help to fix some of problems our users were having "
+#~ "when using OBS."
+#~ msgstr ""
+#~ "sink. Questo potrà risolvere alcune anomalie che gli utenti avevano con "
+#~ "OBS."
+
+#~ msgid "The code that shows the stream sample format has been improved"
+#~ msgstr "Il codice che mostra il formato di campionamento è stato migliorato"
+
+#~ msgid ""
+#~ "The rnnoise library is now optional. This should help package maintainers "
+#~ "to build"
+#~ msgstr ""
+#~ "La libreria rnnoise è adesso opzionale. Questo può aiutare i gestori dei "
+#~ "pacchetti"
+
+#~ msgid "a Debian package. See the issue #1000 for more information."
+#~ msgstr "su Debian. Consultare il ticket #1000 per maggiori informazioni."
+
+#~ msgid ""
+#~ "Our logs now show the source code line where the messages are being "
+#~ "printed"
+#~ msgstr ""
+#~ "I nostri log ora mostrano il numero di linea del codice sorgente dove il "
+#~ "messaggio viene stampato"
+
+#~ msgid "This release fixes the following bugs:"
+#~ msgstr "Questa release risolve i seguenti bug:"
+
+#~ msgid ""
+#~ "The \"enable effects\" checkbox in our window was not being updated when "
+#~ "third party programs like pavucontrol"
+#~ msgstr ""
+#~ "Il checkbox di abilitazione degli effetti nella finestra non era "
+#~ "aggiornato quando programmi esterni come pavucontrol"
+
+#~ msgid ""
+#~ "moved the stream away from our virtual devices. This should be fixed now."
+#~ msgstr ""
+#~ "rimuovevano gli stream dai nostri dispositivi virtuali. Questo problema "
+#~ "dovrebbe essere risolto."
+
+#~ msgid ""
+#~ "Fixed a crash that could happen when the maximum autogain history was "
+#~ "changed."
+#~ msgstr ""
+#~ "Corretto un bug che poteva capitare quando la cronologia dell'Auto "
+#~ "Guadagno veniva modificata."
+
+#~ msgid "Avoid crashes when pw-mididump is running"
+#~ msgstr "Evitato il crash quando pw-mididump è in esecuzione"
+
+#~ msgid "The interface of the pitch plugin was improved"
+#~ msgstr "L'interfaccia del plugin pitch è stata migliorata"
+
+#~ msgid "Our application icon is now compatible with desktops that uses QT"
+#~ msgstr ""
+#~ "La nostra icona dell'applicazione è ora compatibile con i desktop che "
+#~ "utilizzano QT"
+
+#~ msgid ""
+#~ "Our blocklist code will use the `application.id` tag if the stream sets it"
+#~ msgstr ""
+#~ "Il nostro codice blocklist utilizzerà il tag `application.id` se lo "
+#~ "stream lo imposta"
+
+#~ msgid ""
+#~ "In order to avoid problems with the mouse scroll the entries in the "
+#~ "applications list shown in our `Players/Recorders`"
+#~ msgstr ""
+#~ "Per evitare problemi con lo scroll del mouse, le voci della lista delle "
+#~ "applicazioni nelle schede `Riproduttori/Registratori`"
+
+#~ msgid ""
+#~ "tab do not show a volume scale anymore. More details about the problem "
+#~ "and the solution for it can be found on #1211"
+#~ msgstr ""
+#~ "la scheda non mostra più una scala del volume. Maggiori dettagli sul "
+#~ "problema e la soluzione per esso possono essere trovati su #1211"
+
+#~ msgid "and #1427"
+#~ msgstr "e #1427"
+
+#~ msgid ""
+#~ "When no application is available for display in the `Players/Recorders` a "
+#~ "message will be shown to the user"
+#~ msgstr ""
+#~ "Quando non sono presenti applicazioni nelle schede `Riproduttori/"
+#~ "Registratori`, sarà visualizzato un messaggio"
+
+#~ msgid "Many translation updates"
+#~ msgstr "Molti aggiornamenti di traduzione"
+
+#~ msgid ""
+#~ "Fixed a bug where EasyEffects crashed when the number of points displayed "
+#~ "in the spectrum was changed while"
+#~ msgstr ""
+#~ "Corretto un bug per il quale EasyEffects andava in crash quando il numero "
+#~ "di punti mostrati nello spettro era cambiato mentre"
+
+#~ msgid "our pipeline was active and the spectrum widget was visible"
+#~ msgstr ""
+#~ "la nostra pipeline era attiva e il widget dello spettro era visibile"
+
+#~ msgid ""
+#~ "The pipeline latency value displayed in our window could be wrong in some "
+#~ "situations. This was fixed."
+#~ msgstr ""
+#~ "Il valore di latenza della pipeline visualizzato nella nostra finestra "
+#~ "poteva essere errato in alcune situazioni. Questo è stato risolto."
+
+#~ msgid ""
+#~ "There is a new setting allowing the user to select an inactivity timeout "
+#~ "for the pipeline. When no client is playing"
+#~ msgstr ""
+#~ "Aggiunta una nuova opzione che permette di selezionare un periodo di "
+#~ "inattività per la pipeline. Quando nessun client"
+
+#~ msgid ""
+#~ "to or recording from our devices the filters will be unlinked after the "
+#~ "timeout is reached. This is done to make sure"
+#~ msgstr ""
+#~ "o registrando dai nostri dispositivi i filtri verranno scollegati al "
+#~ "raggiungimento del timeout. Questo è fatto per essere sicuro"
+
+#~ msgid "we do not waste CPU power processing silence."
+#~ msgstr "non sprechiamo il silenzio di elaborazione della potenza della CPU."
+
+#~ msgid ""
+#~ "The autogain plugin now allows the user to select which of the three "
+#~ "loudness are used to calculate the geometric"
+#~ msgstr ""
+#~ "Il plugin di Auto Guadagno adesso permette di selezionare quale dei tre "
+#~ "tipi di Loudness usare per calcolare"
+
+#~ msgid "mean."
+#~ msgstr "la media geometrica."
+
+#~ msgid ""
+#~ "The autogain plugin now allows the maximum history to be set and does not "
+#~ "use `libebur128` histogram mode anymore."
+#~ msgstr ""
+#~ "Il plugin di Auto Guadagno adesso permette l'impostazione della massima "
+#~ "cronologia e non utilizza più l'istogramma `libebur128`."
+
+#~ msgid ""
+#~ "This should avoid the cases where the `Integrated` loudness gets stuck "
+#~ "forever in the same value."
+#~ msgstr ""
+#~ "Ciò eviterà i casi in cui la Loudness `Integrata` rimanga fissa "
+#~ "costantemente sullo stesso valore."
+
+#~ msgid ""
+#~ "EasyEffects icon has been updated in a way that should make it visible in "
+#~ "QT desktops."
+#~ msgstr ""
+#~ "L'icona di EasyEffects è stata aggiornata in modo da essere visibile "
+#~ "anche nei desktop QT."
+
+#~ msgid "This release fixes the following bug:"
+#~ msgstr "Questa release corregge i seguenti bug:"
+
+#~ msgid ""
+#~ "The command line option that returns the global bypass state is working "
+#~ "again."
+#~ msgstr ""
+#~ "L'opzione della riga di comando che restituisce lo stato di bypass "
+#~ "globale funziona di nuovo."
+
+#~ msgid "This release adds the following feature:"
+#~ msgstr "Questa release aggiunge le seguenti funzionalità:"
+
+#~ msgid ""
+#~ "The crossfeed filter should deal better with PipeWire's dynamic latency "
+#~ "switches. Jumps in volume level should not happen anymore in these "
+#~ "situations."
+#~ msgstr ""
+#~ "Migliorata la gestione della latenza dinamica di PipeWire da parte del "
+#~ "modulo di Crossfeed. Non si dovrebbero più verificare anomali cambi di "
+#~ "volume."
+
+#~ msgid ""
+#~ "Fixed a bug that prevented mono microphones from properly working with "
+#~ "EasyEffects"
+#~ msgstr ""
+#~ "Risolto un bug che non permetteva la corretta gestione dei microfoni mono "
+#~ "da parte di EasyEffects"
+
+#~ msgid "Support for the next PipeWire release `0.3.44`"
+#~ msgstr "Supporto per la prossima versione di PipeWire `0.3.44`"
+
+#~ msgid ""
+#~ "The autogain filter should deal better with PipeWire's dynamic latency "
+#~ "switches. Jumps in volume level should not happen anymore in these "
+#~ "situations."
+#~ msgstr ""
+#~ "Migliorata la gestione della latenza dinamica di PipeWire da parte del "
+#~ "modulo di Auto Guadagno. Non si dovrebbero più verificare anomali cambi "
+#~ "di volume."
+
+#~ msgid ""
+#~ "We added an option that allows the volume and mute state of our virtual "
+#~ "devices to be reset when EasyEffects starts. It should help with the "
+#~ "cases were our devices are muted by the audio server for unknown reasons."
+#~ msgstr ""
+#~ "Aggiunta un'opzione per reimpostare il volume del nostro dispositivo "
+#~ "virtuale all'avvio di EasyEffects. Ciò dovrebbe essere d'aiuto nei casi "
+#~ "in cui il nostro dispositivo venga mutato dal server per ragioni ignote."
+
+#~ msgid "Better support for computer suspending."
+#~ msgstr "Migliore supporto per la sospensione del computer."
+
+#~ msgid "Updated translations"
+#~ msgstr "Traduzioni aggiornate"
+
+#~ msgid ""
+#~ "Fixed a bug where trying to create an autoloading profile without having "
+#~ "presets caused the application to crash."
+#~ msgstr ""
+#~ "Risolto un bug per cui il tentativo di creare un profilo di caricamento "
+#~ "automatico senza preimpostazioni causava l'arresto anomalo "
+#~ "dell'applicazione."
+
+#~ msgid ""
+#~ "Fixed a bug where setting a equalizer band `quality` to `zero` would lead "
+#~ "to an application crash."
+#~ msgstr ""
+#~ "Risolto un bug in cui impostando a `zero` la `qualità` di una banda "
+#~ "dell'Equalizzatore, l'intera applicazione andava in crash."
+
+#~ msgid ""
+#~ "LibAdwaita is used to create some parts of our window and for handling "
+#~ "the switching between dark and light themes."
+#~ msgstr ""
+#~ "LibAdwaita è usata per creare alcune parti della nostra interfaccia e la "
+#~ "modifica dei temi chiaro/scuro."
+
+#~ msgid "The settings menu has been redesigned using LibAdwaita widgets."
+#~ msgstr ""
+#~ "Il menu delle impostazioni è stato ridisegnato con gli oggetti di "
+#~ "LibAdwaita."
+
+#~ msgid ""
+#~ "Equalizer APO preset import feature has been improved to apply not only "
+#~ "the Bell filter, but also other supported ones"
+#~ msgstr ""
+#~ "L'importazione dei profili Equalizer APO è stata migliorata per applicare "
+#~ "non solo i filtri a Campana, ma anche gli altri supportati"
+
+#~ msgid ""
+#~ "The `Reset All Settings` function in our menu should work in Flatpak now."
+#~ msgstr ""
+#~ "L'opzione `Reset Preferenze` nel menu adesso funziona anche in Flatpak."
+
+#~ msgid ""
+#~ "We have a new option that allows the user to disable our menus "
+#~ "`autohide`. This may help to workaround some bugs Popover menus currently "
+#~ "have on gtk4."
+#~ msgstr ""
+#~ "Abbiamo una nuova opzione che permette di disabilitare il `autohide` dei "
+#~ "nostri menu. Questo permette di aggirare alcuni bug dei menu Popover "
+#~ "attualmente presenti in gtk4."
+
+#~ msgid ""
+#~ "More robust parsing to import APO presets saved with comma as thousands "
+#~ "separator in central frequency band."
+#~ msgstr ""
+#~ "Migliorata l'analisi dell'importazione APO con profili che hanno la "
+#~ "virgola come separatore delle migliaia."
+
+#~ msgid ""
+#~ "The fmt library is a new dependency At least while the c++ compilers do "
+#~ "not implement its features. This is expected to happen in the next years."
+#~ msgstr ""
+#~ "La libreria fmt è una nuova dipendenza, almeno fin quando i compilatori c+"
+#~ "+ non la implementeranno in predefinito. Ciò è previsto nei prossimi anni."
+
+#~ msgid ""
+#~ "GTKMM and GLIBMM are not a dependency anymore. We now use gtk4 directly."
+#~ msgstr ""
+#~ "GTKMM e GLIBMM non sono più una dipendenza. Adesso usiamo gtk4 "
+#~ "direttamente."
+
+#~ msgid ""
+#~ "It is now possible to combine impulse responses in the Convolver "
+#~ "interface. A new impulse file is generated and it should be visible in "
+#~ "the impulse list."
+#~ msgstr ""
+#~ "Adesso è possibile combinare più Impulsi nell'interfaccia del Convolver. "
+#~ "Un nuovo file di Impulso viene generato e il suo nome è aggiunto nella "
+#~ "lista."
+
+#~ msgid ""
+#~ "Improved `x axis` drawings in our plots. Now the number of labels is "
+#~ "adjusted dynamically depending on our window width."
+#~ msgstr ""
+#~ "Migliorato il disegno della `asse x` nei nostri grafici. Adesso il numero "
+#~ "delle etichette si adatta in base alla larghezza della finestra."
+
+#~ msgid ""
+#~ "The documentation has been updated reflecting the new EasyEffects "
+#~ "features. Old references about PulseEffects have been removed. The "
+#~ "documentation button has been added in the menu section."
+#~ msgstr ""
+#~ "La documentazione è stata aggiornata con le nuove funzionalità di "
+#~ "EasyEffects. I vecchi riferimenti a PulseEffects sono stati rimossi. Il "
+#~ "bottone per consultare la documentazione è stato aggiunto nel menu."
+
+#~ msgid ""
+#~ "When a spinbutton is filled with an out of range value, now it is updated "
+#~ "with the lowest/highest value rather than resetting to the previous one."
+#~ msgstr ""
+#~ "Inserendo un valore fuori scala nello spinbutton, adesso il parametro "
+#~ "viene aggiornato al valore minimo/massimo, invece che resettarlo a quello "
+#~ "precedente."
+
+#~ msgid ""
+#~ "The application window now remembers the maximized state and restores it "
+#~ "on the next opening event."
+#~ msgstr ""
+#~ "La finestra principale adesso ricorda lo stato di massimizzazione e lo "
+#~ "ripristina alla nuova apertura."
+
+#~ msgid "The `tbb` library is a new dependency"
+#~ msgstr "La libreria `tbb` è una nuova dipendenza"
+
+#~ msgid ""
+#~ "The Limiter and the Multiband Compressor plugins can now use an optional "
+#~ "external sidechain."
+#~ msgstr ""
+#~ "Il Limiter e il Compressore Multibanda adesso possono usare una sidechain "
+#~ "esterna."
+
+#~ msgid ""
+#~ "The Autogain plugin now allows the user to select which Loudness is used "
+#~ "as reference for the volume correction."
+#~ msgstr ""
+#~ "Il modulo di Auto Guadagno adesso permette all'utente di selezionare "
+#~ "quale tipologia di Loudness usare come riferimento per la correzione del "
+#~ "volume."
+
+#~ msgid ""
+#~ "The APO Profile Import feature of Equalizer plugin now parses the \"Pre "
+#~ "Amplification\" parameter."
+#~ msgstr ""
+#~ "La funzionalità di importazione dei profili APO nell'Equalizzatore adesso "
+#~ "analizza anche il parametro di \"Pre Amplificazione\"."
+
+#~ msgid "Optional Cubic Volume can be enabled in General Settings."
+#~ msgstr "Il Volume Cubico può essere abilitato dalle impostazioni generali."
+
+#~ msgid ""
+#~ "PipeWire monitor streams are now excluded and removed from the "
+#~ "applications list."
+#~ msgstr ""
+#~ "I flussi monitor di PipeWire adesso dovrebbero essere esclusi e rimossi "
+#~ "dalla lista delle applicazioni."
+
+#~ msgid "Hopefully crashes like the one reported at [1172]( are fixed."
+#~ msgstr "Crash come quelli riportati in [1172]( sono stati corretti."
+
+#~ msgid "Prevented a case in which Spectrum was crashing."
+#~ msgstr "Risolto un caso in cui lo Spettro andava in crash."
+
+#~ msgid ""
+#~ "Pavucontrol is not added anymore to input applications list on systems "
+#~ "with localization different than English."
+#~ msgstr ""
+#~ "Pavucontrol non è più aggiunto alla lista delle applicazioni in ingresso "
+#~ "su sistemi con localizzazione diversa da quella inglese."
+
+#~ msgid ""
+#~ "Improved compatibility with WirePlumber. This is needed to run on systems "
+#~ "that decided to use it instead of the"
+#~ msgstr ""
+#~ "Migliorata la compatibilità con WirePlumber. Questo è necessario per i "
+#~ "sistemi che hanno deciso di utilizzarlo"
+
+#~ msgid "built-in PipeWire session manager. More information at issue [1144]("
+#~ msgstr ""
+#~ "al posto del session manager integrato in PipeWire. Maggiori informazioni "
+#~ "in [1144]("
+
+#~ msgid ""
+#~ "When trying to add an autoloading profile for a device already in the "
+#~ "list its target preset will be updated. This way we can change the "
+#~ "profile preset without having to remove and recreating it."
+#~ msgstr ""
+#~ "All'aggiunta di un profilo di autocaricamento per uno specifico "
+#~ "dispositivo già presente in lista, ora il profilo viene aggiornato. In "
+#~ "questo modo non c'è bisogno di rimuovere lo stesso dispositivo e "
+#~ "riaggiungerlo per vederlo."
+
+#~ msgid ""
+#~ "The preset autoloading support implementation was redesigned again. It "
+#~ "should work on more hardware now. For more information see issue [1051]("
+#~ msgstr ""
+#~ "La funzionalità dell'autocaricamento dei profili è stata nuovamente "
+#~ "riprogettata. Adesso dovrebbe funzionare su più tipologie di dispositivi. "
+#~ "Per maggiori informazioni, consulta [1051]("
+
+#~ msgid ""
+#~ "If the Limiter or the Maximizer are set in the last position of the "
+#~ "plugin stack, new plugins are added at the second to last position in "
+#~ "order to prevent hardware damage on eventually high output level."
+#~ msgstr ""
+#~ "Se il Limiter e il Maximizer sono posizionati alla fine della lista, i "
+#~ "nuovi moduli sono aggiunti nella penultima posizione in modo da evitare "
+#~ "eventuali danneggiamenti agli altoparlanti in caso di volume troppo alto."
+
+#~ msgid ""
+#~ "Removing an application from the blocklist, its previous enabled state is "
+#~ "restored."
+#~ msgstr ""
+#~ "Alla rimozione di un flusso dalle App Escluse, il precedente stato "
+#~ "dovrebbe essere ripristinato."
+
+#~ msgid ""
+#~ "Sometimes when removing imported models from the noise reduction plugin "
+#~ "the current used model was not properly updated. This should be fixed now."
+#~ msgstr ""
+#~ "Talvolta alla rimozione dei modelli nel modulo di riduzione del rumore, "
+#~ "il modello utilizzato non veniva aggiornato. Questo problema è stato "
+#~ "risolto."
+
+#~ msgid ""
+#~ "When editing presets files in an external editor, duplicated entries "
+#~ "won't be shown in our presets menu."
+#~ msgstr ""
+#~ "Alla modifica dei profili in un editor esterno, adesso non saranno più "
+#~ "mostrate voci multiple nella lista dei profili."
+
+#~ msgid "Now the blocklist is correctly set when switching presets."
+#~ msgstr ""
+#~ "Adesso i flussi nelle App Escluse vengono correttamente disabilitati allo "
+#~ "switch dei profili."
+
+#~ msgid ""
+#~ "Now the status of the global bypass button is correctly updated when "
+#~ "changing plugin stack."
+#~ msgstr ""
+#~ "Adesso lo stato del Bypass globale dovrebbe essere correttamente "
+#~ "aggiornato quando i moduli cambiano."
+
+#~ msgid ""
+#~ "Missing icons on the system should not be shown inside the application "
+#~ "info UI"
+#~ msgstr ""
+#~ "Le icone non presenti sul sistema adesso non dovrebbero essere "
+#~ "visualizzate nell'interfaccia delle applicazioni"
+
+#~ msgid ""
+#~ "Some icons not showing in Plasma DE with Breeze icon theme should appear "
+#~ "now."
+#~ msgstr ""
+#~ "Alcune icone non visualizzate in Plasma con il tema Breeze adesso "
+#~ "dovrebbero essere visibili."
+
+#~ msgid "Updated Chinese translation."
+#~ msgstr "Traduzione Cinese aggiornata."
+
+#~ msgid "Updated Italian translation."
+#~ msgstr "Traduzione Italiana aggiornata."
+
+#~ msgid "Added support for the compressor parameter `Boost Amount`"
+#~ msgstr ""
+#~ "Aggiunto il supporto al parametro `Quantità Incremento` del Compressore"
+
+#~ msgid ""
+#~ "The multiband compressor plugin now uses the stereo multiband compressor "
+#~ "plugin from Linux Studio Plugins instead of the one from Calf Studio."
+#~ msgstr ""
+#~ "Il Compressore Multibanda adesso implemento lo stereo multiband "
+#~ "compressor sviluppato da Linux Studio Plugins invece di quello di Calf "
+#~ "Studio."
+
+#~ msgid ""
+#~ "The limiter plugin now uses the stereo limiter plugin from Linux Studio "
+#~ "Plugins instead of the one from Calf Studio."
+#~ msgstr ""
+#~ "Il Limiter adesso implementa lo stereo limiter sviluppato da Linux Studio "
+#~ "Plugins invece di quello di Calf Studio."
+
+#~ msgid ""
+#~ "LV2 filters now are spawned in PipeWire graph only when loaded the first "
+#~ "time. Once loaded, they remain connected until EasyEffects shutdown."
+#~ msgstr ""
+#~ "I filtri LV2 adesso sono generati nel diagramma PipeWire soltanto quando "
+#~ "sono caricati per la prima volta. Tuttavia, una volta caricati, rimangono "
+#~ "connessi fin quando EasyEffects non viene terminato."
+
+#~ msgid "The echo canceller sampling rate is now properly set."
+#~ msgstr ""
+#~ "Il modulo di Riduzione Eco adesso imposta correttamente il campionamento."
+
+#~ msgid ""
+#~ "The threshold parameter from the deesser plugin is now saved to the "
+#~ "preset file."
+#~ msgstr ""
+#~ "Il parametro soglia del Deesser adesso è salvato correttamente nel "
+#~ "profilo."
+
+#~ msgid ""
+#~ "Improved band splitting for crystalizer with new default intensity values."
+#~ msgstr ""
+#~ "Migliorata la suddivisione delle bande nel Crystalizer con nuovi valori "
+#~ "di default delle Intensità."
+
+#~ msgid ""
+#~ "Depending on the input gain or output gain values the corresponding level "
+#~ "bars could not be aligned."
+#~ msgstr ""
+#~ "In base al guadagno di input/output, le corrispondenti barre non erano "
+#~ "allineate correttamente."
+
+#~ msgid ""
+#~ "When adding more equalizer bands they are set to `Bell` instead of `Off`."
+#~ msgstr ""
+#~ "All'aggiunta di nuove bande nell'Equalizzatore, la modalità è impostata "
+#~ "su `Campana` invece che `Off`."
+
+#~ msgid ""
+#~ "Equalizer APO presets loading is now working properly on locales "
+#~ "different than C."
+#~ msgstr ""
+#~ "L'importazione degli Equalizer APO adesso funziona correttamente su "
+#~ "localizzazioni differenti da C."
+
+#~ msgid "Improved linking management between port filter nodes in PipeWire."
+#~ msgstr ""
+#~ "Migliorata la gestione delle connessioni tra le porte dei nodi in "
+#~ "PipeWire."
+
+#~ msgid ""
+#~ "The crystalizer plugin signal amplification was too high before. It "
+#~ "should be within more reasonable levels now."
+#~ msgstr ""
+#~ "L'amplificazione del Crystalizer era troppo alta. Adesso dovrebbe essere "
+#~ "impostata a livelli ragionevoli."
+
+#~ msgid ""
+#~ "Improved the resampler used in the plugins that require one(like the "
+#~ "rnnoise plugin)"
+#~ msgstr ""
+#~ "Migliorato il resampler usato nei moduli che lo richiedono (come RNNoise)"
+
+#~ msgid "Setting multiple autoloading presets should be fine now"
+#~ msgstr ""
+#~ "L'impostazione di profili di autocaricamento multipli adesso dovrebbe "
+#~ "funzionare"
+
+#~ msgid "Transient windows are now properly set for some plugins dialogs"
+#~ msgstr ""
+#~ "La translazione dell'interfaccia per alcuni moduli è stata correttamente "
+#~ "impostata"
+
+#~ msgid ""
+#~ "The convolver impulse response menu was improved to workaround an issue "
+#~ "where the impulse files was not loaded when only one was available in the "
+#~ "menu"
+#~ msgstr ""
+#~ "Il menu dei file di Impulso del Convolver è stato migliorato aggirando un "
+#~ "problema per cui i file non erano caricati quando solo uno era "
+#~ "disponibile nel menu"
+
+#~ msgid ""
+#~ "Fixed a bug that could make the pitch plugin to not be properly "
+#~ "initialized"
+#~ msgstr ""
+#~ "Corretto un bug che non inizializzava correttamente il modulo di "
+#~ "Intonazione"
+
+#~ msgid ""
+#~ "The saturation warning should not displace its neighbor widgets anymore"
+#~ msgstr ""
+#~ "L'icona di allarma saturazione adesso non sposta più gli oggetti adiacenti"
+
+#~ msgid "Fixed the locale in a few widgets"
+#~ msgstr "Aggiustati i locale in alcuni oggetti"
+
+#~ msgid "Fixed wrong alignment in a few widgets"
+#~ msgstr "Corretti gli allineamenti in alcuni oggetti"
+
+#~ msgid ""
+#~ "The Loudness plugin is being used again for the reasons described at This "
+#~ "means that is an optional dependency again."
+#~ msgstr ""
+#~ "Il modulo di Loudness è stato reimplementato. Questo significa che è di "
+#~ "nuovo una dipendenza opzionale."
+
+#~ msgid ""
+#~ "Fixed a segmentation fault that happened when optional dependencies were "
+#~ "not installed"
+#~ msgstr ""
+#~ "Risolto un errore di segmentazione che accadeva quando delle dipendenze "
+#~ "opzionali non erano installate"
+
+#~ msgid "Improved equalizer interface."
+#~ msgstr "Migliorata l'interfaccia dell'equalizzatore."
+
+#~ msgid ""
+#~ "Now we use a sidechain LSP compressor that allows the user to select and "
+#~ "external source as the sidechain input."
+#~ msgstr ""
+#~ "Adesso usiamo un Compressore Sidechain LSP che permette di selezionare "
+#~ "una sorgente esterna come sidechain di ingresso."
+
+#~ msgid "We now support the LSP compressor `Boosting` mode."
+#~ msgstr "Adesso supportiamo la modalità `Incremento` del Compressore LSP."
+
+#~ msgid ""
+#~ "When `split-channels` is enabled in the equalizer the imported APO preset "
+#~ "will be applied only to the channel being visualized in the window. This "
+#~ "will allow to import different presets for each channel instead of just "
+#~ "settings the same values to both."
+#~ msgstr ""
+#~ "Quando `separa canali` è abilitato nell'Equalizzatore, i profili APO "
+#~ "importati saranno applicati soltanto al canale visualizzato. Questo "
+#~ "permette di importare profili differenti per i diversi canali invece che "
+#~ "gli stessi per entrambi."
+
+#~ msgid ""
+#~ "Fixed some segmentation faults that could happen when creating a preset "
+#~ "autoloading profile or removing presets"
+#~ msgstr ""
+#~ "Risolti alcuni errori di segmentazione quando si creavano o rimuovevano i "
+#~ "profili di autocaricamento"
+
+#~ msgid ""
+#~ "This is one of the biggest releases that I have ever made. The amount of "
+#~ "changes is so big that it is hard to talk about everything here."
+#~ msgstr ""
+#~ "Questa è una delle più grandi release che io abbia mai fatto. Il numero "
+#~ "dei cambiamenti è cosi elevato che è difficile descriverle tutte qui."
+
+#~ msgid ""
+#~ "The following are just the most import ones. People interested on the "
+#~ "journey that got us here can take"
+#~ msgstr ""
+#~ "Le seguenti sono soltanto le più importanti. Quelli maggiormente "
+#~ "interessati"
+
+#~ msgid "a look at and"
+#~ msgstr "possono dare un'occhiata e"
+
+#~ msgid ""
+#~ "The application and its repository have been renamed from PulseEffects to "
+#~ "`EasyEffects`"
+#~ msgstr "L'applicazione è stata rinominata da PulseEffects a `EasyEffects`"
+
+#~ msgid "gtkmm3 was replaced by gtkmm4"
+#~ msgstr "gtkmm3 è stato rimpiazzato da gtkmm4"
+
+#~ msgid "Gstreamer was replaced by native PipeWire filters."
+#~ msgstr "Gstreamer è stato rimpiazzato dai filtri nativi PipeWire."
+
+#~ msgid ""
+#~ "Many features were reimplemented from scratch. The preset autoloading is "
+#~ "one example. Another remarkable change will be seen in the plugins "
+#~ "selection menu. Now the user can show in the window only the plugins that "
+#~ "he/she wants to use."
+#~ msgstr ""
+#~ "Molte funzionalità sono state riscritte da zero. L'autocaricamento dei "
+#~ "preset ne è un esempio. Un'altra modifica importante è presente nel menu "
+#~ "di selezione dei moduli. Adesso sono mostrati nella finestra soltanto i "
+#~ "plugin aggiunti alla lista."
+
+#~ msgid ""
+#~ "Boost is no longer a dependency. The price paid for that was a little "
+#~ "change in our presets structures. With some patience it is possible to "
+#~ "edit PulseEffects presets in a text editor and make them work in "
+#~ "EasyEffects. Hopefully someone will come up with a script for this in the "
+#~ "feature."
+#~ msgstr ""
+#~ "Boost non è più una dipendenza. Il prezzo da pagare per questa scelta è "
+#~ "il cambiamento della struttura dei profili. Con un po' di pazienza è "
+#~ "possibile modificare i profili di PulseEffects in un editor di testo per "
+#~ "renderli compatibili con EasyEffects. Magari qualcuno realizzerà uno "
+#~ "script per questa operazione."
+
+#~ msgid ""
+#~ "New libraries are being used and some of the librarires that were "
+#~ "optional before are now required"
+#~ msgstr ""
+#~ "Nuove librerie sono state aggiunte e altre che erano opzionali adesso "
+#~ "sono necessarie"
+
+#~ msgid "Average"
+#~ msgstr "Media"
+
+#~ msgid "Failed"
+#~ msgstr "Errore"
+
+#~ msgid "Use Default"
+#~ msgstr "Usa Predefinito"
+
+#~ msgid "Remove this plugin"
+#~ msgstr "Rimuovi questo profilo"
+
+#~ msgid "Import Presets"
+#~ msgstr "Importa Profili"
+
+#~ msgid "Start Service at Login"
+#~ msgstr "Esegui Servizio all'Avvio"
+
+#~ msgid "Reset Our Devices Volume on Startup"
+#~ msgstr "Reimposta il Volume di EasyEffects all'Avvio"
+
+#~ msgid "Shutdown on Window Close"
+#~ msgstr "Termina alla Chiusura della Finestra"
+
+#~ msgid "Process All Outputs"
+#~ msgstr "Processa Tutto in Uscita"
+
+#~ msgid "Process All Inputs"
+#~ msgstr "Processa Tutto in Ingresso"
+
+#~ msgid "Exclude Device Monitor Streams"
+#~ msgstr "Escludi i flussi di monitoraggio del dispositivo"
+
+#~ msgid "Activate"
+#~ msgstr "Abilita"
+
+#~ msgid "Add to Blocklist"
+#~ msgstr "Aggiungi ad App Escluse"
+
+#~ msgid "Blocklist"
+#~ msgstr "App Escluse"
+
+#~ msgid "Add Plugin"
+#~ msgstr "Aggiungi Modulo"
+
+#~ msgid "Speakers"
+#~ msgstr "Altoparlanti"
+
+#~ msgid "Microphone"
+#~ msgstr "Microfono"
+
+#~ msgid "Plugins"
+#~ msgstr "Moduli"
+
+#, fuzzy
+#~ msgid "enabled"
+#~ msgstr "Attivato"
+
+#, fuzzy
+#~ msgid "disabled"
+#~ msgstr "Attivato"
+
+#~ msgid "Format"
+#~ msgstr "Formato"
+
+#~ msgid "Latency"
+#~ msgstr "Latenza"
+
+#~ msgid "idle"
+#~ msgstr "inattivo"
+
+#~ msgid "Faster"
+#~ msgstr "Più Veloce"
+
+#~ msgid "Preserve Formant"
+#~ msgstr "Preserva Formante"
+
+#~ msgid "Crispness"
+#~ msgstr "Chiarezza"
+
+#~ msgid "Cmoy"
+#~ msgstr "Cmoy"
+
+#~ msgid "Jmeier"
+#~ msgstr "Jmeier"
+
+#~ msgid ""
+#~ "The autogain filter should deal better with PipeWire's dynamic latency "
+#~ "switches. Jumps in volume level should not"
+#~ msgstr ""
+#~ "Il filtro di guadagno automatico dovrebbe gestire meglio gli interruttori "
+#~ "di latenza dinamica di PipeWire. I salti nel livello del volume non "
+#~ "dovrebbe"
+
+#~ msgid "happen anymore in these situations."
+#~ msgstr "succedere più in queste situazioni."
+
+#~ msgid ""
+#~ "We added an option that allows the volume and mute state of our virtual "
+#~ "devices to be reset when EasyEffects starts."
+#~ msgstr ""
+#~ "Abbiamo aggiunto un'opzione che consente di ripristinare il volume e lo "
+#~ "stato muto dei nostri dispositivi virtuali all'avvio di EasyEffects."
+
+#~ msgid ""
+#~ "It should help with the cases were our devices are muted by the audio "
+#~ "server for unknown reasons."
+#~ msgstr ""
+#~ "Dovrebbe aiutare con i casi in cui i nostri dispositivi sono silenziati "
+#~ "dal server audio per ragioni sconosciute."
+
+#~ msgid "RLC (BT)"
+#~ msgstr "RLC (BT)"
+
+#~ msgid "RLC (MT)"
+#~ msgstr "RLC (MT)"
+
+#~ msgid "BWC (BT)"
+#~ msgstr "BWC (BT)"
+
+#~ msgid "BWC (MT)"
+#~ msgstr "BWC (MT)"
+
+#~ msgid "LRX (BT)"
+#~ msgstr "LRX (BT)"
+
+#~ msgid "LRX (MT)"
+#~ msgstr "LRX (MT)"
+
+#~ msgid "APO (DR)"
+#~ msgstr "APO (DR)"

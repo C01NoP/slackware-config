@@ -1,0 +1,13 @@
+- Icons I have made:
+
+ee-spectrum-symbolic
+
+- Icons I did not make:
+
+ee-arrow-down-symbolic is the icon "folder-download-symbolic" from the Adwaita package
+ee-square-symbolic is the icon "media-playback-stop-symbolic" from the Adwaita package
+ee-plugins-symbolic is the icon "application-x-addon-symbolic" from the Adwaita package
+ee-drag-handle-symbolic is the icon "list-drag-handle-symbolic" from the Adwaita package
+ee-arrows-right-symbolic is the icon "media-playlist-consecutive-symbolic" from the Adwaita package
+ee-bypass-symbolic is the icon "system-log-out-symbolic" from the Adwaita package
+ee-applications-multimedia-symbolic is the icon "applications-multimedia-symbolic" from the Adwaita package

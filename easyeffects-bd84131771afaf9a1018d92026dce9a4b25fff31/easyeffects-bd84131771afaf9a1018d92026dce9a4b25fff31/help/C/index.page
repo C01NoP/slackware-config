@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="index">
+    <info>
+        <credit type="author">
+            <name its:translate="no">Wellington Wallace</name>
+            <email its:translate="no">wellingtonwallace@gmail.com</email>
+        </credit>
+    </info>
+    <title>Easy Effects</title>
+    <p>Easy Effects applies audio effects to applications managed by PipeWire. The user can apply effects to applications output or to the microphone before sending its audio to a recording application.</p>
+    <section id="guides" style="2column">
+        <title>Guides</title>
+    </section>
+    <section id="ui" style="2column">
+        <title>User Interface</title>
+    </section>
+    <section id="plugins" style="2column">
+        <title>Plugins</title>
+    </section>
+    <section id="calibration" style="2column">
+        <title>Calibration</title>
+    </section>
+</page>

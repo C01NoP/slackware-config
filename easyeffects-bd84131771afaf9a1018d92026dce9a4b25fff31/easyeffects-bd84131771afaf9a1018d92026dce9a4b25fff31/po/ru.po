@@ -1,0 +1,3722 @@
+# EasyEffects Russian translation
+# This file is distributed under the same license as the EasyEffects package.
+# ⓒ  Mikhail Novosyolov [mikhailnov] <mikhailnov@dumalogiya.ru>, 2017-2019
+# ⓒ  Georgiy Starodubtsov [Mewsimka] <mewsim-ka@yandex.ru>, 2018
+# ⓒ  Denis Goncharov, 2018
+# ⓒ  Vladimir Penchikov <vladi105@mail.ru>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-10 15:49+0000\n"
+"PO-Revision-Date: 2022-11-09 18:47+0000\n"
+"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/easyeffects/main/"
+"ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 4.15-dev\n"
+
+#. Translators: This is a variable for the application name, don't translate!
+#: data/com.github.wwmm.easyeffects.desktop.in:4
+msgid "@APP_NAME@"
+msgstr "@APP_NAME@"
+
+#: data/com.github.wwmm.easyeffects.desktop.in:5
+msgid "Equalizer, Compressor and Other Audio Effects"
+msgstr "Эквалайзер, компрессор и прочие звуковые эффекты"
+
+#: data/com.github.wwmm.easyeffects.desktop.in:6
+msgid "Audio Effects for PipeWire Applications"
+msgstr "Звуковые эффекты для приложений PipeWire"
+
+#: data/com.github.wwmm.easyeffects.desktop.in:7
+msgid "limiter;compressor;reverberation;equalizer;autovolume;"
+msgstr "лимитер;компрессор;ребербатор;эквалайзер;автогромкость;"
+
+#: data/schemas/com.github.wwmm.easyeffects.gschema.xml:14
+#: data/schemas/com.github.wwmm.easyeffects.gschema.xml:17
+msgid "\"Presets\""
+msgstr "\"Предустановки\""
+
+#: data/ui/app_info.ui:212
+msgid "Enable/disable this application"
+msgstr "Включить/выключить это приложение"
+
+#: data/ui/app_info.ui:213
+msgid "Enable"
+msgstr "Включить"
+
+#: data/ui/app_info.ui:225
+msgid "Excluded App List: Add/remove this application"
+msgstr "Список исключений: Добавить/удалить это приложение"
+
+#: data/ui/app_info.ui:226
+msgid "Exclude"
+msgstr "Исключить"
+
+#: data/ui/app_info.ui:247 data/ui/app_info.ui:249
+msgid "Mute Application"
+msgstr "Заглушить приложение"
+
+#: data/ui/app_info.ui:270
+msgid "Change the volume of this application"
+msgstr "Изменить громкость этого приложения"
+
+#: data/ui/app_info.ui:272
+msgid "Application Volume"
+msgstr "Громкость приложения"
+
+#: data/ui/application_window.ui:6
+msgid "_Preferences"
+msgstr "_Настройки"
+
+#: data/ui/application_window.ui:10
+msgid "_Manual"
+msgstr "_Руководство"
+
+#: data/ui/application_window.ui:14
+msgid "_Shortcuts"
+msgstr "_Горячие клавиши"
+
+#: data/ui/application_window.ui:20
+msgid "_Reset Settings"
+msgstr "_Сброс настроек"
+
+#: data/ui/application_window.ui:26
+msgid "_About Easy Effects"
+msgstr "_О программе Easy Effects"
+
+#: data/ui/application_window.ui:52 data/ui/reverb.ui:25
+#: src/presets_menu.cpp:108 src/presets_menu.cpp:258 src/presets_menu.cpp:259
+#: src/presets_menu.cpp:276 src/presets_menu.cpp:277
+msgid "Presets"
+msgstr "Предустановки"
+
+#: data/ui/application_window.ui:54
+msgid "Presets Menu"
+msgstr "Меню предустановок"
+
+#: data/ui/application_window.ui:61
+msgid "Enable/disable the global bypass"
+msgstr "Включить/отключить общий обход"
+
+#: data/ui/application_window.ui:66
+msgid "Global Bypass"
+msgstr "Общий обход"
+
+#: data/ui/application_window.ui:76
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+#: data/ui/application_window.ui:91
+msgid "Easy Effects Window"
+msgstr "Окно Easy Effects"
+
+#: data/ui/apps_box.ui:17
+msgid "Applications List"
+msgstr "Список приложений"
+
+#: data/ui/apps_box.ui:27
+msgid "Empty List"
+msgstr "Список пуст"
+
+#: data/ui/apps_box.ui:28
+msgid "No Audio Application Available"
+msgstr "Нет доступных звуковых приложений"
+
+#: data/ui/autogain.ui:29
+msgid "Target"
+msgstr "Целевая громкость"
+
+#: data/ui/autogain.ui:63
+msgid "Silence"
+msgstr "Тишина"
+
+#: data/ui/autogain.ui:98
+msgid "Maximum History"
+msgstr "Исторический максимум"
+
+#: data/ui/autogain.ui:132
+msgid "Reference"
+msgstr "База"
+
+#: data/ui/autogain.ui:144 data/ui/autogain.ui:185
+msgid "Momentary"
+msgstr "Моментальные измерения"
+
+#: data/ui/autogain.ui:145 data/ui/autogain.ui:215
+msgid "Short-Term"
+msgstr "Краткосрочные измерения"
+
+# Время интеграции — это величина, характеризующая быстродействие измерителя.
+# https://tech.ebu.ch/docs/factsheets/Factsheet-R128-2011-RUS.pdf
+# В документе выше переводчик перевел 'Integrated' как 'Интегрированные',
+# хотя сам же написал, что это "измерения от начала до конца"
+# Яндекс.Переводчик перевел лучше — "Комплексные измерения"
+#: data/ui/autogain.ui:146 data/ui/autogain.ui:245
+msgid "Integrated"
+msgstr "Комплексные измерения"
+
+#: data/ui/autogain.ui:147
+msgid "Geometric Mean (MSI)"
+msgstr "Среднее геометрическое (MSI)"
+
+#: data/ui/autogain.ui:148
+msgid "Geometric Mean (MS)"
+msgstr "Среднее геометрическое (MS)"
+
+#: data/ui/autogain.ui:149
+msgid "Geometric Mean (MI)"
+msgstr "Среднее геометрическое (MI)"
+
+#: data/ui/autogain.ui:150
+msgid "Geometric Mean (SI)"
+msgstr "Среднее геометрическое (SI)"
+
+# #, fuzzy
+#: data/ui/autogain.ui:165
+msgid "Reset History"
+msgstr "Сброс истории"
+
+#: data/ui/autogain.ui:275
+msgid "Relative"
+msgstr "Относительное значение"
+
+# ??? Не уверен в переводе
+#: data/ui/autogain.ui:305
+msgid "Range"
+msgstr "Диапазон"
+
+#: data/ui/autogain.ui:338 data/ui/bass_loudness.ui:29
+#: src/tags_plugin_name.cpp:46
+msgid "Loudness"
+msgstr "Громкость"
+
+#: data/ui/autogain.ui:370
+msgid "Output Gain"
+msgstr "Усиление выхода"
+
+# ###############################################
+# https://github.com/wwmm/easyeffects/pull/289
+# Left here for future thinking
+# msgid "Influence of measurements with momentary integration time"
+# msgstr "Влияние измерений с моментальным временем интеграции"
+# msgid "Influence of measurements with short integration time"
+# msgstr "Влияние измерений с малым временем интеграции"
+# msgid "Influence of integrated measurements"
+# msgstr "Влияние комплексных измерений"
+# ###############################################
+#: data/ui/autogain.ui:407 data/ui/bass_enhancer.ui:262
+#: data/ui/bass_loudness.ui:146 data/ui/compressor.ui:576
+#: data/ui/compressor.ui:1058 data/ui/convolver.ui:226 data/ui/crossfeed.ui:143
+#: data/ui/crystalizer.ui:43 data/ui/deesser.ui:417 data/ui/delay.ui:235
+#: data/ui/echo_canceller.ui:149 data/ui/equalizer.ui:333
+#: data/ui/exciter.ui:262 data/ui/filter.ui:173 data/ui/gate.ui:715
+#: data/ui/gate.ui:1196 data/ui/limiter.ui:728 data/ui/loudness.ui:177
+#: data/ui/maximizer.ui:146 data/ui/multiband_compressor.ui:454
+#: data/ui/multiband_gate.ui:454 data/ui/pipe_manager_box.ui:306
+#: data/ui/pitch.ui:305 data/ui/presets_menu.ui:177 data/ui/reverb.ui:362
+#: data/ui/rnnoise.ui:155 data/ui/stereo_tools.ui:40
+#: data/ui/stereo_tools.ui:625
+msgid "Input"
+msgstr "Вход"
+
+#: data/ui/autogain.ui:426 data/ui/bass_enhancer.ui:281
+#: data/ui/bass_loudness.ui:165 data/ui/compressor.ui:1077
+#: data/ui/convolver.ui:245 data/ui/crossfeed.ui:162 data/ui/crystalizer.ui:62
+#: data/ui/deesser.ui:436 data/ui/delay.ui:254 data/ui/echo_canceller.ui:168
+#: data/ui/equalizer.ui:352 data/ui/exciter.ui:281 data/ui/filter.ui:192
+#: data/ui/gate.ui:1215 data/ui/limiter.ui:747 data/ui/loudness.ui:196
+#: data/ui/maximizer.ui:165 data/ui/multiband_compressor.ui:473
+#: data/ui/multiband_gate.ui:473 data/ui/pitch.ui:324 data/ui/reverb.ui:381
+#: data/ui/rnnoise.ui:174 data/ui/stereo_tools.ui:644
+msgid "Plugin Input Gain"
+msgstr "Усиление входа"
+
+#: data/ui/autogain.ui:491 data/ui/bass_enhancer.ui:346
+#: data/ui/bass_loudness.ui:63 data/ui/bass_loudness.ui:230
+#: data/ui/compressor.ui:1142 data/ui/convolver.ui:310 data/ui/crossfeed.ui:227
+#: data/ui/crystalizer.ui:127 data/ui/deesser.ui:501 data/ui/delay.ui:319
+#: data/ui/echo_canceller.ui:233 data/ui/equalizer.ui:417
+#: data/ui/exciter.ui:346 data/ui/filter.ui:257 data/ui/gate.ui:1280
+#: data/ui/limiter.ui:812 data/ui/loudness.ui:261 data/ui/maximizer.ui:230
+#: data/ui/multiband_compressor.ui:538 data/ui/multiband_gate.ui:538
+#: data/ui/pipe_manager_box.ui:209 data/ui/pitch.ui:389
+#: data/ui/presets_menu.ui:28 data/ui/reverb.ui:446 data/ui/rnnoise.ui:239
+#: data/ui/stereo_tools.ui:381 data/ui/stereo_tools.ui:709
+msgid "Output"
+msgstr "Выход"
+
+#: data/ui/autogain.ui:510 data/ui/bass_enhancer.ui:365
+#: data/ui/bass_loudness.ui:249 data/ui/compressor.ui:1161
+#: data/ui/convolver.ui:329 data/ui/crossfeed.ui:246 data/ui/crystalizer.ui:146
+#: data/ui/deesser.ui:520 data/ui/delay.ui:338 data/ui/echo_canceller.ui:252
+#: data/ui/equalizer.ui:436 data/ui/exciter.ui:365 data/ui/filter.ui:276
+#: data/ui/gate.ui:1299 data/ui/limiter.ui:831 data/ui/loudness.ui:280
+#: data/ui/maximizer.ui:249 data/ui/multiband_compressor.ui:557
+#: data/ui/multiband_gate.ui:557 data/ui/pitch.ui:408 data/ui/reverb.ui:465
+#: data/ui/rnnoise.ui:258 data/ui/stereo_tools.ui:728
+msgid "Plugin Output Gain"
+msgstr "Усиление выхода"
+
+#: data/ui/autogain.ui:573 data/ui/bass_enhancer.ui:459
+#: data/ui/bass_loudness.ui:312 data/ui/compressor.ui:1224
+#: data/ui/convolver.ui:392 data/ui/crossfeed.ui:309 data/ui/crystalizer.ui:201
+#: data/ui/deesser.ui:643 data/ui/delay.ui:401 data/ui/echo_canceller.ui:315
+#: data/ui/equalizer.ui:499 data/ui/equalizer_band.ui:223
+#: data/ui/equalizer_band.ui:294 data/ui/exciter.ui:458 data/ui/filter.ui:339
+#: data/ui/gate.ui:1392 data/ui/limiter.ui:894 data/ui/loudness.ui:343
+#: data/ui/maximizer.ui:344 data/ui/multiband_compressor.ui:620
+#: data/ui/multiband_gate.ui:620 data/ui/pitch.ui:471 data/ui/reverb.ui:528
+#: data/ui/rnnoise.ui:321 data/ui/stereo_tools.ui:791
+msgid "Reset"
+msgstr "Сброс"
+
+#: data/ui/autogain.ui:587 data/ui/bass_enhancer.ui:473
+#: data/ui/bass_loudness.ui:326 data/ui/compressor.ui:1238
+#: data/ui/convolver.ui:406 data/ui/crossfeed.ui:323 data/ui/deesser.ui:657
+#: data/ui/delay.ui:415 data/ui/echo_canceller.ui:329 data/ui/equalizer.ui:513
+#: data/ui/exciter.ui:472 data/ui/filter.ui:353 data/ui/gate.ui:1406
+#: data/ui/limiter.ui:908 data/ui/loudness.ui:357 data/ui/maximizer.ui:358
+#: data/ui/multiband_compressor.ui:634 data/ui/multiband_gate.ui:634
+#: data/ui/pitch.ui:485 data/ui/reverb.ui:542 data/ui/rnnoise.ui:335
+#: data/ui/stereo_tools.ui:805
+msgid "Using"
+msgstr "Используется"
+
+# #, fuzzy
+#: data/ui/autoload_row.ui:16 data/ui/compressor.ui:599 data/ui/gate.ui:738
+msgid "Device"
+msgstr "Устройство"
+
+#: data/ui/autoload_row.ui:40 data/ui/factory_clients_listview.ui:44
+#: data/ui/factory_modules_listview.ui:44 data/ui/pipe_manager_box.ui:53
+#: data/ui/pipe_manager_box.ui:89 data/ui/presets_menu.ui:47
+#: data/ui/presets_menu.ui:195
+msgid "Name"
+msgstr "Название"
+
+#: data/ui/autoload_row.ui:64
+msgid "Profile"
+msgstr "Профиль"
+
+#: data/ui/autoload_row.ui:89
+msgid "Preset"
+msgstr "Предустановка"
+
+#: data/ui/autoload_row.ui:114
+msgid "Remove this autoload preset"
+msgstr "Убрать эту предустановку из автозагрузки"
+
+#: data/ui/bass_enhancer.ui:23 data/ui/compressor.ui:529 data/ui/deesser.ui:24
+#: data/ui/exciter.ui:23 data/ui/gate.ui:668
+msgid "Listen"
+msgstr "Прослушать"
+
+#: data/ui/bass_enhancer.ui:34 data/ui/exciter.ui:34
+msgid "Blend Harmonics"
+msgstr "Смешение гармоник"
+
+#: data/ui/bass_enhancer.ui:46 data/ui/exciter.ui:46
+msgid "3rd"
+msgstr "3-ий"
+
+#: data/ui/bass_enhancer.ui:89 data/ui/exciter.ui:89
+msgid "2nd"
+msgstr "2-ой"
+
+#: data/ui/bass_enhancer.ui:108 data/ui/exciter.ui:108
+msgid "Amount"
+msgstr "Величина"
+
+#: data/ui/bass_enhancer.ui:142 data/ui/bass_enhancer.ui:424
+#: data/ui/exciter.ui:142 data/ui/exciter.ui:424
+msgid "Harmonics"
+msgstr "Гармоники"
+
+#: data/ui/bass_enhancer.ui:177 data/ui/exciter.ui:177
+msgid "Scope"
+msgstr "Диапазон частот"
+
+#: data/ui/bass_enhancer.ui:211
+msgid "Floor"
+msgstr "Нижний порог"
+
+#: data/ui/bass_enhancer.ui:240
+msgid "Floor Value"
+msgstr "Величина нижнего порога"
+
+#: data/ui/bass_loudness.ui:97
+msgid "Link"
+msgstr "Указатель"
+
+#: data/ui/blocklist_menu.ui:23 data/ui/blocklist_menu.ui:26
+msgid "Application Name"
+msgstr "Название приложения"
+
+#: data/ui/blocklist_menu.ui:42
+msgid "Add to Excluded Applications"
+msgstr "Добавить в чёрный список приложений"
+
+#: data/ui/blocklist_menu.ui:86
+msgid "Excluded Applications List"
+msgstr "Чёрный список приложений"
+
+#: data/ui/blocklist_menu.ui:99
+msgid "Show Excluded Applications"
+msgstr "Показать исключённые приложения"
+
+#: data/ui/compressor.ui:41 src/tags_plugin_name.cpp:34
+msgid "Compressor"
+msgstr "Компрессор"
+
+#: data/ui/compressor.ui:53 data/ui/compressor.ui:501 data/ui/compressor.ui:796
+#: data/ui/deesser.ui:64 data/ui/equalizer.ui:62 data/ui/equalizer_band.ui:130
+#: data/ui/gate.ui:640 data/ui/gate.ui:934 data/ui/limiter.ui:46
+#: data/ui/multiband_compressor_band.ui:457 data/ui/multiband_gate_band.ui:520
+#: data/ui/pitch.ui:32
+msgid "Mode"
+msgstr "Режим"
+
+#: data/ui/compressor.ui:64 data/ui/multiband_compressor_band.ui:99
+msgid "Downward"
+msgstr "Нисходящий"
+
+#: data/ui/compressor.ui:65 data/ui/multiband_compressor_band.ui:100
+msgid "Upward"
+msgstr "Восходящий"
+
+#: data/ui/compressor.ui:66 data/ui/multiband_compressor_band.ui:101
+msgid "Boosting"
+msgstr "Усиление"
+
+#: data/ui/compressor.ui:73 data/ui/multiband_compressor_band.ui:88
+msgid "Compression Mode"
+msgstr "Режим сжатия"
+
+#: data/ui/compressor.ui:80 data/ui/multiband_compressor_band.ui:744
+msgid "Boost Threshold"
+msgstr "Порог усиления"
+
+#: data/ui/compressor.ui:119 data/ui/multiband_compressor_band.ui:700
+msgid "Boost Amount"
+msgstr "Величина усиления"
+
+#: data/ui/compressor.ui:165 data/ui/gate.ui:60 data/ui/limiter.ui:262
+#: data/ui/limiter.ui:485 data/ui/multiband_compressor_band.ui:186
+#: data/ui/multiband_gate_band.ui:144
+msgid "Attack"
+msgstr "Атака"
+
+#: data/ui/compressor.ui:176 data/ui/multiband_compressor_band.ui:166
+msgid "Time"
+msgstr "Время"
+
+#: data/ui/compressor.ui:186 data/ui/deesser.ui:299 data/ui/gate.ui:153
+#: data/ui/gate.ui:247 data/ui/limiter.ui:346 data/ui/maximizer.ui:30
+#: data/ui/multiband_compressor_band.ui:177 data/ui/multiband_gate_band.ui:237
+#: data/ui/multiband_gate_band.ui:331
+msgid "Threshold"
+msgstr "Порог"
+
+#: data/ui/compressor.ui:212 data/ui/multiband_compressor_band.ui:222
+msgid "Attack Time"
+msgstr "Время атаки"
+
+#: data/ui/compressor.ui:234 data/ui/gate.ui:537
+#: data/ui/multiband_compressor_band.ui:247
+msgid "Attack Threshold"
+msgstr "Порог атаки"
+
+#: data/ui/compressor.ui:241 data/ui/gate.ui:66 data/ui/limiter.ui:304
+#: data/ui/limiter.ui:522 data/ui/maximizer.ui:96
+#: data/ui/multiband_compressor_band.ui:195 data/ui/multiband_gate_band.ui:150
+msgid "Release"
+msgstr "Восстановление"
+
+#: data/ui/compressor.ui:267 data/ui/multiband_compressor_band.ui:274
+msgid "Release Time"
+msgstr "Время восстановления"
+
+#: data/ui/compressor.ui:291 data/ui/gate.ui:591
+#: data/ui/multiband_compressor_band.ui:302
+msgid "Release Threshold"
+msgstr "Порог восстановления"
+
+#: data/ui/compressor.ui:298 data/ui/deesser.ui:333
+#: data/ui/multiband_compressor_band.ui:309
+msgid "Ratio"
+msgstr "Степень сжатия"
+
+#: data/ui/compressor.ui:335 data/ui/limiter.ui:558
+#: data/ui/multiband_compressor_band.ui:347
+msgid "Knee"
+msgstr "Колено (излом)"
+
+#: data/ui/compressor.ui:370 data/ui/deesser.ui:369 data/ui/gate.ui:428
+#: data/ui/multiband_compressor_band.ui:385 data/ui/multiband_gate_band.ui:418
+msgid "Makeup"
+msgstr "Усиление вверх"
+
+#: data/ui/compressor.ui:405 data/ui/delay.ui:105 data/ui/gate.ui:342
+#: data/ui/multiband_compressor.ui:132 data/ui/multiband_gate.ui:132
+#: data/ui/reverb.ui:208 data/ui/stereo_tools.ui:534
+msgid "Dry Level"
+msgstr "Уровень ориг."
+
+#: data/ui/compressor.ui:440 data/ui/delay.ui:164 data/ui/gate.ui:347
+#: data/ui/multiband_compressor.ui:166 data/ui/multiband_gate.ui:166
+#: data/ui/reverb.ui:242 data/ui/stereo_tools.ui:570
+msgid "Wet Level"
+msgstr "Уровень обраб."
+
+# #, fuzzy
+#: data/ui/compressor.ui:482 data/ui/compressor.ui:994 data/ui/gate.ui:621
+#: data/ui/gate.ui:1132
+msgid "Sidechain"
+msgstr "Сайдчейн"
+
+#: data/ui/compressor.ui:511 data/ui/deesser.ui:48 data/ui/gate.ui:650
+#: data/ui/multiband_compressor_band.ui:468 data/ui/multiband_gate_band.ui:531
+msgid "Peak"
+msgstr "Пик"
+
+#: data/ui/compressor.ui:512 data/ui/deesser.ui:47 data/ui/gate.ui:651
+#: data/ui/multiband_compressor_band.ui:469 data/ui/multiband_gate_band.ui:532
+msgid "RMS"
+msgstr "Среднее квадратичное (RMS)"
+
+#: data/ui/compressor.ui:513 data/ui/compressor.ui:865 data/ui/gate.ui:1003
+#: data/ui/multiband_compressor_band.ui:470
+msgid "Low-Pass"
+msgstr "Фильтр НЧ"
+
+#: data/ui/compressor.ui:514 data/ui/multiband_compressor_band.ui:471
+msgid "Uniform"
+msgstr "Равномерно"
+
+# #, fuzzy
+#: data/ui/compressor.ui:521 data/ui/gate.ui:660
+#: data/ui/multiband_compressor_band.ui:478 data/ui/multiband_gate_band.ui:541
+msgid "Sidechain Mode"
+msgstr "Режим сайдчейна"
+
+# #, fuzzy
+#: data/ui/compressor.ui:539 data/ui/gate.ui:678
+#: data/ui/multiband_compressor_band.ui:485 data/ui/multiband_gate_band.ui:548
+msgid "Source"
+msgstr "Источник"
+
+#: data/ui/compressor.ui:549 data/ui/gate.ui:688
+#: data/ui/multiband_compressor_band.ui:496 data/ui/multiband_gate_band.ui:559
+msgid "Middle"
+msgstr "Средний"
+
+# #, fuzzy
+#: data/ui/compressor.ui:550 data/ui/gate.ui:689
+#: data/ui/multiband_compressor_band.ui:497 data/ui/multiband_gate_band.ui:560
+msgid "Side"
+msgstr "Боковой"
+
+#: data/ui/compressor.ui:551 data/ui/delay.ui:30 data/ui/equalizer.ui:216
+#: data/ui/gate.ui:690 data/ui/multiband_compressor_band.ui:498
+#: data/ui/multiband_gate_band.ui:561 data/ui/pipe_manager_box.ui:504
+#: data/ui/stereo_tools.ui:161
+msgid "Left"
+msgstr "Левый"
+
+#: data/ui/compressor.ui:552 data/ui/delay.ui:39 data/ui/equalizer.ui:228
+#: data/ui/gate.ui:691 data/ui/multiband_compressor_band.ui:499
+#: data/ui/multiband_gate_band.ui:562 data/ui/pipe_manager_box.ui:515
+#: data/ui/stereo_tools.ui:216
+msgid "Right"
+msgstr "Правый"
+
+# #, fuzzy
+#: data/ui/compressor.ui:559 data/ui/gate.ui:698
+#: data/ui/multiband_compressor.ui:71 data/ui/multiband_compressor_band.ui:506
+#: data/ui/multiband_gate.ui:71 data/ui/multiband_gate_band.ui:569
+msgid "Sidechain Source"
+msgstr "Источник сайдчейна"
+
+#: data/ui/compressor.ui:588 data/ui/equalizer_band.ui:98 data/ui/gate.ui:727
+msgid "Type"
+msgstr "Тип"
+
+#: data/ui/compressor.ui:612
+msgid "Feed-forward"
+msgstr "Прямая связь"
+
+#: data/ui/compressor.ui:613
+msgid "Feed-back"
+msgstr "Обратная связь"
+
+#: data/ui/compressor.ui:614 data/ui/gate.ui:752
+msgid "External"
+msgstr "Внешний"
+
+# #, fuzzy
+#: data/ui/compressor.ui:621 data/ui/gate.ui:759
+msgid "Sidechain Type"
+msgstr "Тип сайдчейна"
+
+# #, fuzzy
+#: data/ui/compressor.ui:648 data/ui/gate.ui:786 src/plugins_box.cpp:646
+msgid "Input Device"
+msgstr "Устройство ввода"
+
+#: data/ui/compressor.ui:656 data/ui/gate.ui:794
+msgid "PreAmplification"
+msgstr "Предусиление"
+
+#: data/ui/compressor.ui:693 data/ui/gate.ui:831
+#: data/ui/multiband_compressor_band.ui:633 data/ui/multiband_gate_band.ui:695
+msgid "Reactivity"
+msgstr "Скорость реакции"
+
+#: data/ui/compressor.ui:730 data/ui/gate.ui:868 data/ui/limiter.ui:220
+#: data/ui/multiband_compressor_band.ui:667 data/ui/multiband_gate_band.ui:728
+msgid "Lookahead"
+msgstr "Упреждение"
+
+# #, fuzzy
+#: data/ui/compressor.ui:773 data/ui/gate.ui:911
+msgid "Sidechain Filters"
+msgstr "Фильтры сайдчейна"
+
+#: data/ui/compressor.ui:783 data/ui/gate.ui:921
+msgid "High-Pass"
+msgstr "Фильтр ВЧ"
+
+#: data/ui/compressor.ui:809 data/ui/equalizer_band.ui:197 data/ui/filter.ui:53
+#: data/ui/gate.ui:947 data/ui/pipe_manager_box.ui:561
+msgid "Frequency"
+msgstr "Частота"
+
+#: data/ui/compressor.ui:822 data/ui/compressor.ui:878
+#: data/ui/equalizer_band.ui:108 data/ui/gate.ui:960 data/ui/gate.ui:1016
+msgid "Off"
+msgstr "Откл"
+
+#: data/ui/compressor.ui:823 data/ui/compressor.ui:879 data/ui/gate.ui:961
+#: data/ui/gate.ui:1017
+msgid "12 dB/oct"
+msgstr "12 дБ/окт"
+
+#: data/ui/compressor.ui:824 data/ui/compressor.ui:880 data/ui/gate.ui:962
+#: data/ui/gate.ui:1018
+msgid "24 dB/oct"
+msgstr "24 дБ/окт"
+
+#: data/ui/compressor.ui:825 data/ui/compressor.ui:881 data/ui/gate.ui:963
+#: data/ui/gate.ui:1019
+msgid "36 dB/oct"
+msgstr "36 дБ/окт"
+
+#: data/ui/compressor.ui:832 data/ui/gate.ui:970
+msgid "High-Pass Filter Mode"
+msgstr "Режим высокочастотного фильтра"
+
+#: data/ui/compressor.ui:858 data/ui/compressor.ui:914 data/ui/gate.ui:996
+#: data/ui/gate.ui:1052
+msgid "High-Pass Filter Frequency"
+msgstr "Частота высокочастотного фильтра"
+
+#: data/ui/compressor.ui:888 data/ui/gate.ui:1026
+msgid "Low-Pass Filter Mode"
+msgstr "Режим низкочастотного фильтра"
+
+#: data/ui/compressor.ui:940
+msgid "Gain"
+msgstr "Усиление"
+
+#: data/ui/compressor.ui:967 data/ui/gate.ui:1105
+msgid "Envelope"
+msgstr "Огибающая"
+
+#: data/ui/compressor.ui:1021 data/ui/gate.ui:137 data/ui/gate.ui:1159
+#: data/ui/multiband_gate_band.ui:221
+msgid "Curve"
+msgstr "Кривая"
+
+#: data/ui/convolver.ui:40
+msgid "L"
+msgstr "Л"
+
+#: data/ui/convolver.ui:43 data/ui/pipe_manager_box.ui:507
+msgid "Left Channel"
+msgstr "Левый канал"
+
+#: data/ui/convolver.ui:53
+msgid "R"
+msgstr "П"
+
+#: data/ui/convolver.ui:56 data/ui/pipe_manager_box.ui:518
+msgid "Right Channel"
+msgstr "Правый канал"
+
+#: data/ui/convolver.ui:71
+msgid "Impulses"
+msgstr "Импульсы"
+
+#: data/ui/convolver.ui:79 data/ui/convolver_menu_combine.ui:113
+#: data/ui/convolver_menu_combine.ui:116
+msgid "Combine"
+msgstr "Объединить"
+
+#: data/ui/convolver.ui:86
+msgid "Stereo Width"
+msgstr "Ширина стерео"
+
+#: data/ui/convolver.ui:114
+msgid "Spectrum"
+msgstr "Спектр"
+
+#: data/ui/convolver.ui:122
+msgid "Log Scale"
+msgstr "Логарифмическая шкала"
+
+#: data/ui/convolver.ui:132 src/tags_plugin_name.cpp:31
+msgid "Autogain"
+msgstr "Нормализация громкости"
+
+#: data/ui/convolver.ui:148
+msgid "Rate"
+msgstr "Частота"
+
+#: data/ui/convolver.ui:169
+msgid "Samples"
+msgstr "Образцы"
+
+#: data/ui/convolver.ui:190
+msgid "Duration"
+msgstr "Длительность"
+
+#: data/ui/convolver_menu_combine.ui:15
+msgid "Combine Impulse Responses"
+msgstr "Объединить импульсные характеристики"
+
+#: data/ui/convolver_menu_combine.ui:48
+msgid "First Kernel"
+msgstr "Первое ядро"
+
+#: data/ui/convolver_menu_combine.ui:82
+msgid "Second Kernel"
+msgstr "Второе ядро"
+
+#: data/ui/convolver_menu_combine.ui:91
+msgid "Output File Name"
+msgstr "Имя файла на выходе"
+
+#: data/ui/convolver_menu_combine.ui:95
+msgid "Combined Kernel Name"
+msgstr "Имя суммарного ядра"
+
+#: data/ui/convolver_menu_impulses.ui:16
+msgid "Import Impulse"
+msgstr "Импортировать импульс"
+
+#: data/ui/convolver_menu_impulses.ui:25 data/ui/plugins_menu.ui:17
+#: data/ui/presets_menu.ui:88 data/ui/presets_menu.ui:235
+msgid "Search"
+msgstr "Поиск"
+
+#: data/ui/convolver_menu_impulses.ui:27
+msgid "Search Impulse File"
+msgstr "Поиск файла импульса"
+
+#: data/ui/convolver_menu_impulses.ui:47
+msgid "Impulse Files List"
+msgstr "Список файлов импульса"
+
+#: data/ui/crossfeed.ui:35
+msgid "Default"
+msgstr "По умолчанию"
+
+#: data/ui/crossfeed.ui:58
+msgid "Cutoff"
+msgstr "Усечение"
+
+#: data/ui/crossfeed.ui:93
+msgid "Feed"
+msgstr "Подача"
+
+#: data/ui/crystalizer_band.ui:11
+msgid "Bypass"
+msgstr "Обход"
+
+#: data/ui/crystalizer_band.ui:17 data/ui/equalizer_band.ui:320
+#: data/ui/multiband_compressor_band.ui:136 data/ui/multiband_gate_band.ui:109
+#: data/ui/stereo_tools.ui:171 data/ui/stereo_tools.ui:196
+msgid "Mute"
+msgstr "Приглушить"
+
+#: data/ui/deesser.ui:40
+msgid "Detection"
+msgstr "Определение"
+
+#: data/ui/deesser.ui:71
+msgid "Wide"
+msgstr "Ширина"
+
+#: data/ui/deesser.ui:72
+msgid "Split"
+msgstr "Частота раздела"
+
+#: data/ui/deesser.ui:88
+msgid "F1 Split"
+msgstr "Ч1 раздела"
+
+#: data/ui/deesser.ui:108
+msgid "Frequency 1 Split"
+msgstr "Частота 1 раздела"
+
+#: data/ui/deesser.ui:121
+msgid "F2 Peak"
+msgstr "Ч1 пик"
+
+#: data/ui/deesser.ui:141
+msgid "Frequency 2 Peak"
+msgstr "Частота 2 пик"
+
+#: data/ui/deesser.ui:159
+msgid "F1 Gain"
+msgstr "Ч1 усиление"
+
+#: data/ui/deesser.ui:187
+msgid "Frequency 1 Gain"
+msgstr "Частота 1 усиление"
+
+#: data/ui/deesser.ui:194
+msgid "F2 Level"
+msgstr "Ч2 уровень"
+
+#: data/ui/deesser.ui:222
+msgid "Frequency 2 Level"
+msgstr "Частота 2 уровень"
+
+#: data/ui/deesser.ui:229
+msgid "F2 Peak Q"
+msgstr "Ч2 пик добротности"
+
+#: data/ui/deesser.ui:257
+msgid "Frequency 2 Peak Q"
+msgstr "Частота 2 пик добротности"
+
+#: data/ui/deesser.ui:264
+msgid "Laxity"
+msgstr "Допуск"
+
+#: data/ui/deesser.ui:579
+msgid "Detected"
+msgstr "Определено"
+
+#: data/ui/deesser.ui:609 data/ui/gate.ui:423 data/ui/gate.ui:1078
+#: data/ui/maximizer.ui:308 data/ui/multiband_gate_band.ui:413
+msgid "Reduction"
+msgstr "Ослабление"
+
+#: data/ui/delay.ui:50 src/tags_plugin_name.cpp:39
+msgid "Delay"
+msgstr "Задержка"
+
+#: data/ui/delay.ui:75
+msgid "Left Delay"
+msgstr "Задержка левого"
+
+#: data/ui/delay.ui:97
+msgid "Right Delay"
+msgstr "Задержка правого"
+
+#: data/ui/delay.ui:132
+msgid "Left Dry Level"
+msgstr "Уровень ориг. левого"
+
+#: data/ui/delay.ui:156
+msgid "Right Dry Level"
+msgstr "Уровень ориг. правого"
+
+#: data/ui/delay.ui:190
+msgid "Left Wet Level"
+msgstr "Уровень обраб. левого"
+
+#: data/ui/delay.ui:213
+msgid "Right Wet Level"
+msgstr "Уровень обраб. правого"
+
+# Taking lingual shortcuts to squeeze it in the text box
+#: data/ui/echo_canceller.ui:30
+msgid "Frame Size"
+msgstr "Размер кадра"
+
+#: data/ui/echo_canceller.ui:65
+msgid "Filter Length"
+msgstr "Длина фильтра"
+
+#: data/ui/echo_canceller.ui:100
+msgid "Suppression"
+msgstr "Подавление"
+
+#: data/ui/effects_box.ui:114
+msgid "Excluded Apps"
+msgstr "Приложения чёрного списка"
+
+#: data/ui/equalizer.ui:29
+msgid "Bands"
+msgstr "Число полос"
+
+#: data/ui/equalizer.ui:73
+msgid "IIR"
+msgstr "БИХ (IIR)"
+
+#: data/ui/equalizer.ui:74
+msgid "FIR"
+msgstr "КИХ (FIR)"
+
+#: data/ui/equalizer.ui:75
+msgid "FFT"
+msgstr "БПФ (FFT)"
+
+#: data/ui/equalizer.ui:76
+msgid "SPM"
+msgstr "ФСМ (SPM)"
+
+#: data/ui/equalizer.ui:90 data/ui/stereo_tools.ui:52
+#: data/ui/stereo_tools.ui:393
+msgid "Balance"
+msgstr "Баланс"
+
+# #, fuzzy
+#: data/ui/equalizer.ui:123
+msgid "Pitch Left"
+msgstr "Высота тона левого"
+
+# #, fuzzy
+#: data/ui/equalizer.ui:156
+msgid "Pitch Right"
+msgstr "Высота тона правого"
+
+#: data/ui/equalizer.ui:251
+msgid "Split Channels"
+msgstr "Разделить каналы"
+
+#: data/ui/equalizer.ui:257
+msgid "Flat Response"
+msgstr "Плоская АЧХ"
+
+#: data/ui/equalizer.ui:265
+msgid "Calculate Frequencies"
+msgstr "Подсчитать частоты"
+
+#: data/ui/equalizer.ui:280 src/presets_menu.cpp:102
+msgid "Import Preset"
+msgstr "Импорт предустановки"
+
+#: data/ui/equalizer_band.ui:109
+msgid "Bell"
+msgstr "Колокол"
+
+#: data/ui/equalizer_band.ui:110
+msgid "High Pass"
+msgstr "Высокочастотный фильтр"
+
+#: data/ui/equalizer_band.ui:111
+msgid "High Shelf"
+msgstr "Высокочастотный полочный фильтр"
+
+#: data/ui/equalizer_band.ui:112
+msgid "Low Pass"
+msgstr "Фильтр низких частот"
+
+#: data/ui/equalizer_band.ui:113
+msgid "Low Shelf"
+msgstr "Низкочастотный полочный фильтр"
+
+#: data/ui/equalizer_band.ui:114
+msgid "Notch"
+msgstr "Вырез"
+
+#: data/ui/equalizer_band.ui:115 data/ui/filter.ui:88
+msgid "Resonance"
+msgstr "Резонансы"
+
+#: data/ui/equalizer_band.ui:116
+msgid "All Pass"
+msgstr "Фазовый"
+
+#: data/ui/equalizer_band.ui:123
+msgid "Band Type"
+msgstr "Тип полосы"
+
+#: data/ui/equalizer_band.ui:153
+msgid "Band Mode"
+msgstr "Режим полосы"
+
+#: data/ui/equalizer_band.ui:160
+msgid "Slope"
+msgstr "Наклон"
+
+#: data/ui/equalizer_band.ui:180
+msgid "Band Slope"
+msgstr "Наклон полосы"
+
+#: data/ui/equalizer_band.ui:242
+msgid "Width"
+msgstr "Ширина"
+
+#: data/ui/equalizer_band.ui:269
+msgid "Quality"
+msgstr "Качество"
+
+#: data/ui/equalizer_band.ui:314 data/ui/multiband_compressor_band.ui:146
+#: data/ui/multiband_gate_band.ui:119
+msgid "Solo"
+msgstr "Соло"
+
+#: data/ui/exciter.ui:211
+msgid "Ceil"
+msgstr "Потолок"
+
+#: data/ui/exciter.ui:240
+msgid "Ceil Value"
+msgstr "Величина потолка"
+
+#: data/ui/factory_clients_listview.ui:72
+msgid "API"
+msgstr "API"
+
+#: data/ui/factory_clients_listview.ui:100
+msgid "Access"
+msgstr "Доступ"
+
+#: data/ui/factory_modules_listview.ui:72
+msgid "Description"
+msgstr "Описание"
+
+#: data/ui/factory_rnnoise_listview.ui:24
+msgid "Remove this model file"
+msgstr "Удалить этот файл модели"
+
+#: data/ui/filter.ui:25
+msgid "12dB/oct Lowpass"
+msgstr "12 дБ/окт фильтр НЧ"
+
+#: data/ui/filter.ui:26
+msgid "24dB/oct Lowpass"
+msgstr "24 дБ/окт фильтр НЧ"
+
+#: data/ui/filter.ui:27
+msgid "36dB/oct Lowpass"
+msgstr "36 дБ/окт фильтр НЧ"
+
+#: data/ui/filter.ui:28
+msgid "12dB/oct Highpass"
+msgstr "12 дБ/окт фильтр ВЧ"
+
+#: data/ui/filter.ui:29
+msgid "24dB/oct Highpass"
+msgstr "24 дБ/окт фильтр ВЧ"
+
+#: data/ui/filter.ui:30
+msgid "36dB/oct Highpass"
+msgstr "36 дБ/окт фильтр ВЧ"
+
+#: data/ui/filter.ui:31
+msgid "6dB/oct Bandpass"
+msgstr "6 дБ/окт полосовой"
+
+#: data/ui/filter.ui:32
+msgid "12dB/oct Bandpass"
+msgstr "12 дБ/окт полосовой"
+
+#: data/ui/filter.ui:33
+msgid "18dB/oct Bandpass"
+msgstr "18 дБ/окт полосовой"
+
+#: data/ui/filter.ui:34
+msgid "6dB/oct Bandreject"
+msgstr "6 дБ/окт полосно-заграждающий"
+
+#: data/ui/filter.ui:35
+msgid "12dB/oct Bandreject"
+msgstr "12 дБ/окт полосно-заграждающий"
+
+#: data/ui/filter.ui:36
+msgid "18dB/oct Bandreject"
+msgstr "18 дБ/окт полосно-заграждающий"
+
+#: data/ui/filter.ui:123
+msgid "Inertia"
+msgstr "Инертность"
+
+# http://wikisound.org/Гейт: шумовой гейт или просто гейт — это электронное устройство или плагин динамической обработки, который используется для контроля уровня звукового сигнала. Гейт пропускает или глушит сигнал в зависимости от установленного порогового значения. Он очень часто используется для подавления шума в паузах.
+#: data/ui/gate.ui:41 src/tags_plugin_name.cpp:44
+msgid "Gate"
+msgstr "Пропускной уровень (гейт)"
+
+#: data/ui/gate.ui:159 data/ui/gate.ui:252 data/ui/multiband_gate_band.ui:243
+#: data/ui/multiband_gate_band.ui:336
+msgid "Zone"
+msgstr "Зона"
+
+#: data/ui/gate.ui:231 data/ui/multiband_gate_band.ui:315
+msgid "Hysteresis"
+msgstr "Гистерезис"
+
+#: data/ui/gate.ui:326
+msgid "Mix"
+msgstr "Микс"
+
+#: data/ui/gate.ui:510
+msgid "Attack Zone Start"
+msgstr "Зона атаки"
+
+#: data/ui/gate.ui:564
+msgid "Release Zone Start"
+msgstr "Зона восстановления"
+
+#: data/ui/gate.ui:652 data/ui/multiband_gate_band.ui:533
+msgid "Low-Pass Filter"
+msgstr "Фильтр нижних частот"
+
+#: data/ui/gate.ui:653 data/ui/multiband_gate_band.ui:534
+msgid "Simple Moving Average"
+msgstr "Простая скользящая средняя"
+
+#: data/ui/gate.ui:751
+msgid "Internal"
+msgstr "Внутренний"
+
+#: data/ui/gate.ui:1358 data/ui/multiband_gate_band.ui:856
+msgid "Gating"
+msgstr "Гейтирование"
+
+#: data/ui/limiter.ui:58
+msgid "Oversampling"
+msgstr "Передискретизация"
+
+#: data/ui/limiter.ui:70
+msgid "Dither"
+msgstr "Подмешивание шума"
+
+#: data/ui/limiter.ui:82
+msgid "Herm Thin"
+msgstr "Эрмит узкий"
+
+#: data/ui/limiter.ui:83
+msgid "Herm Wide"
+msgstr "Эрмит широкий"
+
+#: data/ui/limiter.ui:84
+msgid "Herm Tail"
+msgstr "Эрмит хвост"
+
+#: data/ui/limiter.ui:85
+msgid "Herm Duck"
+msgstr "Эрмит нос"
+
+#: data/ui/limiter.ui:86
+msgid "Exp Thin"
+msgstr "Эксп. узкий"
+
+#: data/ui/limiter.ui:87
+msgid "Exp Wide"
+msgstr "Эксп. широкий"
+
+#: data/ui/limiter.ui:88
+msgid "Exp Tail"
+msgstr "Эксп. хвост"
+
+#: data/ui/limiter.ui:89
+msgid "Exp Duck"
+msgstr "Эксп. нос"
+
+#: data/ui/limiter.ui:90
+msgid "Line Thin"
+msgstr "Лин. узкий"
+
+#: data/ui/limiter.ui:91
+msgid "Line Wide"
+msgstr "Лин. широкий"
+
+#: data/ui/limiter.ui:92
+msgid "Line Tail"
+msgstr "Лин. хвост"
+
+#: data/ui/limiter.ui:93
+msgid "Line Duck"
+msgstr "Лин. нос"
+
+#: data/ui/limiter.ui:109 data/ui/multiband_compressor.ui:53
+#: data/ui/multiband_gate.ui:53
+msgid "None"
+msgstr "Нет"
+
+#: data/ui/limiter.ui:110
+msgid "Half x2(2L)"
+msgstr "Половинный x2(2L)"
+
+#: data/ui/limiter.ui:111
+msgid "Half x2(3L)"
+msgstr "Половинный x2(3L)"
+
+#: data/ui/limiter.ui:112
+msgid "Half x3(2L)"
+msgstr "Половинный x3(2L)"
+
+#: data/ui/limiter.ui:113
+msgid "Half x3(3L)"
+msgstr "Половинный x3(3L)"
+
+#: data/ui/limiter.ui:114
+msgid "Half x4(2L)"
+msgstr "Половинный x4(2L)"
+
+#: data/ui/limiter.ui:115
+msgid "Half x4(3L)"
+msgstr "Половинный x4(3L)"
+
+#: data/ui/limiter.ui:116
+msgid "Half x6(2L)"
+msgstr "Половинный x6(2L)"
+
+#: data/ui/limiter.ui:117
+msgid "Half x6(3L)"
+msgstr "Половинный x6(3L)"
+
+#: data/ui/limiter.ui:118
+msgid "Half x8(2L)"
+msgstr "Половинный x8(2L)"
+
+#: data/ui/limiter.ui:119
+msgid "Half x8(3L)"
+msgstr "Половинный x8(3L)"
+
+#: data/ui/limiter.ui:120
+msgid "Full x2(2L)"
+msgstr "Полный x2(2L)"
+
+#: data/ui/limiter.ui:121
+msgid "Full x2(3L)"
+msgstr "Полный x2(3L)"
+
+#: data/ui/limiter.ui:122
+msgid "Full x3(2L)"
+msgstr "Полный x3(2L)"
+
+#: data/ui/limiter.ui:123
+msgid "Full x3(3L)"
+msgstr "Полный x3(3L)"
+
+#: data/ui/limiter.ui:124
+msgid "Full x4(2L)"
+msgstr "Полный x4(2L)"
+
+#: data/ui/limiter.ui:125
+msgid "Full x4(3L)"
+msgstr "Полный x4(3L)"
+
+#: data/ui/limiter.ui:126
+msgid "Full x6(2L)"
+msgstr "Полный x6(2L)"
+
+#: data/ui/limiter.ui:127
+msgid "Full x6(3L)"
+msgstr "Полный x6(3L)"
+
+#: data/ui/limiter.ui:128
+msgid "Full x8(2L)"
+msgstr "Полный x8(2L)"
+
+#: data/ui/limiter.ui:129
+msgid "Full x8(3L)"
+msgstr "Полный x8(3L)"
+
+#: data/ui/limiter.ui:179
+msgid "SC PreAmp"
+msgstr "Усиление сайдчейна"
+
+#: data/ui/limiter.ui:208 data/ui/multiband_compressor_band.ui:626
+#: data/ui/multiband_gate_band.ui:688
+msgid "Sidechain PreAmplification"
+msgstr "Предусиление сайдчейна"
+
+#: data/ui/limiter.ui:383
+msgid "Boost"
+msgstr "Усиление"
+
+# В данном режиме «Компрессор» обрабатывает сигналы сразу двух каналов (стерео), уравнивая их уровни.
+#: data/ui/limiter.ui:398
+msgid "Stereo Link"
+msgstr "Стереосвязка"
+
+# #, fuzzy
+#: data/ui/limiter.ui:443 data/ui/multiband_compressor_band.ui:116
+#: data/ui/multiband_gate_band.ui:89
+msgid "External Sidechain"
+msgstr "Внешний сайдчейн"
+
+#: data/ui/limiter.ui:456 data/ui/multiband_compressor.ui:91
+#: data/ui/multiband_gate.ui:91
+msgid "External Sidechain Source"
+msgstr "Источник внешнего сайдчейна"
+
+#: data/ui/limiter.ui:475
+msgid "Auto Leveling"
+msgstr "Автовыравнивание"
+
+#: data/ui/limiter.ui:515
+msgid "Auto Leveling Attack"
+msgstr "Атака автовыравнивания"
+
+#: data/ui/limiter.ui:551
+msgid "Auto Leveling Release"
+msgstr "Восстановление автовыравнивания"
+
+#: data/ui/limiter.ui:586
+msgid "Auto Leveling Knee"
+msgstr "Колено автовыравнивания"
+
+#: data/ui/limiter.ui:611
+msgid "Gain Left"
+msgstr "Усиление левого"
+
+#: data/ui/limiter.ui:638
+msgid "Gain Right"
+msgstr "Усиление правого"
+
+# #, fuzzy
+#: data/ui/limiter.ui:665
+msgid "Sidechain Left"
+msgstr "Левый сайдчейн"
+
+# #, fuzzy
+#: data/ui/limiter.ui:692
+msgid "Sidechain Right"
+msgstr "Правый сайдчейн"
+
+#: data/ui/loudness.ui:30
+msgid "Standard"
+msgstr "Стандартный"
+
+#: data/ui/loudness.ui:42
+msgid "Flat"
+msgstr "Плоский"
+
+# Taking lingual shortcuts to squeeze it in the text box
+#: data/ui/loudness.ui:59
+msgid "FFT Size"
+msgstr "Размер БПФ"
+
+#: data/ui/loudness.ui:84
+msgid "Fast Fourier Transform Size"
+msgstr "Размер быстрого преобразования Фурье"
+
+#: data/ui/loudness.ui:91
+msgid "Output Volume"
+msgstr "Громкость на выходе"
+
+#: data/ui/loudness.ui:127
+msgid "Clipping"
+msgstr "Клиппинг"
+
+#: data/ui/loudness.ui:155
+msgid "Clipping Range"
+msgstr "Диапазон клиппинга"
+
+#: data/ui/maximizer.ui:63
+msgid "Ceiling"
+msgstr "Верхний порог"
+
+# #, fuzzy
+#: data/ui/multiband_compressor.ui:42 data/ui/multiband_gate.ui:42
+msgid "Sidechain Boost"
+msgstr "Усиление сайдчейна"
+
+#: data/ui/multiband_compressor.ui:54 data/ui/multiband_gate.ui:54
+msgid "Pink BT"
+msgstr "БП розового"
+
+#: data/ui/multiband_compressor.ui:55 data/ui/multiband_gate.ui:55
+msgid "Pink MT"
+msgstr "СП розового"
+
+#: data/ui/multiband_compressor.ui:56 data/ui/multiband_gate.ui:56
+msgid "Brown BT"
+msgstr "БП коричневого"
+
+#: data/ui/multiband_compressor.ui:57 data/ui/multiband_gate.ui:57
+msgid "Brown MT"
+msgstr "СП коричневого"
+
+#: data/ui/multiband_compressor.ui:106 data/ui/multiband_gate.ui:106
+msgid "Operating Mode"
+msgstr "Режим работы"
+
+#: data/ui/multiband_compressor.ui:117 data/ui/multiband_gate.ui:117
+msgid "Classic"
+msgstr "Классический"
+
+#: data/ui/multiband_compressor.ui:118 data/ui/multiband_gate.ui:118
+msgid "Modern"
+msgstr "Современный"
+
+#: data/ui/multiband_compressor.ui:227 data/ui/multiband_gate.ui:227
+msgid "Bands List"
+msgstr "Полосы"
+
+#: data/ui/multiband_compressor.ui:236 data/ui/multiband_gate.ui:236
+msgid "Band 1"
+msgstr "Полоса 1"
+
+#: data/ui/multiband_compressor.ui:253 data/ui/multiband_gate.ui:253
+msgid "Band 2"
+msgstr "Полоса 2"
+
+#: data/ui/multiband_compressor.ui:279 data/ui/multiband_gate.ui:279
+msgid "Band 3"
+msgstr "Полоса 3"
+
+#: data/ui/multiband_compressor.ui:305 data/ui/multiband_gate.ui:305
+msgid "Band 4"
+msgstr "Полоса 4"
+
+#: data/ui/multiband_compressor.ui:331 data/ui/multiband_gate.ui:331
+msgid "Band 5"
+msgstr "Полоса 5"
+
+#: data/ui/multiband_compressor.ui:357 data/ui/multiband_gate.ui:357
+msgid "Band 6"
+msgstr "Полоса 6"
+
+#: data/ui/multiband_compressor.ui:383 data/ui/multiband_gate.ui:383
+msgid "Band 7"
+msgstr "Полоса 7"
+
+#: data/ui/multiband_compressor.ui:409 data/ui/multiband_gate.ui:409
+msgid "Band 8"
+msgstr "Полоса 8"
+
+#: data/ui/multiband_compressor_band.ui:18 data/ui/multiband_gate_band.ui:18
+msgid "Band Start"
+msgstr "Начало полосы"
+
+#: data/ui/multiband_compressor_band.ui:57 data/ui/multiband_gate_band.ui:57
+msgid "Band End"
+msgstr "Конец полосы"
+
+#: data/ui/multiband_compressor_band.ui:108
+msgid "Band Compression Mode"
+msgstr "Режим компрессии полосы"
+
+#: data/ui/multiband_compressor_band.ui:126 data/ui/multiband_gate_band.ui:99
+msgid "Band Bypass"
+msgstr "Обход полосы"
+
+# #, fuzzy
+#: data/ui/multiband_compressor_band.ui:431 data/ui/multiband_gate_band.ui:494
+msgid "Band Sidechain Options"
+msgstr "Параметры сайдчейна полосы"
+
+#: data/ui/multiband_compressor_band.ui:515 data/ui/multiband_gate_band.ui:578
+msgid "Low-Cut Filter"
+msgstr "Фильтр среза НЧ"
+
+#: data/ui/multiband_compressor_band.ui:543 data/ui/multiband_gate_band.ui:606
+msgid "Low-Cut Filter Frequency"
+msgstr "Частота фильтра среза НЧ"
+
+#: data/ui/multiband_compressor_band.ui:552 data/ui/multiband_gate_band.ui:615
+msgid "High-Cut Filter"
+msgstr "Фильтр среза ВЧ"
+
+#: data/ui/multiband_compressor_band.ui:580 data/ui/multiband_gate_band.ui:643
+msgid "High-Cut Filter Frequency"
+msgstr "Частота фильтра среза ВЧ"
+
+#: data/ui/multiband_compressor_band.ui:599 data/ui/multiband_gate_band.ui:662
+msgid "PreAmp"
+msgstr "Предусиление"
+
+#: data/ui/multiband_compressor_band.ui:805
+msgid "Band Gain"
+msgstr "Усиление полосы"
+
+#: data/ui/multiband_compressor_band.ui:830 data/ui/multiband_gate_band.ui:802
+msgid "Band Envelope"
+msgstr "Огибающая полосы"
+
+#: data/ui/multiband_compressor_band.ui:855 data/ui/multiband_gate_band.ui:827
+msgid "Band Curve"
+msgstr "Кривая полосы"
+
+#: data/ui/multiband_gate_band.ui:777
+msgid "Band Reduction"
+msgstr "Уменьшение полосы"
+
+#: data/ui/pipe_manager_box.ui:27
+msgid "General"
+msgstr "Общие"
+
+#: data/ui/pipe_manager_box.ui:34
+msgid "Device Management"
+msgstr "Управление Устройством"
+
+#: data/ui/pipe_manager_box.ui:35
+msgid ""
+"It's recommended to NOT set Easy Effects Sink/Source as Default Device in "
+"external applications (e.g. Gnome Settings and Plasma System Settings)."
+msgstr ""
+"Рекомендуется НЕ устанавливать источники Easy Effects в качестве "
+"стандартного устройства во внешних приложениях (таких как Настройки Gnome и "
+"Параметры системы Plasma)."
+
+#: data/ui/pipe_manager_box.ui:38 data/ui/pipe_manager_box.ui:44
+msgid "Use Default Input"
+msgstr "Использовать стандартный вход"
+
+# #, fuzzy
+#: data/ui/pipe_manager_box.ui:65
+msgid "Custom Input Device"
+msgstr "Выбрать устройство ввода"
+
+#: data/ui/pipe_manager_box.ui:74 data/ui/pipe_manager_box.ui:80
+msgid "Use Default Output"
+msgstr "Использовать стандартный выход"
+
+#: data/ui/pipe_manager_box.ui:101
+msgid "Custom Output Device"
+msgstr "Выбрать устройство вывода"
+
+#: data/ui/pipe_manager_box.ui:112
+msgid "Server Information"
+msgstr "Сведения о сервере"
+
+#: data/ui/pipe_manager_box.ui:116
+msgid "Header Version"
+msgstr "Версия оболочки"
+
+#: data/ui/pipe_manager_box.ui:127
+msgid "Library Version"
+msgstr "Версия библиотеки"
+
+#: data/ui/pipe_manager_box.ui:138
+msgid "Sampling Rate"
+msgstr "Частота дискретизации"
+
+#: data/ui/pipe_manager_box.ui:149
+msgid "Minimum Quantum"
+msgstr "Минимальное квантование"
+
+#: data/ui/pipe_manager_box.ui:160
+msgid "Maximum Quantum"
+msgstr "Максимальное квантование"
+
+#: data/ui/pipe_manager_box.ui:171
+msgid "Default Quantum"
+msgstr "Стандартное квантование"
+
+#: data/ui/pipe_manager_box.ui:191
+msgid "Presets Autoloading"
+msgstr "Автозагрузка предустановок"
+
+#: data/ui/pipe_manager_box.ui:232
+msgid "Output Devices"
+msgstr "Устройства вывода"
+
+#: data/ui/pipe_manager_box.ui:249 src/application.cpp:243
+msgid "Output Presets"
+msgstr "Предустановки выхода"
+
+#: data/ui/pipe_manager_box.ui:256 data/ui/pipe_manager_box.ui:348
+msgid "Create Association"
+msgstr "Создать ассоциацию"
+
+#: data/ui/pipe_manager_box.ui:270
+msgid "Add Autoloading Output Preset"
+msgstr "Добавить в автозагрузку предустановку выхода"
+
+#: data/ui/pipe_manager_box.ui:290
+msgid "Output Autoloading Presets List"
+msgstr "Список автозагружаемых предустановок выхода"
+
+# #, fuzzy
+#: data/ui/pipe_manager_box.ui:329
+msgid "Input Devices"
+msgstr "Устройства ввода"
+
+#: data/ui/pipe_manager_box.ui:341 src/application.cpp:251
+msgid "Input Presets"
+msgstr "Предустановки входа"
+
+#: data/ui/pipe_manager_box.ui:362
+msgid "Add Autoloading Input Preset"
+msgstr "Добавить в автозагрузку предустановку входа"
+
+#: data/ui/pipe_manager_box.ui:381
+msgid "Input Autoloading Presets List"
+msgstr "Список автозагружаемых предустановок входа"
+
+#: data/ui/pipe_manager_box.ui:411
+msgid "Modules"
+msgstr "Модули"
+
+#: data/ui/pipe_manager_box.ui:429
+msgid "Modules List"
+msgstr "Список модулей"
+
+#: data/ui/pipe_manager_box.ui:443
+msgid "Clients"
+msgstr "Клиенты"
+
+#: data/ui/pipe_manager_box.ui:461
+msgid "Clients List"
+msgstr "Список клиентов"
+
+#: data/ui/pipe_manager_box.ui:475
+msgid "Test Signal"
+msgstr "Проверочный сигнал"
+
+#: data/ui/pipe_manager_box.ui:480 data/ui/preferences_spectrum.ui:9
+msgid "State"
+msgstr "Состояние"
+
+#: data/ui/pipe_manager_box.ui:483 data/ui/preferences_spectrum.ui:12
+msgid "Enabled"
+msgstr "Включено"
+
+#: data/ui/pipe_manager_box.ui:498
+msgid "Properties"
+msgstr "Свойства"
+
+#: data/ui/pipe_manager_box.ui:501
+msgid "Channels"
+msgstr "Каналы"
+
+#: data/ui/pipe_manager_box.ui:526
+msgid "Both"
+msgstr "Оба"
+
+#: data/ui/pipe_manager_box.ui:530
+msgid "Both Channels"
+msgstr "Оба канала"
+
+#: data/ui/pipe_manager_box.ui:539
+msgid "Waveform"
+msgstr "Форма волны"
+
+#: data/ui/pipe_manager_box.ui:543
+msgid "Sine Wave"
+msgstr "Синусоида"
+
+#: data/ui/pipe_manager_box.ui:552
+msgid "White Noise"
+msgstr "Белый шум"
+
+#: data/ui/pitch.ui:43
+msgid "High Speed"
+msgstr "Высокая скорость"
+
+#: data/ui/pitch.ui:44
+msgid "High Quality"
+msgstr "Высокое качество"
+
+#: data/ui/pitch.ui:45
+msgid "High Consistency"
+msgstr "Высокая согласованность"
+
+#: data/ui/pitch.ui:59
+msgid "Formant"
+msgstr "Форманта"
+
+#: data/ui/pitch.ui:70
+msgid "Shifted"
+msgstr "Смещённый"
+
+#: data/ui/pitch.ui:71
+msgid "Preserved"
+msgstr "Сохраняемый"
+
+#: data/ui/pitch.ui:97
+msgid "Transients"
+msgstr "Переходные звуки"
+
+#: data/ui/pitch.ui:108
+msgid "Crisp"
+msgstr "Чёткость"
+
+#: data/ui/pitch.ui:109
+msgid "Mixed"
+msgstr "Смешанный"
+
+#: data/ui/pitch.ui:110
+msgid "Smooth"
+msgstr "Гладкий"
+
+#: data/ui/pitch.ui:124
+msgid "Detector"
+msgstr "Детектор"
+
+#: data/ui/pitch.ui:135
+msgid "Compound"
+msgstr "Составной"
+
+#: data/ui/pitch.ui:136
+msgid "Percussive"
+msgstr "Ударный"
+
+#: data/ui/pitch.ui:137
+msgid "Soft"
+msgstr "Мягкий"
+
+#: data/ui/pitch.ui:151
+msgid "Phase"
+msgstr "Фаза"
+
+#: data/ui/pitch.ui:162
+msgid "Laminar"
+msgstr "Ламинарный"
+
+#: data/ui/pitch.ui:163
+msgid "Independent"
+msgstr "Независимый"
+
+#: data/ui/pitch.ui:188
+msgid "Cents"
+msgstr "Центы"
+
+#: data/ui/pitch.ui:222
+msgid "Semitones"
+msgstr "Полутона"
+
+#: data/ui/pitch.ui:256
+msgid "Octaves"
+msgstr "Октавы"
+
+#: data/ui/plugin_row.ui:39
+msgid "Remove this effect"
+msgstr "Удалить этот эффект"
+
+#: data/ui/plugin_row.ui:51
+msgid "Enable/disable this effect"
+msgstr "Включить/отключить эффект"
+
+#: data/ui/plugin_row.ui:63
+msgid "Change the position of this effect"
+msgstr "Изменить позицию эффекта"
+
+#: data/ui/plugins_box.ui:19
+msgid "Add Effect"
+msgstr "Добавить эффект"
+
+#: data/ui/plugins_box.ui:68
+msgid "Used Plugins List"
+msgstr "Список используемых плагинов"
+
+#: data/ui/plugins_box.ui:129
+msgid "No Effects"
+msgstr "Без эффектов"
+
+#: data/ui/plugins_box.ui:130
+msgid "Audio Stream Not Modified"
+msgstr "Аудиопоток не изменён"
+
+#: data/ui/plugins_menu.ui:19
+msgid "Search Plugin"
+msgstr "Найти плагин"
+
+#: data/ui/plugins_menu.ui:74
+msgid "Plugins List"
+msgstr "Список плагинов"
+
+#: data/ui/preferences_general.ui:5
+msgid "_General"
+msgstr "_Общие"
+
+# #, fuzzy
+#: data/ui/preferences_general.ui:10
+msgid "Service"
+msgstr "Служба"
+
+#: data/ui/preferences_general.ui:13
+msgid "Launch Service at System Startup"
+msgstr "Запускать службу при старте системы"
+
+#: data/ui/preferences_general.ui:25
+msgid "Shutdown on Window Closing"
+msgstr "Завершать работу при закрытии окна"
+
+#: data/ui/preferences_general.ui:39
+msgid "Audio"
+msgstr "Аудио"
+
+#: data/ui/preferences_general.ui:42
+msgid "Process All Output Streams"
+msgstr "Обрабатывать все выходные потоки"
+
+#: data/ui/preferences_general.ui:54
+msgid "Process All Input Streams"
+msgstr "Обрабатывать все входные потоки"
+
+#: data/ui/preferences_general.ui:66
+msgid "Ignore Streams from Monitor of Devices"
+msgstr "Игнорировать потоки с монитора устройств"
+
+#: data/ui/preferences_general.ui:78
+msgid "Use Cubic Volume"
+msgstr "Использовать кубическую громкость"
+
+#: data/ui/preferences_general.ui:90
+msgid "Inactivity Timeout"
+msgstr "Тайм-аут бездействия"
+
+#: data/ui/preferences_general.ui:115 data/ui/preferences_spectrum.ui:26
+msgid "Style"
+msgstr "Стиль"
+
+#: data/ui/preferences_general.ui:118
+msgid "Use Dark Theme"
+msgstr "Использовать тёмную тему"
+
+#: data/ui/preferences_general.ui:130
+msgid "Hide Menus on Outside Clicks"
+msgstr "Скрывать меню по щелчку вне фокуса"
+
+#: data/ui/preferences_spectrum.ui:5
+msgid "_Spectrum"
+msgstr "_Спектр"
+
+#: data/ui/preferences_spectrum.ui:29
+msgid "Shape"
+msgstr "Форма"
+
+#: data/ui/preferences_spectrum.ui:35
+msgid "Bars"
+msgstr "Полосы"
+
+#: data/ui/preferences_spectrum.ui:36
+msgid "Lines"
+msgstr "Линии"
+
+#: data/ui/preferences_spectrum.ui:37
+msgid "Dots"
+msgstr "Точки"
+
+#: data/ui/preferences_spectrum.ui:46
+msgid "Points"
+msgstr "Пункты"
+
+#: data/ui/preferences_spectrum.ui:68
+msgid "Height"
+msgstr "Высота"
+
+#: data/ui/preferences_spectrum.ui:91
+msgid "Line Width"
+msgstr "Ширина линии"
+
+#: data/ui/preferences_spectrum.ui:114
+msgid "Fill"
+msgstr "Заполнять"
+
+#: data/ui/preferences_spectrum.ui:126
+msgid "Show Bars Border"
+msgstr "Отобразить границы полос"
+
+#: data/ui/preferences_spectrum.ui:138
+msgid "Rounded Corners"
+msgstr "Скруглённые углы"
+
+#: data/ui/preferences_spectrum.ui:152
+msgid "Color"
+msgstr "Цвет"
+
+#: data/ui/preferences_spectrum.ui:155
+msgid "Lines and Bars"
+msgstr "Линии и полосы"
+
+#: data/ui/preferences_spectrum.ui:169
+msgid "Axis Labels"
+msgstr "Разметка осей"
+
+#: data/ui/preferences_spectrum.ui:185
+msgid "Frequency Range"
+msgstr "Диапазон частот"
+
+#: data/ui/preferences_spectrum.ui:188
+msgid "Minimum"
+msgstr "Минимум"
+
+#: data/ui/preferences_spectrum.ui:211
+msgid "Maximum"
+msgstr "Максимум"
+
+#: data/ui/preset_row.ui:25 src/convolver_menu_impulses.cpp:183
+msgid "Load"
+msgstr "Загрузить"
+
+#: data/ui/preset_row.ui:34
+msgid "Save current settings to this preset file"
+msgstr "Сохранить текущие настройки в этот файл предустановки"
+
+#: data/ui/preset_row.ui:44
+msgid "Remove this preset file"
+msgstr "Удалить этот файл предустановки"
+
+#: data/ui/presets_menu.ui:51
+msgid "New Output Preset Name"
+msgstr "Имя новой предустановки выхода"
+
+#: data/ui/presets_menu.ui:59 data/ui/presets_menu.ui:207
+msgid "Create a new preset"
+msgstr "Создать новую предустановку"
+
+#: data/ui/presets_menu.ui:73 data/ui/presets_menu.ui:221
+msgid "Import a preset"
+msgstr "Импорт предустановки"
+
+#: data/ui/presets_menu.ui:90
+msgid "Search Output Preset"
+msgstr "Поиск предустановки выхода"
+
+#: data/ui/presets_menu.ui:151
+msgid "Output Presets List"
+msgstr "Список предустановок выхода"
+
+#: data/ui/presets_menu.ui:199
+msgid "New Input Preset Name"
+msgstr "Имя новой предустановки входа"
+
+#: data/ui/presets_menu.ui:237
+msgid "Search Input Preset"
+msgstr "Поиск предустановки входа"
+
+#: data/ui/presets_menu.ui:298
+msgid "Input Presets List"
+msgstr "Список предустановок входа"
+
+#: data/ui/reverb.ui:41
+msgid "High Frequency Damping"
+msgstr "Высокочастотное демпфирование"
+
+# Taking lingual shortcuts to squeeze it in the text box
+#: data/ui/reverb.ui:73
+msgid "Room Size"
+msgstr "Размер комнаты"
+
+#: data/ui/reverb.ui:81
+msgid "Small"
+msgstr "Маленькая"
+
+#: data/ui/reverb.ui:82
+msgid "Medium"
+msgstr "Средняя"
+
+#: data/ui/reverb.ui:83
+msgid "Large"
+msgstr "Огромная"
+
+#: data/ui/reverb.ui:84
+msgid "Tunnel"
+msgstr "Туннель"
+
+#: data/ui/reverb.ui:85
+msgid "Large/smooth"
+msgstr "Большой/плавный"
+
+#: data/ui/reverb.ui:86
+msgid "Experimental"
+msgstr "Экспериментальный"
+
+#: data/ui/reverb.ui:103
+msgid "Diffusion"
+msgstr "Диффузия"
+
+#: data/ui/reverb.ui:140
+msgid "Pre Delay"
+msgstr "Предзадержка"
+
+#: data/ui/reverb.ui:173
+msgid "Decay Time"
+msgstr "Время распада"
+
+#: data/ui/reverb.ui:277
+msgid "Bass Cut"
+msgstr "Срез басов"
+
+#: data/ui/reverb.ui:312
+msgid "Treble Cut"
+msgstr "Срез тембра"
+
+#: data/ui/reverb.ui:580
+msgid "Ambience"
+msgstr "Окр. среда"
+
+#: data/ui/reverb.ui:587
+msgid "Empty Walls"
+msgstr "Пустые стены"
+
+# Taking lingual shortcuts to squeeze it in the text box
+#: data/ui/reverb.ui:600
+msgid "Room"
+msgstr "Комната"
+
+#: data/ui/reverb.ui:607
+msgid "Large Empty Hall"
+msgstr "Большой пустой зал"
+
+#: data/ui/reverb.ui:620
+msgid "Disco"
+msgstr "Диско"
+
+#: data/ui/reverb.ui:627
+msgid "Large Occupied Hall"
+msgstr "Большой занятый зал"
+
+#: data/ui/rnnoise.ui:31
+msgid "Import Model"
+msgstr "Импортировать модель"
+
+#: data/ui/rnnoise.ui:40
+msgid "Models"
+msgstr "Модели"
+
+#. If this changes, it has to be updated in src/rnnoise_ui.cpp as default_model_name
+#: data/ui/rnnoise.ui:62 src/rnnoise_ui.cpp:94 src/rnnoise_ui.cpp:240
+#: src/rnnoise_ui.cpp:274
+msgid "Standard Model"
+msgstr "Стандартная модель"
+
+#: data/ui/rnnoise.ui:90
+msgid "RNNoise Models List"
+msgstr "Список моделей RNNoise"
+
+#: data/ui/rnnoise.ui:110
+msgid "Model Not Loaded"
+msgstr "Модель Не Загружена"
+
+#: data/ui/rnnoise.ui:116
+msgid "Active Model"
+msgstr "Активная модель"
+
+#: data/ui/rnnoise.ui:124
+msgid "Standard RNNoise Model"
+msgstr "Стандартная модель RNNoise"
+
+# #, fuzzy
+#: data/ui/shortcuts.ui:11
+msgid "Overview"
+msgstr "Обзор"
+
+#: data/ui/shortcuts.ui:16
+msgid "Open the Easy Effects Manual"
+msgstr "Открыть руководство Easy Effects"
+
+#: data/ui/shortcuts.ui:23
+msgid "Fullscreen/Restore from fullscreen"
+msgstr "Полноэкраный режим / выйти из полного экрана"
+
+#: data/ui/shortcuts.ui:30
+msgid "Close the Window"
+msgstr "Закрыть окно"
+
+#: data/ui/shortcuts.ui:37
+msgid "Quit Easy Effects"
+msgstr "Выход из Easy Effects"
+
+#: data/ui/stereo_tools.ui:79
+msgid "Input Balance"
+msgstr "Баланс входа"
+
+#: data/ui/stereo_tools.ui:88
+msgid "Softclip"
+msgstr "Софтклиппер"
+
+#: data/ui/stereo_tools.ui:116
+msgid "Softclip Level"
+msgstr "Уровень софтклипа"
+
+#: data/ui/stereo_tools.ui:128
+msgid "Stereo Matrix"
+msgstr "Матрица стерео"
+
+#: data/ui/stereo_tools.ui:138
+msgid "LR > LR (Stereo Default)"
+msgstr "ЛП > ЛП (стерео по умолчанию)"
+
+#: data/ui/stereo_tools.ui:139
+msgid "LR > MS (Stereo to Mid-Side)"
+msgstr "Стерео > Моно-раздельно"
+
+#: data/ui/stereo_tools.ui:140
+msgid "MS > LR (Mid-Side to Stereo)"
+msgstr "Моно-раздельно > Стерео"
+
+#: data/ui/stereo_tools.ui:141
+msgid "LR > LL (Mono Left Channel)"
+msgstr "Стерео > Моно левый канал"
+
+#: data/ui/stereo_tools.ui:142
+msgid "LR > RR (Mono Right Channel)"
+msgstr "Стерео > Моно правый канал"
+
+#: data/ui/stereo_tools.ui:143
+msgid "LR > L+R (Mono Sum L+R)"
+msgstr "Стерео > Моно левый+правый каналы"
+
+#: data/ui/stereo_tools.ui:144
+msgid "LR > RL (Stereo Flip Channels)"
+msgstr "Стерео > Поменять каналы местами"
+
+#: data/ui/stereo_tools.ui:147
+msgid "Stereo Mode"
+msgstr "Режим стерео"
+
+#: data/ui/stereo_tools.ui:180 data/ui/stereo_tools.ui:205
+msgid "Invert Phase"
+msgstr "Инвертировать фазу"
+
+#: data/ui/stereo_tools.ui:232
+msgid "Side Level"
+msgstr "Боковой уровень"
+
+#: data/ui/stereo_tools.ui:268
+msgid "Side Balance"
+msgstr "Боковой баланс"
+
+#: data/ui/stereo_tools.ui:304
+msgid "Middle Level"
+msgstr "Средний уровень"
+
+#: data/ui/stereo_tools.ui:340
+msgid "Middle Panorama"
+msgstr "Срединная панорама"
+
+#: data/ui/stereo_tools.ui:420
+msgid "Output Balance"
+msgstr "Баланс выхода"
+
+#: data/ui/stereo_tools.ui:429
+msgid "Delay L/R"
+msgstr "Задержка Л/П"
+
+#: data/ui/stereo_tools.ui:456
+msgid "Delay Left Right"
+msgstr "Задержка левый правый"
+
+#: data/ui/stereo_tools.ui:465
+msgid "Stereo Base"
+msgstr "Стерео база"
+
+#: data/ui/stereo_tools.ui:501
+msgid "Stereo Phase"
+msgstr "Стерео фаза"
+
+#: src/app_info.cpp:64
+msgid "Running"
+msgstr "Работает"
+
+#: src/app_info.cpp:66
+msgid "Suspended"
+msgstr "Приостановлено"
+
+#: src/app_info.cpp:68
+msgid "Idle"
+msgstr "Простаивает"
+
+#: src/app_info.cpp:70
+msgid "Creating"
+msgstr "Создание"
+
+#: src/app_info.cpp:72
+msgid "Error"
+msgstr "Ошибка"
+
+#: src/app_info.cpp:74
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: src/app_info.cpp:228
+msgid "channels"
+msgstr "канала(-ов)"
+
+#: src/application.cpp:415
+msgid "Weblate https://hosted.weblate.org/projects/easyeffects/"
+msgstr "Weblate https://hosted.weblate.org/projects/easyeffects/"
+
+#: src/application.cpp:505
+msgid "Quit Easy Effects. Useful when running in service mode."
+msgstr "Выход из Easy Effects. Полезно при работе в режиме службы."
+
+#: src/application.cpp:508
+msgid "Load a preset. Example: easyeffects -l music"
+msgstr "Загрузить предустановку. Пример: easyeffects -l music"
+
+#: src/application.cpp:511
+msgid "Reset Easy Effects."
+msgstr "Сбросить Easy Effects."
+
+#: src/application.cpp:514
+msgid "Hide the Window."
+msgstr "Скрыть окно."
+
+#: src/application.cpp:517
+msgid "Global bypass. 1 to enable, 2 to disable and 3 to get status"
+msgstr "Глобальный обход. 1 — включить, 2 — отключить, 3 — получение статуса"
+
+#: src/application.cpp:520
+msgid "Show available presets."
+msgstr "Показать доступные предустановки."
+
+#: src/application_ui.cpp:277
+#, fuzzy
+msgid "_Output"
+msgstr "Выход"
+
+# ###############################################
+# https://github.com/wwmm/easyeffects/pull/289
+# Left here for future thinking
+# msgid "Influence of measurements with momentary integration time"
+# msgstr "Влияние измерений с моментальным временем интеграции"
+# msgid "Influence of measurements with short integration time"
+# msgstr "Влияние измерений с малым временем интеграции"
+# msgid "Influence of integrated measurements"
+# msgstr "Влияние комплексных измерений"
+# ###############################################
+#: src/application_ui.cpp:278
+#, fuzzy
+msgid "_Input"
+msgstr "Вход"
+
+#: src/application_ui.cpp:279
+#, fuzzy
+msgid "_PipeWire"
+msgstr "PipeWire"
+
+#: src/convolver_menu_impulses.cpp:101
+msgid "The File Is Not Regular"
+msgstr "Нестандартный файл"
+
+#: src/convolver_menu_impulses.cpp:106
+msgid "The Impulse File May Be Corrupted or Unsupported"
+msgstr "Файл импульса может быть поврежден или не поддерживается"
+
+#: src/convolver_menu_impulses.cpp:111
+msgid "Only Stereo Impulse Files Are Supported"
+msgstr "Поддерживаются только файлы импульса стерео"
+
+#: src/convolver_menu_impulses.cpp:121
+msgid "Impulse File Not Imported"
+msgstr "Файл импульса не импортирован"
+
+#: src/convolver_menu_impulses.cpp:127
+msgid "Import Impulse File"
+msgstr "Импортировать файл импульса"
+
+#: src/convolver_menu_impulses.cpp:128 src/equalizer_ui.cpp:364
+#: src/equalizer_ui.cpp:555 src/presets_menu.cpp:102 src/rnnoise_ui.cpp:131
+msgid "Open"
+msgstr "Открыть"
+
+#: src/convolver_menu_impulses.cpp:128 src/equalizer_ui.cpp:364
+#: src/equalizer_ui.cpp:555 src/presets_menu.cpp:103 src/rnnoise_ui.cpp:131
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/convolver_menu_impulses.cpp:132
+msgid "Impulse Response"
+msgstr "Импульсная реакция"
+
+#: src/convolver_menu_impulses.cpp:245
+msgid "Load Impulse"
+msgstr "Загрузить импульс"
+
+#: src/convolver_menu_impulses.cpp:248
+msgid "Remove Impulse"
+msgstr "Удалить Импульс"
+
+#: src/convolver_ui.cpp:324
+msgid "No Impulse File Loaded"
+msgstr "Нет загруженного файла импульса"
+
+#: src/convolver_ui.cpp:346
+msgid "Failed To Load The Impulse File"
+msgstr "Не удалось загрузить файл импульса"
+
+#: src/effects_box.cpp:259 src/plugins_box.cpp:647
+msgid "Recorders"
+msgstr "Рекордеры"
+
+#: src/effects_box.cpp:282 src/plugins_box.cpp:667
+msgid "Players"
+msgstr "Проигрыватели"
+
+#: src/effects_box.cpp:305
+msgid "Effects"
+msgstr "Эффекты"
+
+#: src/equalizer_band_box.cpp:82
+msgid "infinity"
+msgstr "бесконечно"
+
+#: src/equalizer_ui.cpp:363
+msgid "Import APO Preset File"
+msgstr "Импортировать файл предустановки APO"
+
+#: src/equalizer_ui.cpp:369
+msgid "APO Presets"
+msgstr "Предустановки APO"
+
+#: src/equalizer_ui.cpp:387
+msgid ""
+"APO Preset Not Loaded. File Format May Be Wrong. Please Check Its Content."
+msgstr ""
+"Предустановки APO не загружены. Формат файла может быть не верным. "
+"Пожалуйста, проверьте его содержимое."
+
+#: src/equalizer_ui.cpp:554
+msgid "Import GraphicEQ Preset File"
+msgstr "Импортировать файл предустановки GraphicEQ"
+
+#: src/equalizer_ui.cpp:560
+msgid "GraphicEQ Presets"
+msgstr "Предустановки GraphicEQ"
+
+#: src/equalizer_ui.cpp:578
+msgid ""
+"GraphicEQ Preset Not Loaded. File Format May Be Wrong. Please Check Its "
+"Content."
+msgstr ""
+"Предустановка GraphicEQ не загружена. Формат файла может быть не верным. "
+"Пожалуйста, проверьте его содержимое."
+
+#: src/pipe_manager_box.cpp:327
+msgid "Remove Autoloading Preset"
+msgstr "Удалить автозагрузку предустановки"
+
+#: src/plugins_box.cpp:599
+msgid "Remove"
+msgstr "Удалить"
+
+#: src/plugins_box.cpp:668
+msgid "Output Device"
+msgstr "Устройство вывода"
+
+#: src/plugins_menu.cpp:154
+msgid "Add"
+msgstr "Добавить"
+
+#: src/rnnoise_ui.cpp:89
+msgid ""
+"Selected Model Not Loaded. Its Format May Be Unsupported. Fell Back To The "
+"Standard Model."
+msgstr ""
+"Выбранная модель не загружена. Данный формат может быть не поддерживаемым. "
+"Возвращение на стандартную модель."
+
+#: src/rnnoise_ui.cpp:130
+msgid "Import Model File"
+msgstr "Импорт файла модели"
+
+#: src/rnnoise_ui.cpp:135
+msgid "RNNoise Models"
+msgstr "Модели RNNoise"
+
+# Энхансер (он же Эксайтер) — это прибор, который генерирует высшие гармоники низких частот, благодаря чему повышается локализация низких частот и их «читаемость».
+# «Бас-Энхансер» или «Глубокий бас»
+#: src/tags_plugin_name.cpp:32
+msgid "Bass Enhancer"
+msgstr "Усилитель басов (бас-энхансер)"
+
+#: src/tags_plugin_name.cpp:33
+msgid "Bass Loudness"
+msgstr "Громкость баса"
+
+#: src/tags_plugin_name.cpp:35
+msgid "Convolver"
+msgstr "Конвольвер"
+
+#: src/tags_plugin_name.cpp:36
+msgid "Crossfeed"
+msgstr "Перекрёстная подача"
+
+#: src/tags_plugin_name.cpp:37
+msgid "Crystalizer"
+msgstr "Кристаллизатор"
+
+# http://wikisound.org/Деэссер; предназначен для уменьшения или устранения избыточно шипящих звуков в записи человеческого голоса
+#: src/tags_plugin_name.cpp:38
+msgid "Deesser"
+msgstr "Антишипение (деэссер)"
+
+#: src/tags_plugin_name.cpp:40
+msgid "Echo Canceller"
+msgstr "Эхоподавитель"
+
+#: src/tags_plugin_name.cpp:41
+msgid "Equalizer"
+msgstr "Эквалайзер"
+
+#: src/tags_plugin_name.cpp:42
+msgid "Exciter"
+msgstr "Гармонический возбудитель (эксайтер)"
+
+#: src/tags_plugin_name.cpp:43
+msgid "Filter"
+msgstr "Фильтр"
+
+#: src/tags_plugin_name.cpp:45
+msgid "Limiter"
+msgstr "Ограничитель (лимитер)"
+
+#: src/tags_plugin_name.cpp:47
+msgid "Maximizer"
+msgstr "Максимизатор"
+
+#: src/tags_plugin_name.cpp:48
+msgid "Multiband Compressor"
+msgstr "Многополосный компрессор"
+
+#: src/tags_plugin_name.cpp:49
+msgid "Multiband Gate"
+msgstr "Многополосный пропускной уровень"
+
+#: src/tags_plugin_name.cpp:50
+msgid "Pitch"
+msgstr "Высота тона"
+
+#: src/tags_plugin_name.cpp:51
+msgid "Reverberation"
+msgstr "Реверберация"
+
+#: src/tags_plugin_name.cpp:52
+msgid "Noise Reduction"
+msgstr "Подавление шума"
+
+#: src/tags_plugin_name.cpp:53
+msgid "Speech Processor"
+msgstr "Речевой процессор"
+
+#: src/tags_plugin_name.cpp:54
+msgid "Stereo Tools"
+msgstr "Стереокорректоры"
+
+#. For translators: {} is replaced by the effect name.
+#: src/ui_helpers.cpp:81
+msgid "{} Not Available"
+msgstr "{} недоступно"
+
+#. For translators: {} is replaced by the package name.
+#: src/ui_helpers.cpp:84
+msgid "{} Is Not Installed On The System"
+msgstr "{} не установлено в системе"
+
+#. Add custom button to hint the user to press ESC to destroy the dialog.
+#. This has been introduced because multiple GTK4 dialogs shown at
+#. the same time could have issues on Wayland and the only way to
+#. close the outer one is pressing ESC, the mouse click does not work.
+#: src/ui_helpers.cpp:116
+msgid "Close (Press ESC)"
+msgstr "Закрыть (нажмите ESC)"
+
+#: src/ui_helpers.cpp:140 src/ui_helpers.cpp:160
+msgid "-inf"
+msgstr "∞"
+
+#~ msgid "Audio effects for PipeWire applications"
+#~ msgstr "Звуковые эффекты для приложений PipeWire"
+
+#, fuzzy
+#~ msgid "Noise Reduction (Fast)"
+#~ msgstr "Подавление шума"
+
+#~ msgid "Load APO Preset"
+#~ msgstr "Загрузить предустановку APO"
+
+#~ msgid "Reset Volume of EasyEffects Virtual Devices at Startup"
+#~ msgstr "Сбрасывать громкость виртуальных устройств EasyEffects при запуске"
+
+#~ msgid "EasyEffects"
+#~ msgstr "EasyEffects"
+
+#~ msgid "Output Presets: "
+#~ msgstr "Предустановки выхода: "
+
+#~ msgid "Input Presets: "
+#~ msgstr "Предустановки входа: "
+
+#~ msgid "Split Mode"
+#~ msgstr "Режим раздела"
+
+#~ msgid "Split 1/2"
+#~ msgstr "Разделение 1/2"
+
+#~ msgid "Split Frequency 1"
+#~ msgstr "Частота раздела 1"
+
+#~ msgid "Split 2/3"
+#~ msgstr "Разделение 2/3"
+
+#~ msgid "Split Frequency 2"
+#~ msgstr "Частота раздела 2"
+
+#~ msgid "Split 3/4"
+#~ msgstr "Разделение 3/4"
+
+#~ msgid "Split Frequency 3"
+#~ msgstr "Частота раздела 3"
+
+#~ msgid "Sub Band"
+#~ msgstr "Подполоса"
+
+#~ msgid "Band 1 Bypass"
+#~ msgstr "Полоса 1 обход"
+
+#~ msgid "Band 1 Solo"
+#~ msgstr "Полоса 1 соло"
+
+#~ msgid "Band 1 Detection"
+#~ msgstr "Полоса 1 обнаружение"
+
+#~ msgid "Band 1 Attack"
+#~ msgstr "Полоса 1 атака"
+
+#~ msgid "Band 1 Release"
+#~ msgstr "Полоса 1 восстановление"
+
+#~ msgid "Band 1 Threshold"
+#~ msgstr "Полоса 1 порог"
+
+#~ msgid "Band 1 Ratio"
+#~ msgstr "Полоса 1 соотношение"
+
+#~ msgid "Band 1 Knee"
+#~ msgstr "Полоса 1 колено"
+
+#~ msgid "Band 1 Makeup"
+#~ msgstr "Полоса 1 усиление вверх"
+
+#~ msgid "Max Reduction"
+#~ msgstr "Максимум подавления"
+
+#~ msgid "Low Band"
+#~ msgstr "Низкие частоты"
+
+#~ msgid "Band 2 Bypass"
+#~ msgstr "Полоса 2 обход"
+
+#~ msgid "Band 2 Solo"
+#~ msgstr "Полоса 2 соло"
+
+#~ msgid "Band 2 Detection"
+#~ msgstr "Полоса 2 обнаружение"
+
+#~ msgid "Band 2 Attack"
+#~ msgstr "Полоса 2 атака"
+
+#~ msgid "Band 2 Release"
+#~ msgstr "Полоса 2 восстановление"
+
+#~ msgid "Band 2 Threshold"
+#~ msgstr "Полоса 2 порог"
+
+#~ msgid "Band 2 Ratio"
+#~ msgstr "Полоса 2 соотношение"
+
+#~ msgid "Band 2 Knee"
+#~ msgstr "Полоса 2 колено"
+
+#~ msgid "Band 2 Makeup"
+#~ msgstr "Полоса 2 усиление вверх"
+
+#~ msgid "Band 2 Max Reduction"
+#~ msgstr "Полоса 2 макс. подавление"
+
+#~ msgid "Mid Band"
+#~ msgstr "Средние частоты"
+
+#~ msgid "Band 3 Bypass"
+#~ msgstr "Полоса 3 обход"
+
+#~ msgid "Band 3 Solo"
+#~ msgstr "Полоса 3 соло"
+
+#~ msgid "Band 3 Detection"
+#~ msgstr "Полоса 3 обнаружение"
+
+#~ msgid "Band 3 Attack"
+#~ msgstr "Полоса 3 атака"
+
+#~ msgid "Band 3 Release"
+#~ msgstr "Полоса 3 восстановление"
+
+#~ msgid "Band 3 Threshold"
+#~ msgstr "Полоса 3 порог"
+
+#~ msgid "Band 3 Ratio"
+#~ msgstr "Полоса 3 соотношение"
+
+#~ msgid "Band 3 Knee"
+#~ msgstr "Полоса 3 колено"
+
+#~ msgid "Band 3 Makeup"
+#~ msgstr "Полоса 3 усиление вверх"
+
+#~ msgid "Band 3 Max Reduction"
+#~ msgstr "Полоса 3 макс. подавление"
+
+#~ msgid "High Band"
+#~ msgstr "Высокие частоты"
+
+#~ msgid "Band 4 Bypass"
+#~ msgstr "Полоса 4 обход"
+
+#~ msgid "Band 4 Solo"
+#~ msgstr "Полоса 4 соло"
+
+#~ msgid "Band 4 Detection"
+#~ msgstr "Полоса 4 обнаружение"
+
+#~ msgid "Band 4 Attack"
+#~ msgstr "Полоса 4 атака"
+
+#~ msgid "Band 4 Release"
+#~ msgstr "Полоса 4 восстановление"
+
+#~ msgid "Band 4 Threshold"
+#~ msgstr "Полоса 4 порог"
+
+#~ msgid "Band 4 Ratio"
+#~ msgstr "Полоса 4 соотношение"
+
+#~ msgid "Band 4 Knee"
+#~ msgstr "Полоса 4 колено"
+
+#~ msgid "Band 4 Makeup"
+#~ msgstr "Полоса 4 усиление вверх"
+
+#~ msgid "Band 4 Max Reduction"
+#~ msgstr "Полоса 4 макс. подавление"
+
+#~ msgid "Wet Amount"
+#~ msgstr "Влажность"
+
+#~ msgid "Dry Amount"
+#~ msgstr "Сухость"
+
+#~ msgid "Wellington Wallace"
+#~ msgstr "Веллингтон Уоллис"
+
+#~ msgid ""
+#~ "EasyEffects is an advanced audio manipulation tool. It includes an "
+#~ "equalizer, limiter, compressor and a reverberation tool, just to mention "
+#~ "a few. To complement this there is also a built in spectrum analyzer."
+#~ msgstr ""
+#~ "EasyEffects — это продвинутый набор инструментов для работы со звуком. "
+#~ "Приложение включает в себя эквалайзер, ограничитель (лимитер), "
+#~ "компрессор, утилиту для реверберации и многое другое. Более того, имеется "
+#~ "встроенный анализатор аудиоспектра."
+
+#~ msgid ""
+#~ "EasyEffects is the successor to PulseEffects. EasyEffects only supports "
+#~ "PipeWire's audio server. PulseAudio users should instead use PulseEffects."
+#~ msgstr ""
+#~ "EasyEffects является наследником PulseEffects. EasyEffects поддерживает "
+#~ "только PipeWire в качестве аудио-сервера. Пользователи PulseAudio должны "
+#~ "продолжать использовать PulseEffects."
+
+#~ msgid ""
+#~ "Because EasyEffects uses the default PipeWire sound server it will work "
+#~ "with most, if not all, applications you use. All supported applications "
+#~ "are presented in the main window, where each can be enabled individually."
+#~ msgstr ""
+#~ "Так как EasyEffects использует стандартный сервер PipeWire, программа "
+#~ "будет работать с большинством используемых вами приложений. Все "
+#~ "поддерживаемые приложения представлены в главном окне, где каждое может "
+#~ "быть настроено индивидуально."
+
+#~ msgid ""
+#~ "Besides manipulating sound output, EasyEffects is able to apply effects "
+#~ "to an input device, such as a microphone. This is, for example, useful in "
+#~ "audio recording, but it also works well during voice conversations."
+#~ msgstr ""
+#~ "Помимо изменения звука на выходе, EasyEffects также может использовать "
+#~ "звуковые эффекты для входных аудио-потоков, таких как микрофон. К "
+#~ "примеру, это может быть полезно во время аудиозаписи или голосовой "
+#~ "конференции."
+
+#~ msgid ""
+#~ "When EasyEffects is launched it will conveniently remember the "
+#~ "configuration used in the last session. It is also possible to save all "
+#~ "the current settings as profiles."
+#~ msgstr ""
+#~ "При запуске, EasyEffects автоматически подгрузит ваши настройки из "
+#~ "предыдущей сессии. Также вы можете сохранить ваши текущие настройки в "
+#~ "качестве загружаемого профиля."
+
+#~ msgid "The main page showing two audio output apps"
+#~ msgstr "Главная страница отображает приложения с выходными аудио-потоками"
+
+#~ msgid "The bass enhancer page showing audio controls"
+#~ msgstr "Страница усиления басов отображает настройки аудио"
+
+#~ msgid "The convolver page showing audio controls"
+#~ msgstr "Страница конвольвера отображает настройки аудио"
+
+#~ msgid "This release adds the following features:"
+#~ msgstr "Этот выпуск привносит следующие возможности:"
+
+#~ msgid "This release fixes the following bugs:"
+#~ msgstr "Этот выпуск исправляет следующие ошибки:"
+
+#~ msgid "The interface of the pitch plugin was improved"
+#~ msgstr "Улучшен интерфейс плагина высоты тона"
+
+#~ msgid "Our application icon is now compatible with desktops that uses QT"
+#~ msgstr ""
+#~ "Значок нашего приложения теперь совместим с рабочими столами, "
+#~ "использующими QT"
+
+#~ msgid ""
+#~ "Our blocklist code will use the `application.id` tag if the stream sets it"
+#~ msgstr ""
+#~ "Наш код чёрного списка будет использовать тег `application.id`, если "
+#~ "поток укажет его"
+
+#~ msgid ""
+#~ "In order to avoid problems with the mouse scroll the entries in the "
+#~ "applications list shown in our `Players/Recorders`"
+#~ msgstr ""
+#~ "Во избежание проблем с колесом мыши записи в списке приложений "
+#~ "отображаются в `Проигрыватели/Рекордеры`"
+
+#~ msgid ""
+#~ "tab do not show a volume scale anymore. More details about the problem "
+#~ "and the solution for it can be found on #1211"
+#~ msgstr ""
+#~ "вкладка больше не показывает шкалу громкости. Подробнее о проблеме и её "
+#~ "решении можно узнать в #1211"
+
+#~ msgid "and #1427"
+#~ msgstr "и #1427"
+
+#~ msgid ""
+#~ "When no application is available for display in the `Players/Recorders` a "
+#~ "message will be shown to the user"
+#~ msgstr ""
+#~ "Когда ни одно приложение не доступно для отображения в `Проигрывателях/"
+#~ "Рекордерах`, пользователю будет показано сообщение"
+
+#~ msgid "Many translation updates"
+#~ msgstr "Крупное обновление переводов"
+
+#, fuzzy
+#~ msgid ""
+#~ "Fixed a bug where EasyEffects crashed when the number of points displayed "
+#~ "in the spectrum was changed while"
+#~ msgstr ""
+#~ "Исправлена ошибка, при которой EasyEffeects аварийно завершал работу, "
+#~ "когда изменялось количество точек, отображаемых в спектре, в то время как"
+
+#~ msgid "our pipeline was active and the spectrum widget was visible"
+#~ msgstr "наш канал обработки был активен, и виджет спектра отображался"
+
+#~ msgid ""
+#~ "The pipeline latency value displayed in our window could be wrong in some "
+#~ "situations. This was fixed."
+#~ msgstr ""
+#~ "Значение задержки канала обработки, отображаемое в нашем окне, могло быть "
+#~ "неверным в некоторых ситуациях. Это было исправлено."
+
+#~ msgid ""
+#~ "There is a new setting allowing the user to select an inactivity timeout "
+#~ "for the pipeline. When no client is playing"
+#~ msgstr ""
+#~ "Появился новый параметр, позволяющая пользователю выбирать тайм-аут "
+#~ "бездействия для канала обработки. Когда ни один клиент не играет"
+
+#~ msgid ""
+#~ "to or recording from our devices the filters will be unlinked after the "
+#~ "timeout is reached. This is done to make sure"
+#~ msgstr ""
+#~ "или записывает с наших устройств, фильтры будут отключены после "
+#~ "достижения тайм-аута. Это делается для уверенности в том, что"
+
+#~ msgid "we do not waste CPU power processing silence."
+#~ msgstr "не тратится мощность процессора на обработку тишины."
+
+#~ msgid ""
+#~ "The autogain plugin now allows the user to select which of the three "
+#~ "loudness are used to calculate the geometric"
+#~ msgstr ""
+#~ "Плагин нормализации громкости теперь позволяет пользователю выбрать один "
+#~ "из трёх уровней для расчета среднего"
+
+#~ msgid "mean."
+#~ msgstr "геометрического."
+
+#~ msgid ""
+#~ "The autogain plugin now allows the maximum history to be set and does not "
+#~ "use `libebur128` histogram mode anymore."
+#~ msgstr ""
+#~ "Плагин нормализации громкости теперь позволяет устанавливать максимальную "
+#~ "историю и больше не использует режим гистограммы «libebur128»."
+
+#~ msgid ""
+#~ "This should avoid the cases where the `Integrated` loudness gets stuck "
+#~ "forever in the same value."
+#~ msgstr ""
+#~ "Это поможет избегать случаев, когда «встроенная» громкость навсегда "
+#~ "застревает на одном и том же значении."
+
+#~ msgid ""
+#~ "EasyEffects icon has been updated in a way that should make it visible in "
+#~ "QT desktops."
+#~ msgstr ""
+#~ "Значок EasyEffects был обновлён таким образом, чтобы сделать его видимым "
+#~ "на рабочих столах QT."
+
+#~ msgid "This release fixes the following bug:"
+#~ msgstr "В этом выпуске исправлены следующие ошибки:"
+
+#~ msgid ""
+#~ "The command line option that returns the global bypass state is working "
+#~ "again."
+#~ msgstr ""
+#~ "Параметр командной строки, возвращающий состояние глобального обхода, "
+#~ "снова работает."
+
+#~ msgid "This release adds the following feature:"
+#~ msgstr "Этот выпуск добавляет следующие возможности:"
+
+#~ msgid ""
+#~ "The crossfeed filter should deal better with PipeWire's dynamic latency "
+#~ "switches. Jumps in volume level should not happen anymore in these "
+#~ "situations."
+#~ msgstr ""
+#~ "Фильтр перекрестной подачи должен лучше работать с динамическим "
+#~ "изменением задержек PipeWire. Больше не должны возникать ситуации, "
+#~ "приводящие к скачкам громкости."
+
+#~ msgid ""
+#~ "Fixed a bug that prevented mono microphones from properly working with "
+#~ "EasyEffects"
+#~ msgstr ""
+#~ "Исправлена ошибка, не дававшая моно-микрофонам корректно работать с "
+#~ "EasyEffects"
+
+#~ msgid "Support for the next PipeWire release `0.3.44`"
+#~ msgstr "Поддержка PipeWire версии `0.3.44`"
+
+#~ msgid ""
+#~ "The autogain filter should deal better with PipeWire's dynamic latency "
+#~ "switches. Jumps in volume level should not happen anymore in these "
+#~ "situations."
+#~ msgstr ""
+#~ "Фильтр автогейн должен лучше работать с динамическим изменением задержек "
+#~ "PipeWire. Теперь ситуации со скачками уровня громкости больше не должны "
+#~ "возникать."
+
+#~ msgid ""
+#~ "We added an option that allows the volume and mute state of our virtual "
+#~ "devices to be reset when EasyEffects starts. It should help with the "
+#~ "cases were our devices are muted by the audio server for unknown reasons."
+#~ msgstr ""
+#~ "Мы добавили опцию, позволяющую сбрасывать уровень громкости и заглушение "
+#~ "устройства во время запуска EasyEffects. Это должно помочь в случае, "
+#~ "когда ваши устройства по неизвестным причинам заглушаются аудио-сервером."
+
+#~ msgid "Better support for computer suspending."
+#~ msgstr "Улучшена поддержка спящего режима."
+
+#~ msgid "Updated translations"
+#~ msgstr "Обновление перевода"
+
+#~ msgid ""
+#~ "Fixed a bug where trying to create an autoloading profile without having "
+#~ "presets caused the application to crash."
+#~ msgstr ""
+#~ "Исправлена ошибка, при которой попытка создать профиль для автозагрузки, "
+#~ "не имеющий предустановок, приводила к вылету приложения."
+
+#~ msgid ""
+#~ "Fixed a bug where setting a equalizer band `quality` to `zero` would lead "
+#~ "to an application crash."
+#~ msgstr ""
+#~ "Исправлена ошибка, при которой установка полосы эквалайзера в \"ноль\" "
+#~ "приводила к аварийному завершению приложения."
+
+#~ msgid ""
+#~ "LibAdwaita is used to create some parts of our window and for handling "
+#~ "the switching between dark and light themes."
+#~ msgstr ""
+#~ "LibAdwaita используется для создания некоторых частей окна приложения и "
+#~ "управления переключением между тёмной и светлой темами."
+
+#~ msgid "The settings menu has been redesigned using LibAdwaita widgets."
+#~ msgstr ""
+#~ "Дизайн меню настроек приложения был изменен с использованием виджетов "
+#~ "LibAdwaita."
+
+#~ msgid ""
+#~ "Equalizer APO preset import feature has been improved to apply not only "
+#~ "the Bell filter, but also other supported ones"
+#~ msgstr ""
+#~ "Функция импорта предустановок для Equalizer APO была улучшена: теперь "
+#~ "возможно применить не только \"Bell\", но и другие поддерживаемые фильтры"
+
+#~ msgid ""
+#~ "The `Reset All Settings` function in our menu should work in Flatpak now."
+#~ msgstr ""
+#~ "Функция «Сброс всех настроек» в меню теперь должна работать и с Flatpak."
+
+#~ msgid ""
+#~ "We have a new option that allows the user to disable our menus "
+#~ "`autohide`. This may help to workaround some bugs Popover menus currently "
+#~ "have on gtk4."
+#~ msgstr ""
+#~ "Теперь у нас есть новая опция, которая позволяет пользователю отключить "
+#~ "\"автоскрытие\" меню. Это должно помочь обойти некоторые ошибки "
+#~ "наложения, имеющиеся в gtk4."
+
+#~ msgid ""
+#~ "More robust parsing to import APO presets saved with comma as thousands "
+#~ "separator in central frequency band."
+#~ msgstr ""
+#~ "Большинство сложных для обработки при импорте предустановок APO, "
+#~ "сохранены с использованием запятой в качестве разделителя в центральный "
+#~ "полосе частот."
+
+#~ msgid ""
+#~ "The fmt library is a new dependency At least while the c++ compilers do "
+#~ "not implement its features. This is expected to happen in the next years."
+#~ msgstr ""
+#~ "Библиотека fmt является новой зависимостью, поскольку компилятор C++ на "
+#~ "данный момент не может реализовать ее возможности. Поддержка ожидается в "
+#~ "ближайшие несколько лет."
+
+#~ msgid ""
+#~ "GTKMM and GLIBMM are not a dependency anymore. We now use gtk4 directly."
+#~ msgstr ""
+#~ "GTKMM и GLIBMM больше не являются зависимостями. Теперь мы используем "
+#~ "gtk4 напрямую."
+
+#~ msgid ""
+#~ "It is now possible to combine impulse responses in the Convolver "
+#~ "interface. A new impulse file is generated and it should be visible in "
+#~ "the impulse list."
+#~ msgstr ""
+#~ "Теперь вы можете объединять характеристики импульсов в интерфейсе "
+#~ "Конвольвера. Новые файлы импульсов созданы и должны быть видны в списке."
+
+#~ msgid ""
+#~ "Improved `x axis` drawings in our plots. Now the number of labels is "
+#~ "adjusted dynamically depending on our window width."
+#~ msgstr ""
+#~ "Улучшена горизонтальная отрисовка внутри окна приложения. Теперь "
+#~ "количество элементов изменяется динамически в зависимости от ширины окна."
+
+#~ msgid ""
+#~ "The documentation has been updated reflecting the new EasyEffects "
+#~ "features. Old references about PulseEffects have been removed. The "
+#~ "documentation button has been added in the menu section."
+#~ msgstr ""
+#~ "Была обновлена пользовательская документация в связи с добавлением в "
+#~ "EasyEffects новых возможностей. Старые отсылки к PulseEffects были "
+#~ "удалены. Кнопка для вызова документации была добавлена в качестве секции "
+#~ "Меню."
+
+#~ msgid ""
+#~ "When a spinbutton is filled with an out of range value, now it is updated "
+#~ "with the lowest/highest value rather than resetting to the previous one."
+#~ msgstr ""
+#~ "Когда регулятор установлен в положение, превышающее возможное значение, "
+#~ "он будет обновлен до наименьшего/высшего значения, наиболее "
+#~ "соответствующего предыдущему."
+
+#~ msgid ""
+#~ "The application window now remembers the maximized state and restores it "
+#~ "on the next opening event."
+#~ msgstr ""
+#~ "Окно приложения теперь запоминает свое состояние, и будет восстановлено "
+#~ "при его следующем открытии."
+
+#~ msgid "The `tbb` library is a new dependency"
+#~ msgstr "Библиотека tbb теперь является новой зависимостью"
+
+#~ msgid ""
+#~ "The Limiter and the Multiband Compressor plugins can now use an optional "
+#~ "external sidechain."
+#~ msgstr ""
+#~ "Плагины Лимитер и Многополосный компрессор теперь могут использоваться в "
+#~ "качестве опционального внешнего сайдчейна."
+
+#~ msgid ""
+#~ "The Autogain plugin now allows the user to select which Loudness is used "
+#~ "as reference for the volume correction."
+#~ msgstr ""
+#~ "Плагин Автогейн теперь позволяет пользователям выбрать, какая громкость "
+#~ "будет использоваться в качестве значения для коррекции её уровня."
+
+#~ msgid ""
+#~ "The APO Profile Import feature of Equalizer plugin now parses the \"Pre "
+#~ "Amplification\" parameter."
+#~ msgstr ""
+#~ "Функция импорта предустановок APO для плагина Эквалайзера, теперь "
+#~ "считывает параметры Предусиления."
+
+#~ msgid "Optional Cubic Volume can be enabled in General Settings."
+#~ msgstr ""
+#~ "Теперь в главных настройках можно выбрать Кубический Уровень в качестве "
+#~ "опции."
+
+#~ msgid ""
+#~ "PipeWire monitor streams are now excluded and removed from the "
+#~ "applications list."
+#~ msgstr ""
+#~ "Монитор источников PipeWire был исключён и удалён из списка приложений."
+
+#~ msgid "Hopefully crashes like the one reported at [1172]( are fixed."
+#~ msgstr ""
+#~ "Надеемся, что ошибки вылета приложения, указанные в отчете [1172] были "
+#~ "исправлены."
+
+#~ msgid "Prevented a case in which Spectrum was crashing."
+#~ msgstr ""
+#~ "Предотвращена ошибка, связанная со Спектром, приводящая к аварийному "
+#~ "завершению приложения."
+
+#~ msgid ""
+#~ "Pavucontrol is not added anymore to input applications list on systems "
+#~ "with localization different than English."
+#~ msgstr ""
+#~ "Pavucontrol больше не указывается в списке приложений с источниками "
+#~ "аудиопотоков в системах, локализация которых отличается от английской."
+
+#~ msgid ""
+#~ "Improved compatibility with WirePlumber. This is needed to run on systems "
+#~ "that decided to use it instead of the"
+#~ msgstr ""
+#~ "Улучшена совместимость с WirePlumber, необходимая для работы в системах, "
+#~ "использующих го в качестве основного"
+
+#~ msgid "built-in PipeWire session manager. More information at issue [1144]("
+#~ msgstr ""
+#~ "менеджера управления сессиями PipeWire. Больше информации в отчете [1144]"
+
+#~ msgid ""
+#~ "When trying to add an autoloading profile for a device already in the "
+#~ "list its target preset will be updated. This way we can change the "
+#~ "profile preset without having to remove and recreating it."
+#~ msgstr ""
+#~ "При попытке добавить профиль для автозагрузки для устройства, "
+#~ "находящегося в списке, его цель будет обновлена. С помощью этого, мы "
+#~ "сможем изменять предустановки профиля без необходимости удалять и "
+#~ "пересоздавать его заново."
+
+#~ msgid ""
+#~ "The preset autoloading support implementation was redesigned again. It "
+#~ "should work on more hardware now. For more information see issue [1051]("
+#~ msgstr ""
+#~ "Реализация поддержки автозагрузки профилей была заново переписана. Теперь "
+#~ "она должна работать с большим количеством оборудования. Более детальная "
+#~ "информация в отчете [1051]"
+
+#~ msgid ""
+#~ "If the Limiter or the Maximizer are set in the last position of the "
+#~ "plugin stack, new plugins are added at the second to last position in "
+#~ "order to prevent hardware damage on eventually high output level."
+#~ msgstr ""
+#~ "Лимитер и Максимизатор теперь устанавливаются в последнюю позицию цепочки "
+#~ "плагинов. Новые плагины добавляются в предыдущую секцию с целью "
+#~ "предотвращения порчи оборудования чрезмерным выходным уровнем громкости."
+
+#~ msgid ""
+#~ "Removing an application from the blocklist, its previous enabled state is "
+#~ "restored."
+#~ msgstr ""
+#~ "При удалении приложения из черного списка, его предшествующее состояние "
+#~ "будет восстановлено."
+
+#~ msgid ""
+#~ "Sometimes when removing imported models from the noise reduction plugin "
+#~ "the current used model was not properly updated. This should be fixed now."
+#~ msgstr ""
+#~ "Иногда, во время удаления импортированной модели в плагине "
+#~ "шумоподавления, текущая используемая модель не обновлялась корректно. "
+#~ "Теперь должно работать как положено."
+
+#~ msgid ""
+#~ "When editing presets files in an external editor, duplicated entries "
+#~ "won't be shown in our presets menu."
+#~ msgstr ""
+#~ "Во время правки файла предустановок во внешнем редакторе, повторяющиеся "
+#~ "параметры не будут отображаться в меню."
+
+#~ msgid "Now the blocklist is correctly set when switching presets."
+#~ msgstr ""
+#~ "Теперь чёрный список правильно устанавливается при смене предустановок."
+
+#~ msgid ""
+#~ "Now the status of the global bypass button is correctly updated when "
+#~ "changing plugin stack."
+#~ msgstr ""
+#~ "Теперь статус при нажатии на кнопку глобального обхода корректно "
+#~ "отображается при смене набора плагинов."
+
+#~ msgid ""
+#~ "Missing icons on the system should not be shown inside the application "
+#~ "info UI"
+#~ msgstr ""
+#~ "Потерянные системные значки теперь не должны отображаться внутри "
+#~ "пользовательского интерфейса приложения"
+
+#~ msgid ""
+#~ "Some icons not showing in Plasma DE with Breeze icon theme should appear "
+#~ "now."
+#~ msgstr ""
+#~ "Некоторые значки, которые не отображались в окружении рабочего стола "
+#~ "Plasma с темой Breeze, теперь должны отображаться."
+
+#~ msgid "Updated Chinese translation."
+#~ msgstr "Обновлен Китайский перевод."
+
+#~ msgid "Updated Italian translation."
+#~ msgstr "Обновлен перевод на Итальянский."
+
+#~ msgid "Added support for the compressor parameter `Boost Amount`"
+#~ msgstr "В компрессор добавлена поддержка параметра `Boost Amount`"
+
+#~ msgid ""
+#~ "The multiband compressor plugin now uses the stereo multiband compressor "
+#~ "plugin from Linux Studio Plugins instead of the one from Calf Studio."
+#~ msgstr ""
+#~ "Плагин многополосного компрессора теперь использует плагин стерео "
+#~ "многополосного компрессора из набора плагинов Linux Studio Plugins взамен "
+#~ "Calf Studio."
+
+#~ msgid ""
+#~ "The limiter plugin now uses the stereo limiter plugin from Linux Studio "
+#~ "Plugins instead of the one from Calf Studio."
+#~ msgstr ""
+#~ "Плагин лимитера теперь использует стерео плагин лимитера из набора Linux "
+#~ "Studio Plugins взамен Calf Studio."
+
+#~ msgid ""
+#~ "LV2 filters now are spawned in PipeWire graph only when loaded the first "
+#~ "time. Once loaded, they remain connected until EasyEffects shutdown."
+#~ msgstr ""
+#~ "Наборы LV2 фильтров отображаются в графе PipeWire только во время первой "
+#~ "загрузки. Однажды загруженные, они останутся включёнными до тех пор пока "
+#~ "EasyEffects продолжает работу."
+
+#~ msgid "The echo canceller sampling rate is now properly set."
+#~ msgstr ""
+#~ "Теперь для модуля эхоподавления возможно установить частотный спектр."
+
+#~ msgid ""
+#~ "The threshold parameter from the deesser plugin is now saved to the "
+#~ "preset file."
+#~ msgstr ""
+#~ "Уровень порогового значения в плагине антишипения (деэссера) теперь "
+#~ "сохраняется в файле предустановки."
+
+#~ msgid ""
+#~ "Improved band splitting for crystalizer with new default intensity values."
+#~ msgstr ""
+#~ "Улучшено полосное разделение для кристаллизатора с новыми значениями "
+#~ "интенсивности по умолчанию."
+
+#~ msgid ""
+#~ "Depending on the input gain or output gain values the corresponding level "
+#~ "bars could not be aligned."
+#~ msgstr ""
+#~ "Зависимости во входных и выходных уровнях громкости теперь коррелируют со "
+#~ "значениями регулятора, которые ранее нельзя было выровнять."
+
+#~ msgid ""
+#~ "When adding more equalizer bands they are set to `Bell` instead of `Off`."
+#~ msgstr ""
+#~ "При добавлении новых полос в эквалайзер их значение равно «Bell» вместо "
+#~ "«Отключено»."
+
+#~ msgid ""
+#~ "Equalizer APO presets loading is now working properly on locales "
+#~ "different than C."
+#~ msgstr ""
+#~ "Предустановки для Эквалайзера APO теперь работают корректно с языками, "
+#~ "отличными от С."
+
+#~ msgid "Improved linking management between port filter nodes in PipeWire."
+#~ msgstr ""
+#~ "Улучшено взаимодействие между точками пересечения портов фильтров в "
+#~ "PipeWire."
+
+#~ msgid ""
+#~ "The crystalizer plugin signal amplification was too high before. It "
+#~ "should be within more reasonable levels now."
+#~ msgstr ""
+#~ "Ранее, усиление сигнала в плагине кристаллизатора было слишком высоким. "
+#~ "Установлены более адекватные значения."
+
+#~ msgid ""
+#~ "Improved the resampler used in the plugins that require one(like the "
+#~ "rnnoise plugin)"
+#~ msgstr "Улучшена работа ресемлера с некоторыми плагинами (rnnoise и пр.)"
+
+#~ msgid "Setting multiple autoloading presets should be fine now"
+#~ msgstr ""
+#~ "Установка множества предустановок для автозагрузки теперь должно работать "
+#~ "корректно"
+
+#~ msgid "Transient windows are now properly set for some plugins dialogs"
+#~ msgstr ""
+#~ "Временные окна для взаимодействия с некоторыми плагинами теперь работают "
+#~ "корректно"
+
+#~ msgid ""
+#~ "The convolver impulse response menu was improved to workaround an issue "
+#~ "where the impulse files was not loaded when only one was available in the "
+#~ "menu"
+#~ msgstr ""
+#~ "Была исправлена ошибка меню конвольвера, при которой файлы импульсов не "
+#~ "подгружались, если на выбор доступна только одна опция"
+
+#~ msgid ""
+#~ "Fixed a bug that could make the pitch plugin to not be properly "
+#~ "initialized"
+#~ msgstr ""
+#~ "Исправлена ошибка, при которой плагин высоты тона не мог правильно "
+#~ "инициализироваться"
+
+#~ msgid ""
+#~ "The saturation warning should not displace its neighbor widgets anymore"
+#~ msgstr ""
+#~ "Предупреждение о переполнении больше не должно менять расположение "
+#~ "соседних виджетов"
+
+#~ msgid "Fixed the locale in a few widgets"
+#~ msgstr "Исправлен перевод некоторых виджетов"
+
+#~ msgid "Fixed wrong alignment in a few widgets"
+#~ msgstr "Исправлено неправильное выравнивание некоторых виджетов"
+
+#~ msgid ""
+#~ "The Loudness plugin is being used again for the reasons described at This "
+#~ "means that is an optional dependency again."
+#~ msgstr ""
+#~ "По указаным выше причинам, лагин работы с громкостью теперь снова "
+#~ "доступен. Это значит, что он снова добавлен в список опциональных "
+#~ "зависимостей."
+
+#~ msgid ""
+#~ "Fixed a segmentation fault that happened when optional dependencies were "
+#~ "not installed"
+#~ msgstr ""
+#~ "Исправлена ошибка сегментирования, возникавшая в случае, когда "
+#~ "опциональные зависимости не были установлены"
+
+#~ msgid "Improved equalizer interface."
+#~ msgstr "Улучшен интерфейс эквалайзера."
+
+#~ msgid ""
+#~ "Now we use a sidechain LSP compressor that allows the user to select and "
+#~ "external source as the sidechain input."
+#~ msgstr ""
+#~ "Теперь используется компрессор LSP, что позволяет пользователю выбрать "
+#~ "внешний источник в качестве входного сайдчейна."
+
+#~ msgid "We now support the LSP compressor `Boosting` mode."
+#~ msgstr "Теперь компрессор LSP поддерживает режим 'Усиление'."
+
+#~ msgid ""
+#~ "When `split-channels` is enabled in the equalizer the imported APO preset "
+#~ "will be applied only to the channel being visualized in the window. This "
+#~ "will allow to import different presets for each channel instead of just "
+#~ "settings the same values to both."
+#~ msgstr ""
+#~ "Когда 'смещение каналов' активировано в эквалайзере, предустановки "
+#~ "импортированные из APO будут применены только к каналу, отображаемому в "
+#~ "окне. Это позволяет применять различные предустановки для каждого канала "
+#~ "вместо установки одинакового значения в обоих каналах."
+
+#~ msgid ""
+#~ "Fixed some segmentation faults that could happen when creating a preset "
+#~ "autoloading profile or removing presets"
+#~ msgstr ""
+#~ "Исправлены ошибки сегментирования, возникавшие при создании или удалении "
+#~ "предустановок, используемых для автозагрузки"
+
+#~ msgid ""
+#~ "This is one of the biggest releases that I have ever made. The amount of "
+#~ "changes is so big that it is hard to talk about everything here."
+#~ msgstr ""
+#~ "Этот выпуск является одним из самых крупных, что мы делали за всё время. "
+#~ "Объём изменений обширен, поэтому очень трудно описать их все."
+
+#~ msgid ""
+#~ "The following are just the most import ones. People interested on the "
+#~ "journey that got us here can take"
+#~ msgstr ""
+#~ "Перечисленные изменения являются самыми важными на наш взгляд. Если вам "
+#~ "интересны возможности, предоставляемые приложением, просто возьмите"
+
+#~ msgid "a look at and"
+#~ msgstr "и опробуйте их"
+
+#~ msgid ""
+#~ "The application and its repository have been renamed from PulseEffects to "
+#~ "`EasyEffects`"
+#~ msgstr "Приложение и его репозиторий были переименованы в 'EasyEffects'"
+
+#~ msgid "gtkmm3 was replaced by gtkmm4"
+#~ msgstr "gtkmm3 был заменен на gtkmm4"
+
+#~ msgid "Gstreamer was replaced by native PipeWire filters."
+#~ msgstr "Фильтры GStreamer были заменены на собственные фильтры PipeWire."
+
+#~ msgid ""
+#~ "Many features were reimplemented from scratch. The preset autoloading is "
+#~ "one example. Another remarkable change will be seen in the plugins "
+#~ "selection menu. Now the user can show in the window only the plugins that "
+#~ "he/she wants to use."
+#~ msgstr ""
+#~ "Множество возможностей былы переписаны с нуля. Например предустановки для "
+#~ "автозагрузки. Другие изменения, которые стоит упомянуть, можно увидеть в "
+#~ "меню выбора плагинов. Теперь пользователь может отобразить в окне только "
+#~ "те плагины, которые посчитает необходимыми."
+
+#~ msgid ""
+#~ "Boost is no longer a dependency. The price paid for that was a little "
+#~ "change in our presets structures. With some patience it is possible to "
+#~ "edit PulseEffects presets in a text editor and make them work in "
+#~ "EasyEffects. Hopefully someone will come up with a script for this in the "
+#~ "feature."
+#~ msgstr ""
+#~ "Библиотека Boost более не является зависимостью. Ценой данного решения "
+#~ "является небольшое изменение структуры предустановок. Имея немного "
+#~ "терпения, можно отредактировать предустановки PulseEffects в любом "
+#~ "текстовом редакторе, чтобы сделать их совместимыми с EasyEffects. "
+#~ "Надеемся, кто нибудь создаст скрипт для автоматизации данной возможности."
+
+#~ msgid ""
+#~ "New libraries are being used and some of the librarires that were "
+#~ "optional before are now required"
+#~ msgstr ""
+#~ "Наличие некоторых новых библиотек, ранее считавшиеся опциональными, "
+#~ "теперь является обязательным"
+
+#~ msgid "Average"
+#~ msgstr "Средняя"
+
+#~ msgid "Failed"
+#~ msgstr "Не удалось"
+
+#~ msgid "Use Default"
+#~ msgstr "Установить по умолчанию"
+
+#~ msgid "Remove this plugin"
+#~ msgstr "Удалить этот плагин"
+
+#~ msgid "Import Presets"
+#~ msgstr "Импорт предустановок"
+
+#~ msgid "Start Service at Login"
+#~ msgstr "Запуск службы при запуске"
+
+#~ msgid "Reset Our Devices Volume on Startup"
+#~ msgstr "Сброс громкости устройств при запуске"
+
+#~ msgid "Activate"
+#~ msgstr "Активировать"
+
+#~ msgid "Add to Blocklist"
+#~ msgstr "Добавить в чёрный список"
+
+#~ msgid "Blocklist"
+#~ msgstr "Чёрный список"
+
+#~ msgid "Add Plugin"
+#~ msgstr "Добавить плагин"
+
+#~ msgid "Speakers"
+#~ msgstr "Динамики"
+
+#~ msgid "Microphone"
+#~ msgstr "Микрофон"
+
+#~ msgid "Plugins"
+#~ msgstr "Плагины"
+
+#, fuzzy
+#~ msgid "enabled"
+#~ msgstr "Включено"
+
+#, fuzzy
+#~ msgid "disabled"
+#~ msgstr "Включено"
+
+#~ msgid "Format"
+#~ msgstr "Формат"
+
+#~ msgid "Latency"
+#~ msgstr "Задержка"
+
+#~ msgid "idle"
+#~ msgstr "простаивание"
+
+#~ msgid "Faster"
+#~ msgstr "Быстрее"
+
+#~ msgid "Preserve Formant"
+#~ msgstr "Сохранить формат"
+
+#~ msgid "LR4"
+#~ msgstr "LR4"
+
+#~ msgid "LR8"
+#~ msgstr "LR8"
+
+#, fuzzy
+#~ msgid "Output Channel"
+#~ msgstr "Усиление выхода"
+
+#~ msgid "Channel"
+#~ msgstr "Канал"
+
+#, fuzzy
+#~ msgid "Value"
+#~ msgstr "Нижний порог"
+
+#~ msgid "Output Effects"
+#~ msgstr "Эффекты для вывода звука"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#, fuzzy
+#~ msgid "Settings Menu"
+#~ msgstr "Настройки"
+
+#, fuzzy
+#~ msgid "Documentation"
+#~ msgstr "Продолжительность"
+
+#, fuzzy
+#~ msgid "Enable Test Signal"
+#~ msgstr "Проверочный сигнал"
+
+#~ msgid "Signal"
+#~ msgstr "Сигнал"
+
+#~ msgid "Show Spectrum"
+#~ msgstr "Показывать спектр"
+
+#~ msgid "Border"
+#~ msgstr "Граница"
+
+#~ msgid "Spectrum Type"
+#~ msgstr "Тип спектра"
+
+#~ msgid "Spectrum Color"
+#~ msgstr "Цвет спектра"
+
+#, fuzzy
+#~ msgid "Remove Model"
+#~ msgstr "Активная модель"
+
+#, fuzzy
+#~ msgid "Maximum Gain Reduction"
+#~ msgstr "Увеличение ослабления"
+
+#, fuzzy
+#~ msgid "Wet"
+#~ msgstr "Вес в расчете громкости"
+
+#~ msgid "Dry"
+#~ msgstr "Влажность"
+
+#~ msgid "S/C Level"
+#~ msgstr "Уровень Раздельный/Центр"
+
+#~ msgid "Phase Correlation"
+#~ msgstr "Корреляция фазы"
+
+#~ msgid "Short Term"
+#~ msgstr "Короткие измерения"
+
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "Low-pass"
+#~ msgstr "Низкочастотный фильтр"
+
+#~ msgid "Preamp"
+#~ msgstr "Предусилитель"
+
+#~ msgid "Run in Background"
+#~ msgstr "Запускать в фоновом режиме"
+
+#~ msgid "Set the volume and turn on/off effects"
+#~ msgstr "Настройка громкости и вкл/откл эффектов"
+
+#~ msgid "Includes an equalizer with built-in presets"
+#~ msgstr "Содержит эквалайзер с предустановками"
+
+#~ msgid "Input Limiter"
+#~ msgstr "Ограничитель ввода"
+
+#~ msgid "Calibration"
+#~ msgstr "Калибровка"
+
+#~ msgid "Limit"
+#~ msgstr "Ограничение"
+
+#~ msgid "ASC"
+#~ msgstr "Адаптивное управление наклоном"
+
+#~ msgid "Attenuation"
+#~ msgstr "Затухание"
+
+#~ msgid "ISO226-2003"
+#~ msgstr "ISO226-2003"
+
+#~ msgid "Audio Effects for PulseAudio Applications"
+#~ msgstr "Аудиоэффекты для приложений PulseAudio"
+
+#~ msgid "Audio effects for PulseAudio applications"
+#~ msgstr "Аудиоэффекты для приложений PulseAudio"
+
+#~ msgid "Help"
+#~ msgstr "Справка"
+
+#~ msgid "Calibration Microphone"
+#~ msgstr "Калибровка корректировки микрофона"
+
+#~ msgid ""
+#~ "Automatically apply this preset whenever the currently used device is "
+#~ "plugged in the system"
+#~ msgstr ""
+#~ "Автоматически применять этот набор предустановок, когда текущее звукое "
+#~ "устройство подключают к системе"
+
+#, fuzzy
+#~ msgid "Version"
+#~ msgstr "Версия"
+
+#~ msgid "Sine"
+#~ msgstr "Синусоида"
+
+#~ msgid "Square"
+#~ msgstr "Квадратный"
+
+#~ msgid "Saw"
+#~ msgstr "Пилообразный"
+
+#~ msgid "Triangle"
+#~ msgstr "Треугольный"
+
+#~ msgid "Pink Noise"
+#~ msgstr "Розовый шум"
+
+#~ msgid "Ticks"
+#~ msgstr "Тики"
+
+#~ msgid "Gaussian Noise"
+#~ msgstr "Гауссовский шум"
+
+#~ msgid "Red Noise"
+#~ msgstr "Красный шум"
+
+#~ msgid "Blue Noise"
+#~ msgstr "Голубой шум"
+
+#~ msgid "Violet Noise"
+#~ msgstr "Фиолетовый шум"
+
+#~ msgid "Volume"
+#~ msgstr "Громкость"
+
+#~ msgid "Window"
+#~ msgstr "Окно"
+
+#~ msgid "Measure Noise"
+#~ msgstr "Измерение шума"
+
+#~ msgid "Subtract Noise"
+#~ msgstr "Вычетание шума"
+
+#~ msgid "Extended Filter"
+#~ msgstr "Расширенный фильтр"
+
+#~ msgid "Low"
+#~ msgstr "Низкочастотный фильтр"
+
+#~ msgid "Moderate"
+#~ msgstr "Средний"
+
+#~ msgid "High"
+#~ msgstr "Высокий"
+
+#~ msgid "Delay Agnostic"
+#~ msgstr "Задержка"
+
+#~ msgid "Very High"
+#~ msgstr "Очень высокий"
+
+#~ msgid "Noise Suppressor"
+#~ msgstr "Простой шумодав"
+
+# # TODO: Mode/Режим заменить на "Режим сжатия"
+#~ msgid "Adaptive Digital"
+#~ msgstr "Адаптивное цифровое сжатие"
+
+#~ msgid "Fixed Digital"
+#~ msgstr "Фиксированное цифровое сжатие"
+
+#~ msgid "Gain Controller"
+#~ msgstr "Автоконтроль усиления (AGC)"
+
+#~ msgid "Detection Likelihood"
+#~ msgstr "Вероятность обнаружения"
+
+#~ msgid "Very Low"
+#~ msgstr "Очень низкий"
+
+#~ msgid "Voice Detector"
+#~ msgstr "Обнаруживатель голоса"
+
+#~ msgid "Use Custom Color"
+#~ msgstr "Использовать свой цвет"
+
+#~ msgid "Use Gradient"
+#~ msgstr "Использовать градиент"
+
+#~ msgid "Gradient Color"
+#~ msgstr "Цвет градиента"
+
+#~ msgid "Import Impulse Response File"
+#~ msgstr "Импортировать файл импульсной реакции"
+
+#~ msgid "Select the impulse Response File"
+#~ msgstr "Выбрать файл с импульсной реакцией"
+
+#~ msgid "Aggressive Mode"
+#~ msgstr "Агрессивный режим"
+
+#~ msgid "Before"
+#~ msgstr "До"
+
+#~ msgid "After"
+#~ msgstr "После"
+
+#~ msgid "Loudness Range"
+#~ msgstr "Диапазон громкости"
+
+#~ msgid "Apply"
+#~ msgstr "Применить"
+
+#, fuzzy
+#~ msgid "Default Clock Rate"
+#~ msgstr "Частота дискретизации по умолчанию"
+
+#~ msgid "Default Source"
+#~ msgstr "Устройство ввода по умолчанию"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "File"
+#~ msgstr "Файл"
+
+#~ msgid "Configuration"
+#~ msgstr "Параметры"
+
+#, fuzzy
+#~ msgid "server"
+#~ msgstr "Сервер"
+
+#, fuzzy
+#~ msgid "Low-pass Frequency"
+#~ msgstr "Подсчитать частоты"
+
+# #, fuzzy
+#, fuzzy
+#~ msgid "Advanced"
+#~ msgstr "Параметры"
+
+#, fuzzy
+#~ msgid "Apply APO Preset"
+#~ msgstr "Предустановки"
+
+#~ msgid "Detect Silence"
+#~ msgstr "Определять тишину"
+
+#~ msgid "Muted"
+#~ msgstr "Приглушенный"
+
+#~ msgid "Distant Headphones"
+#~ msgstr "Находящиеся далеко наушники"
+
+#~ msgid "Priority Type"
+#~ msgstr "Тип приоритета процесса"
+
+#~ msgid "Niceness"
+#~ msgstr "Приоритет процесса (nice)"
+
+#~ msgid "Priority"
+#~ msgstr "Приоритет"
+
+#, fuzzy
+#~ msgid "Minimum Frequency"
+#~ msgstr "Частота"
+
+#, fuzzy
+#~ msgid "Maximum Frequency"
+#~ msgstr "Частота"
+
+#~ msgid "About"
+#~ msgstr "О программе"
+
+#~ msgid "Protocol"
+#~ msgstr "Версия протокола сервера"
+
+#~ msgid "Default Sample Format"
+#~ msgstr "Спецификация отсчётов по умолчанию"
+
+#~ msgid "Resamplers"
+#~ msgstr "Ресемплеры"
+
+#~ msgid "Buffer"
+#~ msgstr "Буфер"
+
+#, fuzzy
+#~ msgid "Pipeline Output"
+#~ msgstr "Эквалайзер - Выход"
+
+# Taking lingual shortcuts to squeeze it in the text box
+#~ msgid "Block Size"
+#~ msgstr "Размер блока"
+
+#~ msgid "Resampler"
+#~ msgstr "Ресемплер"
+
+#~ msgid "paused"
+#~ msgstr "на паузе"
+
+#~ msgid "playing"
+#~ msgstr "воспроизводится"
+
+#, fuzzy
+#~ msgid "Import APO Presets"
+#~ msgstr "Импортировать предустановки"
+
+#, fuzzy
+#~ msgid "Gain Detection"
+#~ msgstr "Увеличение ослабления"
+
+#~ msgid "Exponent"
+#~ msgstr "Степень"
