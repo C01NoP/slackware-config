@@ -3,17 +3,16 @@
 # Slackware PipeWire auto-start
 #-------------------------------
 
-#Optional: Kill any stray PipeWire instances (cleanup)
-pgrep -x pipewire >/dev/null && pkill pipewire
-pgrep -x wireplumber >/dev/null && pkill wireplumber
+# Kill any existing PulseAudio or PipeWire instances
+killall pulseaudio 2>/dev/null
+killall pipewire 2>/dev/null
+killall wireplumber 2>/dev/null
+killall pipewire-pulse 2>/dev/null
 
-
-# Start PipeWire user session
-pgrep -x pipewire >/dev/null || /usr/bin/pipewire &
-pgrep -x wireplumber >/dev/null || /usr/bin/wireplumber &
-
-# Optional: pipewire-pulse is not available on Slackware
-# PulseAudio will still exist for apps that need it
-
-# Small delay to allow Pipewire to initialize
+# Small delay to allow cleanup
 sleep 1
+
+# Start PipeWire session
+/usr/bin/pipewire &
+/usr/bin/wireplumber &
+/usr/bin/pipewire-pulse &
