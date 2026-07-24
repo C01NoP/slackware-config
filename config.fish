@@ -9,5 +9,6 @@ alias bat="batcat"
 alias mobo="cat /sys/devices/virtual/dmi/id/board_{vendor,name,version}"
 alias birthday="stat -c %w /"
 alias fishconf="vim ~/.config/fish/config.fish"
+alias fishsource="source ~/.config/fish.config.fish"
 alias timefix="sudo hwclock --systohc"
 end
